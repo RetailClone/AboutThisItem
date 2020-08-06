@@ -1,0 +1,38 @@
+{
+  "name": "aboutthisitem",
+  "version": "1.0.0",
+  "description": "I am writing things so that I can make a commit.",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.1.1",
+    "mysql": "^2.18.1",
+    "react": "^16.13.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RetailClone/AboutThisItem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RetailClone/AboutThisItem/issues"
+  },
+  "homepage": "https://github.com/RetailClone/AboutThisItem#readme"
+}
