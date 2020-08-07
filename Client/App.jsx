@@ -9,7 +9,11 @@ class App extends React.Component {
   }
 
   render() {
-    return <div>Will it blend??</div>;
+    return (
+      <div>
+        <h1>About This Item</h1>
+      </div>
+    );
   }
 }
 
