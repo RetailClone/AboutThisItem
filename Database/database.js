@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
 
 // get item description
 const getDesc = (id, cb) => {
-  const queryString = 'SELECT item_description FROM items WHERE category_id = ?';
+  const queryString = 'SELECT item_description FROM items WHERE id = ?';
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);

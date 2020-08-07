@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./styles/styles.css";
+import Description from "./components/Description.jsx";
+import Specs from "./components/Specs.jsx";
+import Highlights from "./components/Highlights.jsx";
 
 class App extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {};
   }
 
@@ -12,6 +15,9 @@ class App extends React.Component {
     return (
       <div>
         <h1>About This Item</h1>
+        <Description />
+        <Specs />
+        <Highlights />
       </div>
     );
   }
