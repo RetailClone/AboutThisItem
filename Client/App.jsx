@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./styles/styles.css";
 
 class App extends React.Component {
   constructor() {
@@ -8,7 +9,7 @@ class App extends React.Component {
   }
 
   render() {
-    return <div>Something else</div>;
+    return <div>Will it blend??</div>;
   }
 }
 
