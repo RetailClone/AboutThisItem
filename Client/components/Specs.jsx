@@ -6,10 +6,10 @@ const Specs = ({ specs }) => {
     <div id="specs">
       <h2>Want some specs?</h2>
       <ul style={{ listStyleType: "none" }}>
-        {specs.map((spec, key) => {
+        {specs.map((spec, idx) => {
           return (
-            <div>
-              <li key={spec.id}>{spec.specs}</li>
+            <div key={idx}>
+              <li>{spec.specs}</li>
               <hr></hr>
             </div>
           );

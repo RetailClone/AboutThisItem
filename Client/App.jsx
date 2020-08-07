@@ -27,14 +27,18 @@ class App extends React.Component {
 
   submitHandler(e) {
     e.preventDefault();
-    fetch(`http://localhost:1701/${this.state.selectedItem}`, { method: "GET" })
+    fetch(`http://localhost:1701/description/${this.state.selectedItem}`)
       .then((res) => res.json())
-      .then((data) =>
-        this.setState({
-          itemDescription: data[0].item_description,
-          itemSpecs: data,
-          itemHighlights: data,
-        })
+      .then((descData) =>
+        this.setState({ itemDescription: descData[0].item_description })
+      );
+    fetch(`http://localhost:1701/specs/${this.state.selectedItem}`)
+      .then((res) => res.json())
+      .then((specData) => this.setState({ itemSpecs: specData }));
+    fetch(`http://localhost:1701/highlights/${this.state.selectedItem}`)
+      .then((res) => res.json())
+      .then((highlightData) =>
+        this.setState({ itemHighlights: highlightData })
       );
   }
 
