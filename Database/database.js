@@ -12,7 +12,8 @@ const getDesc = (id, cb) => {
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);
-      console.error("Could not get description from DB - database.js line 14")
+      console.error("Could not get description from DB - database.js line 14");
+      return;
     } else {
       cb(null, results)
     }
