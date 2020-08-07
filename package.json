@@ -25,8 +25,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "react-dev": "webpack -d --watch",
-    "server-dev": "nodemon ./server/server.js"
+    "react:dev": "webpack -d --watch",
+    "server:dev": "nodemon ./server/server.js"
   },
   "repository": {
     "type": "git",
