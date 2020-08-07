@@ -468,4754 +468,7 @@ CREATE TABLE item_specs
       (id, category_id, item_name, item_description)
     VALUES
       (100, 5, "iRobot Roomba 675 Wi-Fi Connected Robot Vacuum", "Connect to clean from anywhere with the Roomba® 675 robot vacuum. The patented 3-Stage Cleaning System is specially engineered to loosen, lift, and suction everything from small particles to large debris from carpets and hard floors. Just press Clean or schedule Roomba on the go with the iRobot® HOME App.");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "Country of Origin: United States");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "Form: Whole");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "State of Readiness: Ready to Eat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "Net weight: 3 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "TCIN: 54579522");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "UPC: 085239049457");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (1, "Item Number (DPCI): 266-05-0074");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "Country of Origin: Varies, Please See Label");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "Form: Whole");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "State of Readiness: Ready to Eat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "Pre-package preparation: Raw");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "Package type: Individual Item Single Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "Net weight: 5 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "TCIN: 15014054");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "UPC: 204180000007");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (2, "Item Number (DPCI): 266-05-4180");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Contains: Wheat, Soy");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Country of Origin: United States");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Cut of Meat: Ham");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Type of Meat: Pork");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "State of Readiness: Prepared, Heat and Serve");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Pre-package preparation: Fully Cooked");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Bone cut type: Boneless");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Seasoning or marinade: Unseasoned");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Net weight: 12 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "TCIN: 13217521");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "UPC: 037600138727");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (3, "Item Number (DPCI): 212-12-0551");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "Country of Origin: United States");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "Form: Whole");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "State of Readiness: Needs to Be Fully Cooked");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "Net weight: 5 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "TCIN: 77775602");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "UPC: 085239086377");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (4, "Item Number (DPCI): 211-17-0079");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "Features: No Added MSG, No Preservatives, No Artificial Flavors");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "Dietary Needs: Gluten Free, Certified Gluten Free, Kosher");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "Form: Chip");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "State of Readiness: Ready to Eat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "Net weight: 8 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "TCIN: 47085532");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "UPC: 028400199148");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (5, "Item Number (DPCI): 071-05-1205");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "Contains: Milk");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "Form: Cup");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "State of Readiness: Ready to Eat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "Store: Frozen");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "Package Quantity: 12");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "Package type: Multi-Pack Single Servings");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "Milk fat level: 10 Percent");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "Net weight: 36 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "TCIN: 13404028");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "UPC: 071899003755");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (6, "Item Number (DPCI): 288-07-0688");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "Contains: Milk, Wheat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "Pizza Style Type: No Style");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "Sauce Type: Tomato Sauce");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "State of Readiness: Prepared, Heat and Serve");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "Store: Frozen");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "Pre-package preparation: Raw");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "Pizza crust type: Traditional Crust");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "Net weight: 27.5 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "TCIN: 13428574");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "UPC: 071921962395");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (7, "Item Number (DPCI): 288-03-0090");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (8, "Contains: Wheat, Milk");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (8, "State of Readiness: Needs to Be Fully Cooked");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (8, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (8, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (8, "Pre-package preparation: Boiled");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (8, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (8, "Net weight: 7.25 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (8, "TCIN: 12954218");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (8, "UPC: 021000658831");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (8, "Item Number (DPCI): 212-14-0318");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "Type of Meat: Pork");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "Form: Sliced");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "State of Readiness: Needs to Be Fully Cooked");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "Store: Refrigerated");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "Pre-package preparation: Raw, Cured");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "Net weight: 12 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "TCIN: 12945914");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "UPC: 044700022689");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (9, "Item Number (DPCI): 210-10-0075");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (10, "Contains: Wheat, Milk, Eggs, Anchovy");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (10, "State of Readiness: Ready to Eat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (10, "Store: Refrigerated");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (10, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (10, "Pre-package preparation: Raw");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (10, "Package type: Individual Item Single Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (10, "Net weight: 6.5 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (10, "TCIN: 54368260");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (10, "UPC: 085239039151");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (10, "Item Number (DPCI): 211-03-0285");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "Contains: Milk");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "May Contain: Tree Nuts, Peanuts, Soy");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "Form: Ball");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "State of Readiness: Ready to Eat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "Package Quantity: 14");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "Net weight: 6 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "Chocolate types: Milk Chocolate, Dark Chocolate");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "TCIN: 12943087");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "UPC: 037466062143");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (11, "Item Number (DPCI): 055-02-2750");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (12, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (12, "Form: Pieces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (12, "State of Readiness: Ready to Eat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (12, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (12, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (12, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (12, "Net weight: 1.8 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (12, "TCIN: 12945506");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (12, "UPC: 070462005837");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (12, "Item Number (DPCI): 055-02-1652");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (13, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (13, "State of Readiness: Prepared, Heat and Serve");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (13, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (13, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (13, "Additional items included: Does Not Include Sauce or Seasoning");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (13, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (13, "Net weight: 2.0 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (13, "TCIN: 13474101");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (13, "UPC: 011152263557");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (13, "Item Number (DPCI): 212-30-0639");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "Contains: Soy, Wheat, Milk");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "May Contain: Shellfish");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "Form: Dried, Powdered");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "State of Readiness: Mix");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "Package type: Individual Item Single Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "Soup type: Noodle Soups");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "Net weight: 2.25 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "TCIN: 14568314");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "UPC: 041789001215");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (14, "Item Number (DPCI): 212-18-0411");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Contains: Eggs");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Country of Origin: United States");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Features: Cage Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Dietary Needs: Kosher, USDA Grade A");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Form: Whole");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "State of Readiness: Needs to Be Fully Cooked, Ingredient");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Store: Refrigerated");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Package Quantity: 12");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Pre-package preparation: Raw");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Egg size: Large");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Net weight: 24 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "TCIN: 21506499");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "UPC: 715141514643");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (15, "Item Number (DPCI): 284-03-0018");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (16, "Contains: Wheat, Soy");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (16, "Form: Sliced");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (16, "State of Readiness: Ready to Eat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (16, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (16, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (16, "Net weight: 20 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (16, "TCIN: 12935779");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (16, "UPC: 074323090901");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (16, "Item Number (DPCI): 261-01-2849");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (17, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (17, "Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (17, "State of Readiness: Ready to Drink");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (17, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (17, "Package Quantity: 6");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (17, "Package type: Multi-Pack Single Servings");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (17, "Net weight: 101.4 fl oz (US)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (17, "TCIN: 14746217");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (17, "UPC: 632565000098");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (17, "Item Number (DPCI): 271-40-0711");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "State of Readiness: Ready to Drink");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "Package Quantity: 12");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "Package type: Multi-Pack Single Servings");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "Carbonation type 1: Carbonated");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "Net weight: 144 fl oz (US)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "Beverage container material: Metal");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "TCIN: 12953464");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "UPC: 049000028904");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (18, "Item Number (DPCI): 271-10-0169");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Size: 12 oz");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Alcohol Percentage: 4.6");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "State of Readiness: Ready to Drink");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Package Quantity: 12");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Package type: Multi-Pack Single Servings");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Alcohol content: Alcoholic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Net weight: 144.0 fl oz (US)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Flavor profile: Light");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Beverage container material: Glass");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "TCIN: 13418113");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "UPC: 080660956152");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (19, "Item Number (DPCI): 213-06-0009");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "Contains: Milk, Soy, Wheat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "Filling: No Filling");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "State of Readiness: Ready to Eat");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "Store: Room Temperature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "Package type: Individual Item Multi-Serving");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "Bakery topping: Chocolate Chips");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "Cookie or bar type: Chocolate Chip Cookie");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "Net weight: 13 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "TCIN: 12959729");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "UPC: 044000032197");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (20, "Item Number (DPCI): 071-09-0120");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (21, "Dimensions (Overall): 1.5 Inches (L) x 2.4 Inches (W) x 6.7 Inches (H)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (21, "Weight: .28 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (21, "Material: Plastic, Metal, Zinc");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (21, "Power Source: Manual");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (21, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (21, "Care & Cleaning: Hand Wash");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (21, "TCIN: 13567840");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (21, "UPC: 719812817514");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (21, "Item Number (DPCI): 070-05-1633");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Dimensions (Overall): 7.2 Inches (H) x 10.5 Inches (W) x 13 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Weight: 5.5 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Capacity (Volume): 6 Cup");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Electronics Condition: New");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Appliance Capabilities: Blends");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Number of Speeds: 5");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Wattage Output: 450 watts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Care & Cleaning: Dishwasher-Safe Parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Warranty: 3 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "TCIN: 53244839");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "UPC: 034264492752");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (22, "Item Number (DPCI): 072-04-1348");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Dimensions (Overall): 7.75 Inches (H) x 6.75 Inches (W) x 11.5 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Finish: Brushed");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Weight: 3.0 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Includes: Instruction Manual");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Features: Adjustable Browning Levels, Cancel Option, Extra Wide Slots, Removable Crumb Tray, Bagel Option, Push Button Controls");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Metal Finish: Stainless Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Safety and Security Features: Cool Touch Exterior");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Appliance Capabilities: Bagel Toaster");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Number of Slices: 2");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Wattage Output: 900.0 watts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Material: Stainless Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Care & Cleaning: Spot or Wipe Clean");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "TCIN: 14024621");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "UPC: 027045747752");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (23, "Item Number (DPCI): 072-09-0226");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Dimensions (Overall): 16.3 Inches (H) x 2.5 Inches (W) x 2.5 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Weight: 2.44 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Capacity (Volume): 24 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Appliance Capabilities: Blends");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Number of Speeds: 3");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Wattage Output: 60 watts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Color Name: Matte Black");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Material: Plastic, Metal");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Care & Cleaning: Dishwasher-Safe Parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "TCIN: 79423724");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "UPC: 883049544786");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (24, "Item Number (DPCI): 072-04-6895");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "Dimensions (Overall): 13 Inches (H) x 11.8 Inches (W) x 11.8 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "Weight: 9 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "Capacity (Volume): 3.5 Liter");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "Appliance Capabilities: Reheat, Roasts, Air Fry, Saute");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "Wattage Output: 1200 watts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "Holds up to: 7 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "Material: Steel, Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "Care & Cleaning: Dishwasher-Safe Parts, Spot or Wipe Clean");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "TCIN: 54622897");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "UPC: 816458023498");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (25, "Item Number (DPCI): 072-04-3076");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (26, "Number of Pieces: 6");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (26, "Dimensions (Overall): 11.25 Inches (L) x 11.25 Inches (W) x 12.75 Inches (H)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (26, "Weight: 4.94 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (26, "Capacity (Volume): 2 Quart");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (26, "Protective Qualities: Odor-Resistant");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (26, "Care & Cleaning: Dishwasher-Safe");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (26, "TCIN: 50322047");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (26, "UPC: 885395111759");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (26, "Item Number (DPCI): 072-08-0021");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Dimensions (Overall): 16.5 Inches (H) x 6.75 Inches (W) x 6.75 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Weight: 9 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Capacity (Volume): 64 fl oz (US)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Electronics Condition: New");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Appliance Capabilities: Blends, Emulsifies, Purees, Liquefy, Mixes");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Number of Speeds: 5");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Wattage Output: 1200 watts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Material: Plastic, Stainless Steel, Metal");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Care & Cleaning: Dishwasher-Safe Parts, Hand Wash");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "TCIN: 76580528");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "UPC: 818049021616");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (27, "Item Number (DPCI): 072-04-0222");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (28, "Number of Pieces: 4");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (28, "Dimensions (Overall): 4.02 Inches (L) x 4.02 Inches (W)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (28, "Includes Dining: 4 Coasters");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (28, "Material: Acacia, Metal, Cork");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (28, "Care & Cleaning: Spot or Wipe Clean");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (28, "TCIN: 50918293");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (28, "UPC: 492001114273");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (28, "Item Number (DPCI): 200-11-1427");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "Features: Round (shape)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "Number of Pieces: 2");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "Dimensions (Overall): 3.4 Inches (H) x 6.3 Inches (W) x 4.7 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "Weight: 2.5 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "Baking Cooking Surface: Cast Iron");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "Capacity (Volume): 13.28 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "Material: Cast Iron");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "Care & Cleaning: Oven-Safe up to 450 Degrees, Do Not Microwave, Hand Wash");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "TCIN: 53699714");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "UPC: 085081463180");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (29, "Item Number (DPCI): 070-01-2457");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Features: Round (shape)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Number of Pieces: 2");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Dimensions (Overall): 7 Inches (H) x 10.75 Inches (W) x 7.25 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Weight: 15.0 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Baking Cooking Surface: Porcelain");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Handle Material: Cast Iron");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Lid Material: Cast Iron");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Capacity (Volume): 6 Quart");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Protective Qualities: Corrosion-Resistant, Heat-Resistant, Odor-Resistant, Rust-Resistant, Tarnish-Resistant, Warp-Proof, Water-Resistant, Waterproof");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Material: Cast Iron");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Care & Cleaning: Clean With Brush, Do Not Microwave, Oven-Safe up to 500 Degrees");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "TCIN: 10514667");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "UPC: 075536462431");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (30, "Item Number (DPCI): 070-01-0109");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Number of Pieces: 2");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Weight: 5.8 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Baking Cooking Surface: Nonstick");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Handle Material: Stainless Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Lid Material: No Lid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Capacity (Volume): 10 cubic-in");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Pot or pan diameter: 8 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Cooktop compatibility: Gas, Smooth Surface Non Induction");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Material: exterior surface: Hard Anodized Aluminum");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Care & Cleaning: Hand Wash");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Warranty: Lifetime Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "TCIN: 78062809");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "UPC: 016853071180");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (31, "Item Number (DPCI): 070-07-3043");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Number of Pieces: 10");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Baking Cooking Surface: Nonstick");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Handle Material: Stainless Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Lid Material: Tempered Glass");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Includes: 6 Quart Stockpot With Lid, 3 qt. Saute Pan With Lid, 10-inch Frying Pan, 3.5 qt. Saucepan With Lid, 2.5 qt. Saucepan With Lid, 8-inch Frying Pan");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Piece 1 pot or pan diameter: 8 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Piece 2 pot or pan diameter: 10 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Cooktop compatibility: Gas");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Material: exterior surface: Hard Anodized Aluminum");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Care & Cleaning: Dishwasher-Safe");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Warranty: Lifetime Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "TCIN: 78062797");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "UPC: 016853071111");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (32, "Item Number (DPCI): 070-07-0005");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (33, "Features: Round (shape)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (33, "Number of Pieces: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (33, "Dimensions (Overall): 3.5 Inches (H) x 4.25 Inches (W) x 4.25 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (33, "Finish: Glazed");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (33, "Capacity (Volume): 10.79 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (33, "Material: Stoneware");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (33, "Care & Cleaning: Hand Wash");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (33, "TCIN: 52590343");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (33, "UPC: 493240310266");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (33, "Item Number (DPCI): 324-03-1026");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (34, "Features: Round (shape)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (34, "Number of Pieces: 4");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (34, "Dimensions (Overall): 1.77 Inches (H) x 4.02 Inches (W) x 4.02 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (34, "Capacity (Volume): 150 ml");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (34, "Material: Acacia");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (34, "Care & Cleaning: Hand Wash");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (34, "TCIN: 21512522");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (34, "UPC: 492001110664");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (34, "Item Number (DPCI): 200-11-1066");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (35, "Dimensions (Overall): 9.25 Inches (L) x 5.75 Inches (W) x .75 Inches (H)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (35, "Weight: 3.55 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (35, "Features: Lightweight");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (35, "Material: Marble, Stainless Steel, Wood");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (35, "Care & Cleaning: Spot or Wipe Clean");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (35, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (35, "TCIN: 52262892");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (35, "UPC: 492001118240");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (35, "Item Number (DPCI): 200-11-1824");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (36, "Number of Pieces: 4");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (36, "Blade Material: 18/8 Stainless Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (36, "Cutlery Construction: Molded");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (36, "Care & Cleaning: Spot or Wipe Clean");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (36, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (36, "TCIN: 52262948");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (36, "UPC: 492001118301");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (36, "Item Number (DPCI): 200-11-1830");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "Number of Pieces: 15");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "Includes: Utility Knife, Knife Block, Paring Knife, Shears, Santoku Knife, Slicer, Sharpening Steel, Bread Knife, Chef Knife");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "Features: Serrated Blade");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "Blade Material: Stainless Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "Handle Material: Stainless Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "Cutlery Construction: Stamped");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "Care & Cleaning: Hand Wash");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "Warranty: Lifetime Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "TCIN: 16676965");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "UPC: 045908065980");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (37, "Item Number (DPCI): 070-08-0598");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Number of Pieces: 20");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Piece 1 Type: Dinner Fork");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Piece 1 Dimensions: 7.8 Inches (L)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Piece 2 Type: Dinner Knife");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Piece 2 Dimensions: 8.8 Inches (L)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Piece 3 Type: Dinner Spoon");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Piece 3 Dimensions: 7.6 Inches (L)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Piece 4 Type: Salad Fork");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Piece 4 Dimensions: 7 Inches (L)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Piece 5 Type: Teaspoon");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Piece 5 Dimensions: 6.9 Inches (L)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Finish: Satin");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Handle Material: 18/0 Stainless Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Material: 18/0 Stainless Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Features Dining: Serrated Blade");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Includes Dining: 4 Teaspoons, 4 Salad Forks, 4 Dinner Spoons, 4 Dinner Knives, 4 Dinner Forks");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Service For: 4");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Care & Cleaning: Dishwasher-Safe, Hand Wash, Do Not Use Lemon or Acidic Detergent");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "TCIN: 49103712");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "UPC: 492000705953");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (38, "Item Number (DPCI): 200-07-0595");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (39, "Dimensions (Overall): 15.25 Inches (H) x 10.75 Inches (W) x 11.5 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (39, "Weight: 1.76 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (39, "Mount Type: Free Standing");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (39, "Material: Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (39, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (39, "Care & Cleaning: Spot or Wipe Clean");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (39, "TCIN: 51239228");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (39, "UPC: 010591045175");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (39, "Item Number (DPCI): 200-10-0740");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Number of Pieces: 12");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Piece 1 Type: Cup, Capacity: 16.4 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Piece 1 Dimensions: 6.0 Inches (H) x 3 Inches (W)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Piece 2 Type: Cup, Capacity: 12.2 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Piece 2 Dimensions: 4 Inches (H) x 3.88 Inches (W)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Finish: Faceted");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Used For: Cold Beverages");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Features Dining: Lead Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Includes Dining: 6 Tall Tumblers, 6 Short Tumblers");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Service For: 6");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Material: Glass");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Care & Cleaning: Dishwasher-Safe");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "TCIN: 14646183");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "UPC: 031009482092");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (40, "Item Number (DPCI): 200-03-0239");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "Electronics Condition: New");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "Aspect Ratio: 16:9 Aspect Ratio");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "Contrast Ratio: 2000000:1 Dynamic Contrast Ratio");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "Native screen refresh rate: 60 Hz");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "VESA Mounting Standard: 200x200");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "Video Resolution: 4K");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "Wireless Technology: Wi-Fi");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "Backlight type: LED Edge-Lit");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "Signal Type: ATSC");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "Model name: QN43LS03T");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "Screen Size: 43 inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (41, "TCIN: 80442121");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Dimensions (Overall): 13.6 Inches (H) x 21.9 Inches (W) x 2.1 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Weight: 7.5 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Includes: Remote Control, User Manual, Power cord, Remote Control Batteries");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Electronics Condition: New");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Electronics Features: Gaming Mode, Sleep Timer");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Model #: 24LF454B");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Signal Type: ATSC, NTSC");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Aspect Ratio: 16:9 Aspect Ratio");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Contrast Ratio: 1000:1 Dynamic Contrast Ratio");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Video Resolution: 720p");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Native screen refresh rate: 60 Hz");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Screen Size: 24 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "App compatibility: Netflix, Amazon Video, Hulu");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "VESA Mounting Standard: 75x75");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Product Depth with Stand: 5.8 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Product Height with Stand: 15.2 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Product Width with Stand: 21.9 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Backlight type: LED Edge-Lit");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Smart platform: LG webOS");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Number of HDMI ports: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Battery: 2 AAA Alkaline, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "TCIN: 15193616");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "UPC: 719192609211");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (42, "Item Number (DPCI): 008-09-0420");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Dimensions (Overall): 20.4 Inches (H) x 35.51 Inches (W) x 2.55 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Weight: 14.55 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Includes: Remote Control, Remote Control Batteries");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Electronics Condition: New");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Electronics Features: Wi-Fi, Streaming Capability, Tv Apps, Smart TV");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Model #: D40f-G9");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Signal Type: ATSC");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Aspect Ratio: 16:9 Aspect Ratio");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Contrast Ratio: 200000:1 Dynamic Contrast Ratio");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Video Resolution: 1080p");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Wireless Technology: Wi-Fi");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Screen Size: 39.5 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "App compatibility: Netflix, Hulu, Disney+, Pandora, YouTube");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "VESA Mounting Standard: 200x200");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Product Depth with Stand: 8.36 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Product Height with Stand: 22.59 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Product Width with Stand: 35.51 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Backlight type: LED Full Array");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Smart platform: VIZIO SmartCast");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Voice assistant built-in: Google Assistant");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Number of HDMI ports: 2");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Battery: 2 AAA Alkaline, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "TCIN: 53855744");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "UPC: 845226016981");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (43, "Item Number (DPCI): 008-09-0034");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Weight: .19 ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Product Model: Apple AirPods Pro");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Ear Cushion Material: Silicone");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Battery Charge Life: Up to 5 Hours");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Estimated Charge Time: 3 hours");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Electronics Features: Noise Canceling, True Wireless, Wireless, Water-Resistant");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Operating System Compatibility: Apple iOS");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Connectivity: No Wired Connection Ports");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Wireless Technology: Bluetooth");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Maximum Operating Range: 20 Feet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Voice assistant built-in: Siri");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Battery: 1 Non-Universal Lithium Ion, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "TCIN: 54191101");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "UPC: 190199246850");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (44, "Item Number (DPCI): 057-10-0164");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Weight: 2.91 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Ear Cushion Material: Leatherette");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Includes: Carrying Case, Audio Cable, USB Cable");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Battery Charge Life: Up to 20 Hours");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Electronics Condition: New");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Estimated Charge Time: 2.5 hours");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Cable/Cord Length: 2.5 Millimeter");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Electronics Features: Lightweight Design, Volume Control, Mute Controls, Noise Canceling, Multi-Function Button, Foldable Design, Detachable Cable, Call Functionality, Built-In Microphone, Adjustable Headband, Wireless");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Operating System Compatibility: Apple iOS, Apple iPadOS, Android");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Connectivity: Micro USB");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Wireless Technology: Bluetooth");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Maximum Operating Range: 20 Feet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Voice assistant built-in: Siri, Alexa, Google Assistant");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Battery: 1 Non-Universal Lithium Ion, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "TCIN: 52791828");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "UPC: 017817770613");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (45, "Item Number (DPCI): 008-07-0162");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Weight: .5 ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Ear Cushion Material: Silicone");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Includes: 3 Ear Adapters (S/M/L), USB Cable, Charging Station");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Battery Charge Life: Up to 5 Hours");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Estimated Charge Time: 3 hours");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Electronics Features: True Wireless, Built-In Microphone, Call Functionality, Wireless, Lightweight Design");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Operating System Compatibility: Android, Apple iOS");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Connectivity: Micro USB");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Wireless Technology: Bluetooth");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Maximum Operating Range: 30 Feet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Battery: 1 Non-Universal Lithium Ion, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "TCIN: 52792270");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "UPC: 017817748018");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (46, "Item Number (DPCI): 008-07-0176");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "Weight: 1 ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "Ear Cushion Material: Leatherette");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "Estimated Charge Time: 2.5 hours");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "Electronics Features: Wireless");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "Connectivity: No Wired Connection Ports");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "Wireless Technology: Bluetooth");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "Battery: 1 Lithium Ion, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "TCIN: 79466026");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "UPC: 190199246386");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (47, "Item Number (DPCI): 008-07-1842");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "Dimensions (Overall): 13.9 Inches (H) x 16.82 Inches (W) x 4.02 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "Weight: 8.25 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "Model Compatibility: PlayStation 4");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "Includes: Dual Shock Controller, User Manual, AC Power Adapter");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "Electronics Features: Functions as Blu-Ray Disc Player, Functions as Dvd Player");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "Connectivity: HDMI, USB");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "Data storage type: HDD");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "Data storage capacity: 1 TB");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "TCIN: 52416598");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "UPC: 711719521112");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (48, "Item Number (DPCI): 207-33-0111");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (49, "Model Compatibility: PlayStation 4");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (49, "ESRB Content Description: Suitable_for_all_users");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (49, "Electronics Condition: New");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (49, "Video Game Genre: Sports");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (49, "Software Format: Blu-ray");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (49, "ESRB Age Rating: E - Everyone");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (49, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (49, "TCIN: 80626062");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (49, "UPC: 710425576935");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (49, "Item Number (DPCI): 207-34-0534");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "Model Compatibility: PlayStation 4");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "ESRB Content Description: Strong language, intense violence, blood and gore");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "Also Available On: Xbox One");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "Electronics Condition: New");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "Video Game Genre: Shooter");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "Software Format: Blu-ray");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "ESRB Age Rating: M - Mature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "TCIN: 76615858");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "UPC: 047875884359");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (50, "Item Number (DPCI): 207-34-0389");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "Model Compatibility: PlayStation 4");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "ESRB Content Description: Blood and gore, intense violence, Nudity, strong language, Strong Sexual Content, use of drugs and alcohol");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "Also Available On: Xbox One");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "Electronics Condition: New");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "Video Game Genre: Action/Adventure");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "Software Format: Blu-ray");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "ESRB Age Rating: M - Mature");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "TCIN: 77332707");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "UPC: 883929689613");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (51, "Item Number (DPCI): 207-34-0404");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "Model Compatibility: PlayStation 4");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "ESRB Content Description: Language, mild blood, Violence");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "Also Available On: Xbox One");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "Electronics Condition: New");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "Video Game Genre: Action/Adventure");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "Software Format: Blu-ray");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "ESRB Age Rating: T - Teen");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "TCIN: 76835672");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "UPC: 662248922775");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (52, "Item Number (DPCI): 207-34-0402");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (53, "TCIN: 79798727");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Dimensions (Overall): 17.94 Inches (H) x 24.45 Inches (W) x 7.66 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Weight: 8.35 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Number of USB ports: 0");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Electronics Features: Adjustable Tilt, Adjustable Height, High Definition Display, Brightness Control");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Aspect Ratio: 16:9 Aspect Ratio");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Response Time: 14ms Response Time");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Contrast Ratio: 1000:1 Static Contrast Ratio");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Maximum Resolution: 1920 x 1080");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Connectivity: VGA, HDMI");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Native screen refresh rate: 60 Hz");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Brightness(cd/m2): 250");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Screen Size: 27 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Number of DVI ports: 0");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Number of VGA Ports: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Viewing Angles: 178 (H) / 178 (V) Degrees");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "VESA Mounting Standard: No Mounting");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Number of HDMI ports: 2");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "TCIN: 76159301");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "UPC: 889899859612");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (54, "Item Number (DPCI): 056-00-0044");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Dimensions (Overall): 16.1 Inches (H) x 21.25 Inches (W) x 7.23 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Weight: 6.7 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Number of USB ports: 0");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Electronics Features: Adjustable Tilt, Anti-Glare Coating");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Aspect Ratio: 16:9 Aspect Ratio");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Response Time: 6ms Response Time");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Contrast Ratio: 1000:1 Static Contrast Ratio");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Maximum Resolution: 1920 x 1080");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Connectivity: VGA, HDMI");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Native screen refresh rate: 60 Hz");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Brightness(cd/m2): 250");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Screen Size: 23.8 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Number of DVI ports: 0");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Number of VGA Ports: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Viewing Angles: 178 (H) / 178 (V) Degrees");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "VESA Mounting Standard: No Mounting");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Number of HDMI ports: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "TCIN: 76159300");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "UPC: 190781611868");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (55, "Item Number (DPCI): 056-00-0032");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (56, "Dimensions (Overall): 5.5 inches (L) x 5.5 inches (W) x 1 inches (H)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (56, "Size: 140mm");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (56, "Weight: 3.1 pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (56, "Model name: CL-F057-PL14SW-A");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (56, "Package Quantity: 5");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (56, "Warranty: 3 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (56, "TCIN: 78790068");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (57, "Specifications");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (57, "Dimensions (Overall): 5.5 inches (L) x 5.5 inches (W) x .07 inches (H)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (57, "Weight: 4.05 pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (57, "Model name: AC-004-ON1NAN-A1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (57, "Package Quantity: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (57, "Warranty: 2 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (57, "TCIN: 78857847");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (58, "Dimensions (Overall): 5.9 Inches (H) x 31.5 Inches (W) x 8.7 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (58, "Weight: 9.5 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (58, "Electronics Features: Wall Mountable, Wireless");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (58, "Connectivity: 3.5mm Jack, Optical Audio, USB");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (58, "Number of channels: 2.1 speaker channels");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (58, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (58, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (58, "TCIN: 76485335");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (58, "UPC: 846042011594");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (58, "Item Number (DPCI): 008-02-4093");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "Dimensions (Overall): .6 Inches (H) x 1.2 Inches (W) x 4.3 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "Weight: .12 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "Connectivity: HDMI");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "Video Resolution: 4K");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "System RAM: 1.5 gigabyte");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "App compatibility: Amazon Video");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "Data storage capacity: 8 GB");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "TCIN: 54188026");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "UPC: 841667144719");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (59, "Item Number (DPCI): 008-06-0069");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "Dimensions (Overall): .45 Inches (H) x .8 Inches (W) x 3.7 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "Weight: .85 ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "Includes: Remote Control Batteries, Quick Start Guide, Voice Remote, AC Power Adapter, Wireless Receiver, USB Cable");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "Connectivity: HDMI");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "Video Resolution: 4K");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "System RAM: 512 megabyte");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "App compatibility: Netflix, HBO Go, YouTube, HBO Now, PBS, Twitter, Hulu, Sling TV, Amazon Video, Showtime, VUDU");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "Data storage capacity: 0");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "Battery: 2 AAA Alkaline, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "TCIN: 52709600");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "UPC: 829610001951");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (60, "Item Number (DPCI): 008-06-0065");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "Number of Pieces: 8");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "Dimensions (Overall): 5 Inches (H) x 4.75 Inches (W) x 8 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "Suggested Age: 18 Months and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "Weight: 1.15 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "Material: Wood");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "Assembly Details: No Assembly Required");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "Educational Focus: Fine Motor Skills");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "Care & Cleaning: Spot or Wipe Clean");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "TCIN: 79896740");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "UPC: 4020972058072");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (61, "Item Number (DPCI): 087-08-8367");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "Dimensions (Overall): 9.13 Inches (H) x 5.98 Inches (W) x 2.52 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "Suggested Age: 8 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "Weight: .4 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "Material: ABS (Acrylonitrile Butadiene Styrene)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "Number of Figures: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "Doll Theme: Robots");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "Articulation: 5 Points of Articulation");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "TCIN: 79416594");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "UPC: 5010993705207");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (62, "Item Number (DPCI): 087-16-8197");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "Dimensions (Overall): 12.5 Inches (H) x 11.5 Inches (W) x 8.5 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "Suggested Age: 18 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "Weight: 1.27 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "Material: Polyvinyl Chloride (PVC)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "Number of Figures: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "Doll Theme: Superheroes and Comics");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "Articulation: 5 Points of Articulation");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "Battery: 4 C Alkaline, Required, Not Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "TCIN: 79661916");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "UPC: 630509864935");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (63, "Item Number (DPCI): 087-16-2023");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "Dimensions (Overall): 18 Inches (H) x 7 Inches (W) x 9 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "Suggested Age: 6 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "Weight: 1.94 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "Number of Figures: 0");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "Doll Theme: TV and Movies");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "Articulation: No Articulation");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "TCIN: 79416582");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "UPC: 887961872569");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (64, "Item Number (DPCI): 087-16-8938");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "Dimensions (Overall): 7 Inches (H) x 3 Inches (W) x 1.5 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "Suggested Age: 17 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "Weight: .45 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "Number of Figures: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "Doll Theme: TV and Movies");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "Articulation: No Articulation");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "TCIN: 54198117");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "UPC: 634482454671");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (65, "Item Number (DPCI): 323-07-0215");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Hair Type: No Hair");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Dimensions (Overall): 9.5 Inches (H) x 4 Inches (W) x 10.5 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Suggested Age: 2 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Weight: .7 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Doll Theme: Baby and Infant");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Skin Tone: Medium");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Doll gender: Girl");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Hair Color: No Hair");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Articulation: Articulated");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Doll eye color: Varies");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "TCIN: 76152458");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "UPC: 889933387279");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (66, "Item Number (DPCI): 086-04-0639");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Hair Type: No Hair");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Dimensions (Overall): 10 Inches (H) x 9.25 Inches (W) x 7.8 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Suggested Age: 3 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Weight: 2.6 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Includes: Doll Accessories");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Doll Theme: Baby and Infant");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Skin Tone: Light");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Doll gender: Girl");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Hair Color: Blue");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Articulation: Articulated");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Doll eye color: Blue");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Battery: 3 AA Alkaline, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "TCIN: 76152516");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "UPC: 8421134093072");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (67, "Item Number (DPCI): 086-04-1156");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (68, "Suggested Age: 8 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (68, "Material: Paper, Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (68, "Includes: Figures, Instruction Guide, Tweezers");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (68, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (68, "Number of Players: 1 or More Players");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (68, "Educational Focus: Science, Biology");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (68, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (68, "TCIN: 53219845");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (68, "UPC: 834509000540");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (68, "Item Number (DPCI): 086-00-2800");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (69, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (69, "Suggested Age: 6 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (69, "Material: Paper, Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (69, "Includes: Storage Bag, Instruction Guide, Candy Making Ingredients");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (69, "Number of Players: 1 Player");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (69, "Educational Focus: Science");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (69, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (69, "TCIN: 54370021");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (69, "UPC: 814743013469");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (69, "Item Number (DPCI): 086-00-2864");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "Contains: Does Not Contain Any of the 8 Major Allergens");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "Suggested Age: 6 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "Includes: Stickers, Rocks, jar, Figures");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "Number of Players: 1 Player");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "Educational Focus: Creative Thinking, Science");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "TCIN: 16710285");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "UPC: 092633113707");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (70, "Item Number (DPCI): 081-04-3823");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (71, "Number of Pieces: 7");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (71, "Suggested Age: 18-24 Months");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (71, "Weight: 3.3 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (71, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (71, "Includes: Tambourine, Castanets");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (71, "Educational Focus: Large Motor Skills, Social Skills, Music");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (71, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (71, "TCIN: 12026425");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (71, "UPC: 062243220874");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (71, "Item Number (DPCI): 204-06-0423");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (72, "Suggested Age: 2-5 Years");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (72, "Weight: 1.76 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (72, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (72, "Educational Focus: Shapes and Colors, Social Skills, Creative Thinking");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (72, "Battery: 4 AA Alkaline, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (72, "Warranty: 90 Day Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (72, "TCIN: 76151295");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (72, "UPC: 3417765187001");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (72, "Item Number (DPCI): 204-10-1102");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "Suggested Age: 3 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "Includes: Instruction Guide");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "Number of Players: 2 Players");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "Educational Focus: Creative Thinking");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "Power Source: Battery-Powered");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "Battery: 4 AAA Alkaline, Required, Not Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "TCIN: 76439767");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "UPC: 092298944739");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (73, "Item Number (DPCI): 087-16-1012");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "Suggested Age: 3 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "Includes: Storage Case");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "Number of Players: 1 Player");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "Educational Focus: Creative Thinking");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "Power Source: Battery-Powered");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "Battery: 3 AG3/LR41 Alkaline, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "TCIN: 79405836");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "UPC: 886144541315");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (74, "Item Number (DPCI): 087-08-0091");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (75, "Suggested Age: 8 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (75, "Includes: Instruction Guide");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (75, "CPSC Choking Hazard Warnings: Choking_hazard_contains_small_ball, choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (75, "Number of Players: 1 Player");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (75, "Educational Focus: Large Motor Skills, Creative Thinking");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (75, "TCIN: 546700");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (75, "UPC: 000772011709");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (75, "Item Number (DPCI): 204-06-0147");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (76, "Dimensions (Overall): 49 Inches (H) x 35 Inches (W) x 9.5 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (76, "Material: Plastic (Frame)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (76, "Suggested Age: 2 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (76, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (76, "Assembly Details: Adult Assembly Required, Tools Not Provided");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (76, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (76, "TCIN: 77401899");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (76, "UPC: 050743651717");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (76, "Item Number (DPCI): 091-15-0653");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (77, "Dimensions (Overall): 57.4 Inches (H) x 54.3 Inches (W) x 53.9 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (77, "Material: Wood, Cedar (Frame)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (77, "Suggested Age: 3-10 Years");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (77, "Material: Plastic, Metal, Wood");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (77, "Assembly Details: Adult Assembly Required, Tools Not Provided");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (77, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (77, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (77, "TCIN: 76385602");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (77, "UPC: 706943659038");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (77, "Item Number (DPCI): 091-15-1855");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (78, "Dimensions (Overall): 46.0 Inches (H) x 39.0 Inches (W)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (78, "Material: Cardboard (Frame)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (78, "Suggested Age: 3 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (78, "Material: Cardboard");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (78, "Includes: Steering Wheel, Instructions");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (78, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (78, "TCIN: 52966980");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (78, "UPC: 000772055109");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (78, "Item Number (DPCI): 204-06-3310");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "Number of Pieces: 25");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "Dimensions (Overall): 12.83 Inches (H) x 12.0 Inches (W) x 16 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "Suggested Age: 1 Year");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "Weight: 4.31 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "Includes: Blocks");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "Educational Focus: Large Motor Skills");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "TCIN: 15536929");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "UPC: 065541078451");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (79, "Item Number (DPCI): 204-07-0944");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (80, "Suggested Age: 2 Years and Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (80, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (80, "TCIN: 79342028");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "Scent: Mint, Lemon");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "Product Warning: Keep out of eyes, keep out of reach of children");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "Capacity (Volume): 28 fl oz (US)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "Product Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "Sustainability Claims: Cruelty-Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "Recommended Surface Application: Glass");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "Product Results: Cleaner");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "Recommended Product Application: Windows, Mirrors");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "TCIN: 75663185");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "UPC: 829576020966");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (81, "Item Number (DPCI): 003-02-0787");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (82, "Scent: Unscented");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (82, "Product Warning: Keep out of eyes, keep out of reach of children, keep out of reach of animals");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (82, "Capacity (Volume): 26 fl oz (US)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (82, "Product Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (82, "Recommended Surface Application: Glass");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (82, "Product Results: Cleaner");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (82, "Recommended Product Application: Windows");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (82, "TCIN: 75666309");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (82, "UPC: 119800002036");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (82, "Item Number (DPCI): 003-05-4986");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "Scent: Lavender");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "Health Facts: Animal By-Product-Free, Dye-Free, Formaldehyde Donor-Free, Paraben-Free, Petroleum-Free, Phthalate-Free, Contains Naturally Derived Ingredients, Aluminum-Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "Product Warning: Keep out of reach of children, keep out of reach of animals, keep out of eyes, flush immediately if product enters eyes");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "Capacity (Volume): 24 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "Product Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "Sustainability Claims: Plant-Based, Cruelty-Free, Not Tested on Animals, Biodegradable, Recyclable, Post-Consumer Recycled Material");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "Recommended Surface Application: Glass, windows, Multi-Surface");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "Product Results: Cleaner, Streak Free Glass");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "Recommended Product Application: Mirrors, Multi-Purpose");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "TCIN: 52329231");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "UPC: 808124111608");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (83, "Item Number (DPCI): 003-02-0608");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "Scent: Sea Minerals");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "Health Facts: Contains Naturally Derived Ingredients, Phthalate-Free, Paraben-Free, Aluminum-Free, Dye-Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "Product Warning: Keep out of reach of children, drink water if product is swallowed, flush immediately if product enters eyes");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "Capacity (Volume): 23 fl oz (US)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "Product Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "Recommended Surface Application: Glass");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "Product Results: Cleaner, Removes Dirt, Removes Grease, Removes Finger Prints, Removes Dust");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "Recommended Product Application: Mirrors, windows");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "TCIN: 75662671");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "UPC: 732913447121");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (84, "Item Number (DPCI): 003-02-8013");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Scent: Citrus");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Health Facts: Phosphate-Free, Hypoallergenic, Non-Toxic, Paraben-Free, Phthalate-Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Product Warning: Keep out of reach of children");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Capacity (Volume): 28 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Product Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Sustainability Claims: Recyclable, Contains Recycled Content, Not Tested on Animals");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Recommended Surface Application: Multi-Surface, Non-Porous");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Industry or Government Certifications: MBDC Certified");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Product Results: Cleaner, Disinfects");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Recommended Product Application: Multi-Purpose");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "TCIN: 51952812");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "UPC: 817939017432");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (85, "Item Number (DPCI): 003-02-0641");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "Scent: Unscented");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "Health Facts: Bleach-Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "Product Warning: Keep off of clothing, keep out of eyes, keep out of reach of children, seek medical help if product is swallowed, wash contaminated clothing after handling, wash hands with soap and water after handling, flush immediately if product enters eyes");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "Capacity (Volume): 30 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "Product Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "Recommended Surface Application: Glass, Ceramic, porcelain, Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "Product Results: Cleaner, Disinfects");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "Recommended Product Application: Shower, Toilet, Bath Tub, Countertops, Floor");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "Surfaces Not Recommended: Aluminum, Wood, Marble, Brass");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "TCIN: 13028043");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "UPC: 044600080338");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (86, "Item Number (DPCI): 003-05-0332");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (87, "Scent: Fresh");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (87, "Product Warning: Contains corrosive ingredients, flush immediately if product enters eyes, keep off of clothing, keep out of eyes, keep out of reach of children, product can cause irreversible eye damage, seek medical help if product is swallowed, wash contaminated clothing after handling, wash hands with soap and water after handling, wear protective gloves when handling, avoid contact with skin");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (87, "Capacity (Volume): 48 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (87, "Product Form: Liquid Gel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (87, "Recommended Surface Application: Ceramic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (87, "Product Results: Cleaner, Removes Dirt, Removes Soil, Used for Cleaning, Eliminates Stains");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (87, "Recommended Product Application: Toilet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (87, "TCIN: 13341728");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (87, "UPC: 044600306278");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (87, "Item Number (DPCI): 003-05-0717");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Scent: Fir, Cypress");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Health Facts: Aluminum-Free, Paraben-Free, No Fragrance Added, Phthalate-Free, Dye-Free, Contains Naturally Derived Ingredients, Animal By-Product-Free, Artificial Fragrance-Free, Bleach-Free, Phosphate-Free, Phosphorus-Free, Ammonia-Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Product Warning: Flush immediately if product enters eyes, seek medical help if product is swallowed, drink water if product is swallowed, keep out of reach of children, flush immediately if product touches skin, avoid contact with skin");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Capacity (Volume): 32 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Product Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Sustainability Claims: Cruelty-Free, Plant-Based");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Recommended Surface Application: Porcelain");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Product Results: Removes Rust, Removes Limescale, Eliminates Stains, Used for Cleaning");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Recommended Product Application: Toilet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Surfaces Not Recommended: Suede, Unfinished Leather, Unfinished Wood, Fabric, Silk");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "TCIN: 13208821");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "UPC: 732913227044");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (88, "Item Number (DPCI): 003-02-0029");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (89, "Dimensions (Overall): 23.03 Inches (H) x 5.0 Inches (W) x 2.01 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (89, "Recommended Surface Application: Multi-Surface, Wood Surfaces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (89, "Recommended Product Application: Floor");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (89, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (89, "TCIN: 17316119");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (89, "UPC: 037000928140");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (89, "Item Number (DPCI): 003-05-0383");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (90, "Dimensions (Overall): 27.34 Inches (H) x 5.51 Inches (W) x 4.37 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (90, "Recommended Surface Application: Floor, Multi-Surface");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (90, "Recommended Product Application: Floor, Multi-Purpose");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (90, "Material: Plastic");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (90, "TCIN: 18813263");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (90, "UPC: 037000928102");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (90, "Item Number (DPCI): 003-05-0385");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (91, "Scent: Fresh");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (91, "Product Warning: Keep out of reach of children");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (91, "Capacity (Volume): 42.6 Ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (91, "Product Form: Powder");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (91, "Recommended Surface Application: Carpet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (91, "Product Results: Eliminates Odors");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (91, "Recommended Product Application: Carpet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (91, "TCIN: 12856531");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (91, "UPC: 033200114437");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (91, "Item Number (DPCI): 003-04-0327");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (92, "Dimensions (Overall): 19.5 Inches (H) x 11.5 Inches (W) x 13.35 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (92, "Handle Material: Plastic, Metal");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (92, "Material: Plastic, Metal");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (92, "TCIN: 50335649");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (92, "UPC: 041785998151");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (92, "Item Number (DPCI): 003-03-0027");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (93, "Dimensions (Overall): 55.25 Inches (H) x 15.88 Inches (W) x 1.25 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (93, "Includes: Dust Pan, Broom");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (93, "Features: Grip Handle, Hanging Loop");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (93, "Recommended Surface Application: Linoleum, Laminate, Tile Floors, Floor, Outdoor Hard Surfaces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (93, "Material: Polyester, Steel");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (93, "TCIN: 16972603");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (93, "UPC: 071736002484");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (93, "Item Number (DPCI): 003-03-2055");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (94, "Scent: Original");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (94, "Health Facts: Phosphate-Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (94, "Product Warning: Keep out of eyes, wash contaminated clothing after handling, seek medical help if product is swallowed, keep out of reach of children, keep container tightly sealed");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (94, "Capacity (Volume): 27 ounces");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (94, "Product Form: Capsule");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (94, "Number of uses: 35");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (94, "TCIN: 80201361");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (94, "UPC: 829576122738");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (94, "Item Number (DPCI): 003-08-7668");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "Scent: Original");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "Health Facts: Phosphate-Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "Product Warning: Keep out of reach of children, keep container tightly sealed, seek medical help if product is swallowed");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "Capacity (Volume): 92 fl oz (US)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "Formulation: Concentrated");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "Product Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "Sustainability Claims: Recyclable, Biodegradable");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "Surfaces Not Recommended: Leather");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "Number of uses: 64");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "TCIN: 13918059");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "UPC: 037000402183");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (95, "Item Number (DPCI): 003-08-0703");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Scent: Unscented");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Health Facts: Dye-Free, Bleach-Free, Fluoride-Free, Hypoallergenic, No Fragrance Added");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Product Warning: Seek medical help if product is swallowed, keep out of reach of children, keep out of reach of animals, keep out of eyes, flush immediately if product enters eyes");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Capacity (Volume): 141 fl oz (US)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Features: Sensitive Formula");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Formulation: Concentrated");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Product Form: Liquid");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Sustainability Claims: Biodegradable");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Surfaces Not Recommended: Fur, Wool, Velvet, Suede, Rayon, Silk, Leather");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Number of uses: 94");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "TCIN: 48638959");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "UPC: 072613461592");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (96, "Item Number (DPCI): 003-08-0106");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (97, "Scent: Fresh, Outdoor");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (97, "Health Facts: Phosphate-Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (97, "Product Warning: Keep out of reach of children, keep container tightly sealed");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (97, "Product Form: Sheet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (97, "Package Quantity: 250");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (97, "TCIN: 76152966");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (97, "UPC: 037000514572");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (97, "Item Number (DPCI): 003-07-3779");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (98, "Scent: Original");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (98, "Health Facts: Phosphate-Free");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (98, "Product Warning: Keep container tightly sealed, keep out of reach of children");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (98, "Capacity (Volume): 105");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (98, "Product Form: Sheet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (98, "Package Quantity: 105");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (98, "TCIN: 51847739");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (98, "UPC: 037000978350");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (98, "Item Number (DPCI): 003-07-0392");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Dimensions (Overall): 41.93 Inches (H) x 15.59 Inches (W) x 13.39 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Weight: 15.19 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Includes: Large Area Cleaning Tool, Crevice Tool, Pet Hair Tool, Multi-Angle Brush, Stair Tool");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Features: Filter, Tangle Free Turbine Tool, Pet Hair Pick Up");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Capacity (Volume): .42 Gallon");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Cable/Cord Length: 24.5 Feet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Wattage Required: 210 watts");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Number of Speeds: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Bag Type: Bagless");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Cleaning Path Width: 13.4 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Recommended Surface Application: Hard Floor, Carpet, Hardwood");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Filter Type: HEPA");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Hose Length: 15.3 Feet");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Power Source: Electric");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Battery: No Battery Used");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Warranty: 5 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "TCIN: 76578376");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "UPC: 885609005034");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (99, "Item Number (DPCI): 329-00-0097");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Dimensions (Overall): 3.54 Inches (H) x 13.4 Inches (W) x 13.4 Inches (D)");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Weight: 6.77 Pounds");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Includes: Instruction Manual, Filter, Charging Base");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Features: Automatic Height Adjustment, Pet Hair Pick Up, Variable Suction Control, Edge Cleaning, Dirt Detection Sensor");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Capacity (Volume): .6 Liter");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Run Time: 90 Minutes");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Number of Speeds: 1");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Bag Type: Bagless");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Cleaning Path Width: 7 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Recommended Surface Application: Hardwood, Hard Floor, Carpet, Multi-Surface");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Filter Type: Standard");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Hose Length: 0 Inches");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Power Source: Battery-Powered");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Battery: 1 Non-Universal Lithium Ion, Required, Included");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "TCIN: 53741618");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "UPC: 885155015426");
-    INSERT INTO item_specs
-      (item_id, specs)
-    VALUES
-      (100, "Item Number (DPCI): 329-00-0025");
+
     INSERT INTO item_highlights
       (item_id, highlights)
     VALUES
@@ -7180,3 +2433,1194 @@ CREATE TABLE item_specs
       (item_id, highlights)
     VALUES
       (100, "Roomba® Essentials Smart Navigation, Auto Adjust Cleaning Head, Works on Carpets & Hard Floors");
+
+    INSERT INTO item_specs
+      (item_id, specs)
+    VALUES
+      (1, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (1, "Country of Origin: United States"),
+      (1, "Form: Whole"),
+      (1, "State of Readiness: Ready to Eat"),
+      (1, "Store: Room Temperature"),
+      (1, "Package Quantity: 1"),
+      (1, "Package type: Individual Item Multi-Serving"),
+      (1, "Net weight: 3 Pounds"),
+      (1, "TCIN: 54579522"),
+      (1, "UPC: 085239049457"),
+      (1, "Item Number (DPCI): 266-05-0074"),
+      (2, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (2, "Country of Origin: Varies, Please See Label"),
+      (2, "Form: Whole"),
+      (2, "State of Readiness: Ready to Eat"),
+      (2, "Store: Room Temperature"),
+      (2, "Package Quantity: 1"),
+      (2, "Pre-package preparation: Raw"),
+      (2, "Package type: Individual Item Single Serving"),
+      (2, "Net weight: 5 Ounces"),
+      (2, "TCIN: 15014054"),
+      (2, "UPC: 204180000007"),
+      (2, "Item Number (DPCI): 266-05-4180"),
+      (3, "Contains: Wheat, Soy"),
+      (3, "Country of Origin: United States"),
+      (3, "Cut of Meat: Ham"),
+      (3, "Type of Meat: Pork"),
+      (3, "State of Readiness: Prepared, Heat and Serve"),
+      (3, "Store: Room Temperature"),
+      (3, "Package Quantity: 1"),
+      (3, "Pre-package preparation: Fully Cooked"),
+      (3, "Package type: Individual Item Multi-Serving"),
+      (3, "Bone cut type: Boneless"),
+      (3, "Seasoning or marinade: Unseasoned"),
+      (3, "Net weight: 12 Ounces"),
+      (3, "TCIN: 13217521"),
+      (3, "UPC: 037600138727"),
+      (3, "Item Number (DPCI): 212-12-0551"),
+      (4, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (4, "Country of Origin: United States"),
+      (4, "Form: Whole"),
+      (4, "State of Readiness: Needs to Be Fully Cooked"),
+      (4, "Store: Room Temperature"),
+      (4, "Package Quantity: 1"),
+      (4, "Package type: Individual Item Multi-Serving"),
+      (4, "Net weight: 5 Pounds"),
+      (4, "TCIN: 77775602"),
+      (4, "UPC: 085239086377"),
+      (4, "Item Number (DPCI): 211-17-0079"),
+      (5, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (5, "Features: No Added MSG, No Preservatives, No Artificial Flavors"),
+      (5, "Dietary Needs: Gluten Free, Certified Gluten Free, Kosher"),
+      (5, "Form: Chip"),
+      (5, "State of Readiness: Ready to Eat"),
+      (5, "Store: Room Temperature"),
+      (5, "Package Quantity: 1"),
+      (5, "Package type: Individual Item Multi-Serving"),
+      (5, "Net weight: 8 Ounces"),
+      (5, "TCIN: 47085532"),
+      (5, "UPC: 028400199148"),
+      (5, "Item Number (DPCI): 071-05-1205"),
+      (6, "Contains: Milk"),
+      (6, "Form: Cup"),
+      (6, "State of Readiness: Ready to Eat"),
+      (6, "Store: Frozen"),
+      (6, "Package Quantity: 12"),
+      (6, "Package type: Multi-Pack Single Servings"),
+      (6, "Milk fat level: 10 Percent"),
+      (6, "Net weight: 36 Ounces"),
+      (6, "TCIN: 13404028"),
+      (6, "UPC: 071899003755"),
+      (6, "Item Number (DPCI): 288-07-0688"),
+      (7, "Contains: Milk, Wheat"),
+      (7, "Pizza Style Type: No Style"),
+      (7, "Sauce Type: Tomato Sauce"),
+      (7, "State of Readiness: Prepared, Heat and Serve"),
+      (7, "Store: Frozen"),
+      (7, "Package Quantity: 1"),
+      (7, "Pre-package preparation: Raw"),
+      (7, "Package type: Individual Item Multi-Serving"),
+      (7, "Pizza crust type: Traditional Crust"),
+      (7, "Net weight: 27.5 Ounces"),
+      (7, "TCIN: 13428574"),
+      (7, "UPC: 071921962395"),
+      (7, "Item Number (DPCI): 288-03-0090"),
+      (8, "Contains: Wheat, Milk"),
+      (8, "State of Readiness: Needs to Be Fully Cooked"),
+      (8, "Store: Room Temperature"),
+      (8, "Package Quantity: 1"),
+      (8, "Pre-package preparation: Boiled"),
+      (8, "Package type: Individual Item Multi-Serving"),
+      (8, "Net weight: 7.25 Ounces"),
+      (8, "TCIN: 12954218"),
+      (8, "UPC: 021000658831"),
+      (8, "Item Number (DPCI): 212-14-0318"),
+      (9, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (9, "Type of Meat: Pork"),
+      (9, "Form: Sliced"),
+      (9, "State of Readiness: Needs to Be Fully Cooked"),
+      (9, "Store: Refrigerated"),
+      (9, "Package Quantity: 1"),
+      (9, "Pre-package preparation: Raw, Cured"),
+      (9, "Package type: Individual Item Multi-Serving"),
+      (9, "Net weight: 12 Ounces"),
+      (9, "TCIN: 12945914"),
+      (9, "UPC: 044700022689"),
+      (9, "Item Number (DPCI): 210-10-0075"),
+      (10, "Contains: Wheat, Milk, Eggs, Anchovy"),
+      (10, "State of Readiness: Ready to Eat"),
+      (10, "Store: Refrigerated"),
+      (10, "Package Quantity: 1"),
+      (10, "Pre-package preparation: Raw"),
+      (10, "Package type: Individual Item Single Serving"),
+      (10, "Net weight: 6.5 Ounces"),
+      (10, "TCIN: 54368260"),
+      (10, "UPC: 085239039151"),
+      (10, "Item Number (DPCI): 211-03-0285"),
+      (11, "Contains: Milk"),
+      (11, "May Contain: Tree Nuts, Peanuts, Soy"),
+      (11, "Form: Ball"),
+      (11, "State of Readiness: Ready to Eat"),
+      (11, "Store: Room Temperature"),
+      (11, "Package Quantity: 14"),
+      (11, "Package type: Individual Item Multi-Serving"),
+      (11, "Net weight: 6 Ounces"),
+      (11, "Chocolate types: Milk Chocolate, Dark Chocolate"),
+      (11, "TCIN: 12943087"),
+      (11, "UPC: 037466062143"),
+      (11, "Item Number (DPCI): 055-02-2750"),
+      (12, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (12, "Form: Pieces"),
+      (12, "State of Readiness: Ready to Eat"),
+      (12, "Store: Room Temperature"),
+      (12, "Package Quantity: 1"),
+      (12, "Package type: Individual Item Multi-Serving"),
+      (12, "Net weight: 1.8 Pounds"),
+      (12, "TCIN: 12945506"),
+      (12, "UPC: 070462005837"),
+      (12, "Item Number (DPCI): 055-02-1652"),
+      (13, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (13, "State of Readiness: Prepared, Heat and Serve"),
+      (13, "Store: Room Temperature"),
+      (13, "Package Quantity: 1"),
+      (13, "Additional items included: Does Not Include Sauce or Seasoning"),
+      (13, "Package type: Individual Item Multi-Serving"),
+      (13, "Net weight: 2.0 Pounds"),
+      (13, "TCIN: 13474101"),
+      (13, "UPC: 011152263557"),
+      (13, "Item Number (DPCI): 212-30-0639"),
+      (14, "Contains: Soy, Wheat, Milk"),
+      (14, "May Contain: Shellfish"),
+      (14, "Form: Dried, Powdered"),
+      (14, "State of Readiness: Mix"),
+      (14, "Store: Room Temperature"),
+      (14, "Package Quantity: 1"),
+      (14, "Package type: Individual Item Single Serving"),
+      (14, "Soup type: Noodle Soups"),
+      (14, "Net weight: 2.25 Ounces"),
+      (14, "TCIN: 14568314"),
+      (14, "UPC: 041789001215"),
+      (14, "Item Number (DPCI): 212-18-0411"),
+      (15, "Contains: Eggs"),
+      (15, "Country of Origin: United States"),
+      (15, "Features: Cage Free"),
+      (15, "Dietary Needs: Kosher, USDA Grade A"),
+      (15, "Form: Whole"),
+      (15, "State of Readiness: Needs to Be Fully Cooked, Ingredient"),
+      (15, "Store: Refrigerated"),
+      (15, "Package Quantity: 12"),
+      (15, "Pre-package preparation: Raw"),
+      (15, "Package type: Individual Item Multi-Serving"),
+      (15, "Egg size: Large"),
+      (15, "Net weight: 24 Ounces"),
+      (15, "TCIN: 21506499"),
+      (15, "UPC: 715141514643"),
+      (15, "Item Number (DPCI): 284-03-0018"),
+      (16, "Contains: Wheat, Soy"),
+      (16, "Form: Sliced"),
+      (16, "State of Readiness: Ready to Eat"),
+      (16, "Store: Room Temperature"),
+      (16, "Package Quantity: 1"),
+      (16, "Net weight: 20 Ounces"),
+      (16, "TCIN: 12935779"),
+      (16, "UPC: 074323090901"),
+      (16, "Item Number (DPCI): 261-01-2849"),
+      (17, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (17, "Form: Liquid"),
+      (17, "State of Readiness: Ready to Drink"),
+      (17, "Store: Room Temperature"),
+      (17, "Package Quantity: 6"),
+      (17, "Package type: Multi-Pack Single Servings"),
+      (17, "Net weight: 101.4 fl oz (US)"),
+      (17, "TCIN: 14746217"),
+      (17, "UPC: 632565000098"),
+      (17, "Item Number (DPCI): 271-40-0711"),
+      (18, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (18, "Form: Liquid"),
+      (18, "State of Readiness: Ready to Drink"),
+      (18, "Store: Room Temperature"),
+      (18, "Package Quantity: 12"),
+      (18, "Package type: Multi-Pack Single Servings"),
+      (18, "Carbonation type 1: Carbonated"),
+      (18, "Net weight: 144 fl oz (US)"),
+      (18, "Beverage container material: Metal"),
+      (18, "TCIN: 12953464"),
+      (18, "UPC: 049000028904"),
+      (18, "Item Number (DPCI): 271-10-0169"),
+      (19, "Size: 12 oz"),
+      (19, "Alcohol Percentage: 4.6"),
+      (19, "Form: Liquid"),
+      (19, "State of Readiness: Ready to Drink"),
+      (19, "Store: Room Temperature"),
+      (19, "Package Quantity: 12"),
+      (19, "Package type: Multi-Pack Single Servings"),
+      (19, "Alcohol content: Alcoholic"),
+      (19, "Net weight: 144.0 fl oz (US)"),
+      (19, "Flavor profile: Light"),
+      (19, "Beverage container material: Glass"),
+      (19, "TCIN: 13418113"),
+      (19, "UPC: 080660956152"),
+      (19, "Item Number (DPCI): 213-06-0009"),
+      (20, "Contains: Milk, Soy, Wheat"),
+      (20, "Filling: No Filling"),
+      (20, "State of Readiness: Ready to Eat"),
+      (20, "Store: Room Temperature"),
+      (20, "Package Quantity: 1"),
+      (20, "Package type: Individual Item Multi-Serving"),
+      (20, "Bakery topping: Chocolate Chips"),
+      (20, "Cookie or bar type: Chocolate Chip Cookie"),
+      (20, "Net weight: 13 Ounces"),
+      (20, "TCIN: 12959729"),
+      (20, "UPC: 044000032197"),
+      (20, "Item Number (DPCI): 071-09-0120"),
+      (21, "Dimensions (Overall): 1.5 Inches (L) x 2.4 Inches (W) x 6.7 Inches (H)"),
+      (21, "Weight: .28 Pounds"),
+      (21, "Material: Plastic, Metal, Zinc"),
+      (21, "Power Source: Manual"),
+      (21, "Battery: No Battery Used"),
+      (21, "Care & Cleaning: Hand Wash"),
+      (21, "TCIN: 13567840"),
+      (21, "UPC: 719812817514"),
+      (21, "Item Number (DPCI): 070-05-1633"),
+      (22, "Dimensions (Overall): 7.2 Inches (H) x 10.5 Inches (W) x 13 Inches (D)"),
+      (22, "Weight: 5.5 Pounds"),
+      (22, "Capacity (Volume): 6 Cup"),
+      (22, "Electronics Condition: New"),
+      (22, "Appliance Capabilities: Blends"),
+      (22, "Number of Speeds: 5"),
+      (22, "Wattage Output: 450 watts"),
+      (22, "Material: Plastic"),
+      (22, "Care & Cleaning: Dishwasher-Safe Parts"),
+      (22, "Warranty: 3 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (22, "TCIN: 53244839"),
+      (22, "UPC: 034264492752"),
+      (22, "Item Number (DPCI): 072-04-1348"),
+      (23, "Dimensions (Overall): 7.75 Inches (H) x 6.75 Inches (W) x 11.5 Inches (D)"),
+      (23, "Finish: Brushed"),
+      (23, "Weight: 3.0 Pounds"),
+      (23, "Includes: Instruction Manual"),
+      (23, "Features: Adjustable Browning Levels, Cancel Option, Extra Wide Slots, Removable Crumb Tray, Bagel Option, Push Button Controls"),
+      (23, "Metal Finish: Stainless Steel"),
+      (23, "Safety and Security Features: Cool Touch Exterior"),
+      (23, "Appliance Capabilities: Bagel Toaster"),
+      (23, "Number of Slices: 2"),
+      (23, "Wattage Output: 900.0 watts"),
+      (23, "Material: Stainless Steel"),
+      (23, "Care & Cleaning: Spot or Wipe Clean"),
+      (23, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (23, "TCIN: 14024621"),
+      (23, "UPC: 027045747752"),
+      (23, "Item Number (DPCI): 072-09-0226"),
+      (24, "Dimensions (Overall): 16.3 Inches (H) x 2.5 Inches (W) x 2.5 Inches (D)"),
+      (24, "Weight: 2.44 Pounds"),
+      (24, "Capacity (Volume): 24 Ounces"),
+      (24, "Appliance Capabilities: Blends"),
+      (24, "Number of Speeds: 3"),
+      (24, "Wattage Output: 60 watts"),
+      (24, "Color Name: Matte Black"),
+      (24, "Material: Plastic, Metal"),
+      (24, "Care & Cleaning: Dishwasher-Safe Parts"),
+      (24, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (24, "TCIN: 79423724"),
+      (24, "UPC: 883049544786"),
+      (24, "Item Number (DPCI): 072-04-6895"),
+      (25, "Dimensions (Overall): 13 Inches (H) x 11.8 Inches (W) x 11.8 Inches (D)"),
+      (25, "Weight: 9 Pounds"),
+      (25, "Capacity (Volume): 3.5 Liter"),
+      (25, "Appliance Capabilities: Reheat, Roasts, Air Fry, Saute"),
+      (25, "Wattage Output: 1200 watts"),
+      (25, "Holds up to: 7 Pounds"),
+      (25, "Material: Steel, Plastic"),
+      (25, "Care & Cleaning: Dishwasher-Safe Parts, Spot or Wipe Clean"),
+      (25, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (25, "TCIN: 54622897"),
+      (25, "UPC: 816458023498"),
+      (25, "Item Number (DPCI): 072-04-3076"),
+      (26, "Number of Pieces: 6"),
+      (26, "Dimensions (Overall): 11.25 Inches (L) x 11.25 Inches (W) x 12.75 Inches (H)"),
+      (26, "Weight: 4.94 Pounds"),
+      (26, "Capacity (Volume): 2 Quart"),
+      (26, "Protective Qualities: Odor-Resistant"),
+      (26, "Care & Cleaning: Dishwasher-Safe"),
+      (26, "TCIN: 50322047"),
+      (26, "UPC: 885395111759"),
+      (26, "Item Number (DPCI): 072-08-0021"),
+      (27, "Dimensions (Overall): 16.5 Inches (H) x 6.75 Inches (W) x 6.75 Inches (D)"),
+      (27, "Weight: 9 Pounds"),
+      (27, "Capacity (Volume): 64 fl oz (US)"),
+      (27, "Electronics Condition: New"),
+      (27, "Appliance Capabilities: Blends, Emulsifies, Purees, Liquefy, Mixes"),
+      (27, "Number of Speeds: 5"),
+      (27, "Wattage Output: 1200 watts"),
+      (27, "Material: Plastic, Stainless Steel, Metal"),
+      (27, "Care & Cleaning: Dishwasher-Safe Parts, Hand Wash"),
+      (27, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (27, "TCIN: 76580528"),
+      (27, "UPC: 818049021616"),
+      (27, "Item Number (DPCI): 072-04-0222"),
+      (28, "Number of Pieces: 4"),
+      (28, "Dimensions (Overall): 4.02 Inches (L) x 4.02 Inches (W)"),
+      (28, "Includes Dining: 4 Coasters"),
+      (28, "Material: Acacia, Metal, Cork"),
+      (28, "Care & Cleaning: Spot or Wipe Clean"),
+      (28, "TCIN: 50918293"),
+      (28, "UPC: 492001114273"),
+      (28, "Item Number (DPCI): 200-11-1427"),
+      (29, "Features: Round (shape)"),
+      (29, "Number of Pieces: 2"),
+      (29, "Dimensions (Overall): 3.4 Inches (H) x 6.3 Inches (W) x 4.7 Inches (D)"),
+      (29, "Weight: 2.5 Pounds"),
+      (29, "Baking Cooking Surface: Cast Iron"),
+      (29, "Capacity (Volume): 13.28 Ounces"),
+      (29, "Material: Cast Iron"),
+      (29, "Care & Cleaning: Oven-Safe up to 450 Degrees, Do Not Microwave, Hand Wash"),
+      (29, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (29, "TCIN: 53699714"),
+      (29, "UPC: 085081463180"),
+      (29, "Item Number (DPCI): 070-01-2457"),
+      (30, "Features: Round (shape)"),
+      (30, "Number of Pieces: 2"),
+      (30, "Dimensions (Overall): 7 Inches (H) x 10.75 Inches (W) x 7.25 Inches (D)"),
+      (30, "Weight: 15.0 Pounds"),
+      (30, "Baking Cooking Surface: Porcelain"),
+      (30, "Handle Material: Cast Iron"),
+      (30, "Lid Material: Cast Iron"),
+      (30, "Capacity (Volume): 6 Quart"),
+      (30, "Protective Qualities: Corrosion-Resistant, Heat-Resistant, Odor-Resistant, Rust-Resistant, Tarnish-Resistant, Warp-Proof, Water-Resistant, Waterproof"),
+      (30, "Material: Cast Iron"),
+      (30, "Care & Cleaning: Clean With Brush, Do Not Microwave, Oven-Safe up to 500 Degrees"),
+      (30, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (30, "TCIN: 10514667"),
+      (30, "UPC: 075536462431"),
+      (30, "Item Number (DPCI): 070-01-0109"),
+      (31, "Number of Pieces: 2"),
+      (31, "Weight: 5.8 Pounds"),
+      (31, "Baking Cooking Surface: Nonstick"),
+      (31, "Handle Material: Stainless Steel"),
+      (31, "Lid Material: No Lid"),
+      (31, "Capacity (Volume): 10 cubic-in"),
+      (31, "Pot or pan diameter: 8 Inches"),
+      (31, "Cooktop compatibility: Gas, Smooth Surface Non Induction"),
+      (31, "Material: exterior surface: Hard Anodized Aluminum"),
+      (31, "Care & Cleaning: Hand Wash"),
+      (31, "Warranty: Lifetime Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (31, "TCIN: 78062809"),
+      (31, "UPC: 016853071180"),
+      (31, "Item Number (DPCI): 070-07-3043"),
+      (32, "Number of Pieces: 10"),
+      (32, "Baking Cooking Surface: Nonstick"),
+      (32, "Handle Material: Stainless Steel"),
+      (32, "Lid Material: Tempered Glass"),
+      (32, "Includes: 6 Quart Stockpot With Lid, 3 qt. Saute Pan With Lid, 10"),
+      (32, "Piece 1 pot or pan diameter: 8 Inches"),
+      (32, "Piece 2 pot or pan diameter: 10 Inches"),
+      (32, "Cooktop compatibility: Gas"),
+      (32, "Material: exterior surface: Hard Anodized Aluminum"),
+      (32, "Care & Cleaning: Dishwasher-Safe"),
+      (32, "Warranty: Lifetime Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (32, "TCIN: 78062797"),
+      (32, "UPC: 016853071111"),
+      (32, "Item Number (DPCI): 070-07-0005"),
+      (33, "Features: Round (shape)"),
+      (33, "Number of Pieces: 1"),
+      (33, "Dimensions (Overall): 3.5 Inches (H) x 4.25 Inches (W) x 4.25 Inches (D)"),
+      (33, "Finish: Glazed"),
+      (33, "Capacity (Volume): 10.79 Ounces"),
+      (33, "Material: Stoneware"),
+      (33, "Care & Cleaning: Hand Wash"),
+      (33, "TCIN: 52590343"),
+      (33, "UPC: 493240310266"),
+      (33, "Item Number (DPCI): 324-03-1026"),
+      (34, "Features: Round (shape)"),
+      (34, "Number of Pieces: 4"),
+      (34, "Dimensions (Overall): 1.77 Inches (H) x 4.02 Inches (W) x 4.02 Inches (D)"),
+      (34, "Capacity (Volume): 150 ml"),
+      (34, "Material: Acacia"),
+      (34, "Care & Cleaning: Hand Wash"),
+      (34, "TCIN: 21512522"),
+      (34, "UPC: 492001110664"),
+      (34, "Item Number (DPCI): 200-11-1066"),
+      (35, "Dimensions (Overall): 9.25 Inches (L) x 5.75 Inches (W) x .75 Inches (H)"),
+      (35, "Weight: 3.55 Pounds"),
+      (35, "Features: Lightweight"),
+      (35, "Material: Marble, Stainless Steel, Wood"),
+      (35, "Care & Cleaning: Spot or Wipe Clean"),
+      (35, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (35, "TCIN: 52262892"),
+      (35, "UPC: 492001118240"),
+      (35, "Item Number (DPCI): 200-11-1824"),
+      (36, "Number of Pieces: 4"),
+      (36, "Blade Material: 18/8 Stainless Steel"),
+      (36, "Cutlery Construction: Molded"),
+      (36, "Care & Cleaning: Spot or Wipe Clean"),
+      (36, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (36, "TCIN: 52262948"),
+      (36, "UPC: 492001118301"),
+      (36, "Item Number (DPCI): 200-11-1830"),
+      (37, "Number of Pieces: 15"),
+      (37, "Includes: Utility Knife, Knife Block, Paring Knife, Shears, Santoku Knife, Slicer, Sharpening Steel, Bread Knife, Chef Knife"),
+      (37, "Features: Serrated Blade"),
+      (37, "Blade Material: Stainless Steel"),
+      (37, "Handle Material: Stainless Steel"),
+      (37, "Cutlery Construction: Stamped"),
+      (37, "Care & Cleaning: Hand Wash"),
+      (37, "Warranty: Lifetime Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (37, "TCIN: 16676965"),
+      (37, "UPC: 045908065980"),
+      (37, "Item Number (DPCI): 070-08-0598"),
+      (38, "Number of Pieces: 20"),
+      (38, "Piece 1 Type: Dinner Fork"),
+      (38, "Piece 1 Dimensions: 7.8 Inches (L)"),
+      (38, "Piece 2 Type: Dinner Knife"),
+      (38, "Piece 2 Dimensions: 8.8 Inches (L)"),
+      (38, "Piece 3 Type: Dinner Spoon"),
+      (38, "Piece 3 Dimensions: 7.6 Inches (L)"),
+      (38, "Piece 4 Type: Salad Fork"),
+      (38, "Piece 4 Dimensions: 7 Inches (L)"),
+      (38, "Piece 5 Type: Teaspoon"),
+      (38, "Piece 5 Dimensions: 6.9 Inches (L)"),
+      (38, "Finish: Satin"),
+      (38, "Handle Material: 18/0 Stainless Steel"),
+      (38, "Material: 18/0 Stainless Steel"),
+      (38, "Features Dining: Serrated Blade"),
+      (38, "Includes Dining: 4 Teaspoons, 4 Salad Forks, 4 Dinner Spoons, 4 Dinner Knives, 4 Dinner Forks"),
+      (38, "Service For: 4"),
+      (38, "Care & Cleaning: Dishwasher-Safe, Hand Wash, Do Not Use Lemon or Acidic Detergent"),
+      (38, "TCIN: 49103712"),
+      (38, "UPC: 492000705953"),
+      (38, "Item Number (DPCI): 200-07-0595"),
+      (39, "Dimensions (Overall): 15.25 Inches (H) x 10.75 Inches (W) x 11.5 Inches (D)"),
+      (39, "Weight: 1.76 Pounds"),
+      (39, "Mount Type: Free Standing"),
+      (39, "Material: Steel"),
+      (39, "Battery: No Battery Used"),
+      (39, "Care & Cleaning: Spot or Wipe Clean"),
+      (39, "TCIN: 51239228"),
+      (39, "UPC: 010591045175"),
+      (39, "Item Number (DPCI): 200-10-0740"),
+      (40, "Number of Pieces: 12"),
+      (40, "Piece 1 Type: Cup, Capacity: 16.4 Ounces"),
+      (40, "Piece 1 Dimensions: 6.0 Inches (H) x 3 Inches (W)"),
+      (40, "Piece 2 Type: Cup, Capacity: 12.2 Ounces"),
+      (40, "Piece 2 Dimensions: 4 Inches (H) x 3.88 Inches (W)"),
+      (40, "Finish: Faceted"),
+      (40, "Used For: Cold Beverages"),
+      (40, "Features Dining: Lead Free"),
+      (40, "Includes Dining: 6 Tall Tumblers, 6 Short Tumblers"),
+      (40, "Service For: 6"),
+      (40, "Material: Glass"),
+      (40, "Care & Cleaning: Dishwasher-Safe"),
+      (40, "TCIN: 14646183"),
+      (40, "UPC: 031009482092"),
+      (40, "Item Number (DPCI): 200-03-0239"),
+      (41, "Electronics Condition: New"),
+      (41, "Aspect Ratio: 16:9 Aspect Ratio"),
+      (41, "Contrast Ratio: 2000000:1 Dynamic Contrast Ratio"),
+      (41, "Native screen refresh rate: 60 Hz"),
+      (41, "VESA Mounting Standard: 200x200"),
+      (41, "Video Resolution: 4K"),
+      (41, "Wireless Technology: Wi-Fi"),
+      (41, "Backlight type: LED Edge-Lit"),
+      (41, "Signal Type: ATSC"),
+      (41, "Model name: QN43LS03T"),
+      (41, "Screen Size: 43 inches"),
+      (41, "TCIN: 80442121"),
+      (42, "Dimensions (Overall): 13.6 Inches (H) x 21.9 Inches (W) x 2.1 Inches (D)"),
+      (42, "Weight: 7.5 Pounds"),
+      (42, "Includes: Remote Control, User Manual, Power cord, Remote Control Batteries"),
+      (42, "Electronics Condition: New"),
+      (42, "Electronics Features: Gaming Mode, Sleep Timer"),
+      (42, "Model #: 24LF454B"),
+      (42, "Signal Type: ATSC, NTSC"),
+      (42, "Aspect Ratio: 16:9 Aspect Ratio"),
+      (42, "Contrast Ratio: 1000:1 Dynamic Contrast Ratio"),
+      (42, "Video Resolution: 720p"),
+      (42, "Native screen refresh rate: 60 Hz"),
+      (42, "Screen Size: 24 Inches"),
+      (42, "App compatibility: Netflix, Amazon Video, Hulu"),
+      (42, "VESA Mounting Standard: 75x75"),
+      (42, "Product Depth with Stand: 5.8 Inches"),
+      (42, "Product Height with Stand: 15.2 Inches"),
+      (42, "Product Width with Stand: 21.9 Inches"),
+      (42, "Backlight type: LED Edge-Lit"),
+      (42, "Smart platform: LG webOS"),
+      (42, "Number of HDMI ports: 1"),
+      (42, "Battery: 2 AAA Alkaline, Required, Included"),
+      (42, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (42, "TCIN: 15193616"),
+      (42, "UPC: 719192609211"),
+      (42, "Item Number (DPCI): 008-09-0420"),
+      (43, "Dimensions (Overall): 20.4 Inches (H) x 35.51 Inches (W) x 2.55 Inches (D)"),
+      (43, "Weight: 14.55 Pounds"),
+      (43, "Includes: Remote Control, Remote Control Batteries"),
+      (43, "Electronics Condition: New"),
+      (43, "Electronics Features: Wi-Fi, Streaming Capability, Tv Apps, Smart TV"),
+      (43, "Model #: D40f-G9"),
+      (43, "Signal Type: ATSC"),
+      (43, "Aspect Ratio: 16:9 Aspect Ratio"),
+      (43, "Contrast Ratio: 200000:1 Dynamic Contrast Ratio"),
+      (43, "Video Resolution: 1080p"),
+      (43, "Wireless Technology: Wi-Fi"),
+      (43, "Screen Size: 39.5 Inches"),
+      (43, "App compatibility: Netflix, Hulu, Disney+, Pandora, YouTube"),
+      (43, "VESA Mounting Standard: 200x200"),
+      (43, "Product Depth with Stand: 8.36 Inches"),
+      (43, "Product Height with Stand: 22.59 Inches"),
+      (43, "Product Width with Stand: 35.51 Inches"),
+      (43, "Backlight type: LED Full Array"),
+      (43, "Smart platform: VIZIO SmartCast"),
+      (43, "Voice assistant built-in: Google Assistant"),
+      (43, "Number of HDMI ports: 2"),
+      (43, "Battery: 2 AAA Alkaline, Required, Included"),
+      (43, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (43, "TCIN: 53855744"),
+      (43, "UPC: 845226016981"),
+      (43, "Item Number (DPCI): 008-09-0034"),
+      (44, "Weight: .19 ounces"),
+      (44, "Product Model: Apple AirPods Pro"),
+      (44, "Ear Cushion Material: Silicone"),
+      (44, "Battery Charge Life: Up to 5 Hours"),
+      (44, "Estimated Charge Time: 3 hours"),
+      (44, "Electronics Features: Noise Canceling, True Wireless, Wireless, Water-Resistant"),
+      (44, "Operating System Compatibility: Apple iOS"),
+      (44, "Connectivity: No Wired Connection Ports"),
+      (44, "Wireless Technology: Bluetooth"),
+      (44, "Package Quantity: 1"),
+      (44, "Maximum Operating Range: 20 Feet"),
+      (44, "Voice assistant built-in: Siri"),
+      (44, "Battery: 1 Non-Universal Lithium Ion, Required, Included"),
+      (44, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (44, "TCIN: 54191101"),
+      (44, "UPC: 190199246850"),
+      (44, "Item Number (DPCI): 057-10-0164"),
+      (45, "Weight: 2.91 Pounds"),
+      (45, "Ear Cushion Material: Leatherette"),
+      (45, "Includes: Carrying Case, Audio Cable, USB Cable"),
+      (45, "Battery Charge Life: Up to 20 Hours"),
+      (45, "Electronics Condition: New"),
+      (45, "Estimated Charge Time: 2.5 hours"),
+      (45, "Cable/Cord Length: 2.5 Millimeter"),
+      (45, "Electronics Features: Lightweight Design, Volume Control, Mute Controls, Noise Canceling, Multi-Function Button, Foldable Design, Detachable Cable, Call Functionality, Built-In Microphone, Adjustable Headband, Wireless"),
+      (45, "Operating System Compatibility: Apple iOS, Apple iPadOS, Android"),
+      (45, "Connectivity: Micro USB"),
+      (45, "Wireless Technology: Bluetooth"),
+      (45, "Package Quantity: 1"),
+      (45, "Maximum Operating Range: 20 Feet"),
+      (45, "Voice assistant built-in: Siri, Alexa, Google Assistant"),
+      (45, "Battery: 1 Non-Universal Lithium Ion, Required, Included"),
+      (45, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (45, "TCIN: 52791828"),
+      (45, "UPC: 017817770613"),
+      (45, "Item Number (DPCI): 008-07-0162"),
+      (46, "Weight: .5 ounces"),
+      (46, "Ear Cushion Material: Silicone"),
+      (46, "Includes: 3 Ear Adapters (S/M/L), USB Cable, Charging Station"),
+      (46, "Battery Charge Life: Up to 5 Hours"),
+      (46, "Estimated Charge Time: 3 hours"),
+      (46, "Electronics Features: True Wireless, Built-In Microphone, Call Functionality, Wireless, Lightweight Design"),
+      (46, "Operating System Compatibility: Android, Apple iOS"),
+      (46, "Connectivity: Micro USB"),
+      (46, "Wireless Technology: Bluetooth"),
+      (46, "Package Quantity: 1"),
+      (46, "Maximum Operating Range: 30 Feet"),
+      (46, "Battery: 1 Non-Universal Lithium Ion, Required, Included"),
+      (46, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (46, "TCIN: 52792270"),
+      (46, "UPC: 017817748018"),
+      (46, "Item Number (DPCI): 008-07-0176"),
+      (47, "Weight: 1 ounces"),
+      (47, "Ear Cushion Material: Leatherette"),
+      (47, "Estimated Charge Time: 2.5 hours"),
+      (47, "Electronics Features: Wireless"),
+      (47, "Connectivity: No Wired Connection Ports"),
+      (47, "Wireless Technology: Bluetooth"),
+      (47, "Package Quantity: 1"),
+      (47, "Battery: 1 Lithium Ion, Required, Included"),
+      (47, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (47, "TCIN: 79466026"),
+      (47, "UPC: 190199246386"),
+      (47, "Item Number (DPCI): 008-07-1842"),
+      (48, "Dimensions (Overall): 13.9 Inches (H) x 16.82 Inches (W) x 4.02 Inches (D)"),
+      (48, "Weight: 8.25 Pounds"),
+      (48, "Model Compatibility: PlayStation 4"),
+      (48, "Includes: Dual Shock Controller, User Manual, AC Power Adapter"),
+      (48, "Electronics Features: Functions as Blu-Ray Disc Player, Functions as Dvd Player"),
+      (48, "Connectivity: HDMI, USB"),
+      (48, "Data storage type: HDD"),
+      (48, "Data storage capacity: 1 TB"),
+      (48, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (48, "TCIN: 52416598"),
+      (48, "UPC: 711719521112"),
+      (48, "Item Number (DPCI): 207-33-0111"),
+      (49, "Model Compatibility: PlayStation 4"),
+      (49, "ESRB Content Description: Suitable_for_all_users"),
+      (49, "Electronics Condition: New"),
+      (49, "Video Game Genre: Sports"),
+      (49, "Software Format: Blu-ray"),
+      (49, "ESRB Age Rating: E - Everyone"),
+      (49, "Battery: No Battery Used"),
+      (49, "TCIN: 80626062"),
+      (49, "UPC: 710425576935"),
+      (49, "Item Number (DPCI): 207-34-0534"),
+      (50, "Model Compatibility: PlayStation 4"),
+      (50, "ESRB Content Description: Strong language, intense violence, blood and gore"),
+      (50, "Also Available On: Xbox One"),
+      (50, "Electronics Condition: New"),
+      (50, "Video Game Genre: Shooter"),
+      (50, "Software Format: Blu-ray"),
+      (50, "ESRB Age Rating: M - Mature"),
+      (50, "Battery: No Battery Used"),
+      (50, "TCIN: 76615858"),
+      (50, "UPC: 047875884359"),
+      (50, "Item Number (DPCI): 207-34-0389"),
+      (51, "Model Compatibility: PlayStation 4"),
+      (51, "ESRB Content Description: Blood and gore, intense violence, Nudity, strong language, Strong Sexual Content, use of drugs and alcohol"),
+      (51, "Also Available On: Xbox One"),
+      (51, "Electronics Condition: New"),
+      (51, "Video Game Genre: Action/Adventure"),
+      (51, "Software Format: Blu-ray"),
+      (51, "ESRB Age Rating: M - Mature"),
+      (51, "Battery: No Battery Used"),
+      (51, "TCIN: 77332707"),
+      (51, "UPC: 883929689613"),
+      (51, "Item Number (DPCI): 207-34-0404"),
+      (52, "Model Compatibility: PlayStation 4"),
+      (52, "ESRB Content Description: Language, mild blood, Violence"),
+      (52, "Also Available On: Xbox One"),
+      (52, "Electronics Condition: New"),
+      (52, "Video Game Genre: Action/Adventure"),
+      (52, "Software Format: Blu-ray"),
+      (52, "ESRB Age Rating: T - Teen"),
+      (52, "Battery: No Battery Used"),
+      (52, "TCIN: 76835672"),
+      (52, "UPC: 662248922775"),
+      (52, "Item Number (DPCI): 207-34-0402"),
+      (53, "TCIN: 79798727"),
+      (54, "Dimensions (Overall): 17.94 Inches (H) x 24.45 Inches (W) x 7.66 Inches (D)"),
+      (54, "Weight: 8.35 Pounds"),
+      (54, "Number of USB ports: 0"),
+      (54, "Electronics Features: Adjustable Tilt, Adjustable Height, High Definition Display, Brightness Control"),
+      (54, "Aspect Ratio: 16:9 Aspect Ratio"),
+      (54, "Response Time: 14ms Response Time"),
+      (54, "Contrast Ratio: 1000:1 Static Contrast Ratio"),
+      (54, "Maximum Resolution: 1920 x 1080"),
+      (54, "Connectivity: VGA, HDMI"),
+      (54, "Native screen refresh rate: 60 Hz"),
+      (54, "Brightness(cd/m2): 250"),
+      (54, "Screen Size: 27 Inches"),
+      (54, "Number of DVI ports: 0"),
+      (54, "Number of VGA Ports: 1"),
+      (54, "Viewing Angles: 178 (H) / 178 (V) Degrees"),
+      (54, "VESA Mounting Standard: No Mounting"),
+      (54, "Number of HDMI ports: 2"),
+      (54, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (54, "TCIN: 76159301"),
+      (54, "UPC: 889899859612"),
+      (54, "Item Number (DPCI): 056-00-0044"),
+      (55, "Dimensions (Overall): 16.1 Inches (H) x 21.25 Inches (W) x 7.23 Inches (D)"),
+      (55, "Weight: 6.7 Pounds"),
+      (55, "Number of USB ports: 0"),
+      (55, "Electronics Features: Adjustable Tilt, Anti-Glare Coating"),
+      (55, "Aspect Ratio: 16:9 Aspect Ratio"),
+      (55, "Response Time: 6ms Response Time"),
+      (55, "Contrast Ratio: 1000:1 Static Contrast Ratio"),
+      (55, "Maximum Resolution: 1920 x 1080"),
+      (55, "Connectivity: VGA, HDMI"),
+      (55, "Native screen refresh rate: 60 Hz"),
+      (55, "Brightness(cd/m2): 250"),
+      (55, "Screen Size: 23.8 Inches"),
+      (55, "Number of DVI ports: 0"),
+      (55, "Number of VGA Ports: 1"),
+      (55, "Viewing Angles: 178 (H) / 178 (V) Degrees"),
+      (55, "VESA Mounting Standard: No Mounting"),
+      (55, "Number of HDMI ports: 1"),
+      (55, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (55, "TCIN: 76159300"),
+      (55, "UPC: 190781611868"),
+      (55, "Item Number (DPCI): 056-00-0032"),
+      (56, "Dimensions (Overall): 5.5 inches (L) x 5.5 inches (W) x 1 inches (H)"),
+      (56, "Size: 140mm"),
+      (56, "Weight: 3.1 pounds"),
+      (56, "Model name: CL-F057-PL14SW-A"),
+      (56, "Package Quantity: 5"),
+      (56, "Warranty: 3 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (56, "TCIN: 78790068"),
+      (57, "Specifications"),
+      (57, "Dimensions (Overall): 5.5 inches (L) x 5.5 inches (W) x .07 inches (H)"),
+      (57, "Weight: 4.05 pounds"),
+      (57, "Model name: AC-004-ON1NAN-A1"),
+      (57, "Package Quantity: 1"),
+      (57, "Warranty: 2 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (57, "TCIN: 78857847"),
+      (58, "Dimensions (Overall): 5.9 Inches (H) x 31.5 Inches (W) x 8.7 Inches (D)"),
+      (58, "Weight: 9.5 Pounds"),
+      (58, "Electronics Features: Wall Mountable, Wireless"),
+      (58, "Connectivity: 3.5mm Jack, Optical Audio, USB"),
+      (58, "Number of channels: 2.1 speaker channels"),
+      (58, "Battery: No Battery Used"),
+      (58, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (58, "TCIN: 76485335"),
+      (58, "UPC: 846042011594"),
+      (58, "Item Number (DPCI): 008-02-4093"),
+      (59, "Dimensions (Overall): .6 Inches (H) x 1.2 Inches (W) x 4.3 Inches (D)"),
+      (59, "Weight: .12 Pounds"),
+      (59, "Connectivity: HDMI"),
+      (59, "Video Resolution: 4K"),
+      (59, "System RAM: 1.5 gigabyte"),
+      (59, "App compatibility: Amazon Video"),
+      (59, "Data storage capacity: 8 GB"),
+      (59, "Battery: No Battery Used"),
+      (59, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (59, "TCIN: 54188026"),
+      (59, "UPC: 841667144719"),
+      (59, "Item Number (DPCI): 008-06-0069"),
+      (60, "Dimensions (Overall): .45 Inches (H) x .8 Inches (W) x 3.7 Inches (D)"),
+      (60, "Weight: .85 ounces"),
+      (60, "Includes: Remote Control Batteries, Quick Start Guide, Voice Remote, AC Power Adapter, Wireless Receiver, USB Cable"),
+      (60, "Connectivity: HDMI"),
+      (60, "Video Resolution: 4K"),
+      (60, "System RAM: 512 megabyte"),
+      (60, "App compatibility: Netflix, HBO Go, YouTube, HBO Now, PBS, Twitter, Hulu, Sling TV, Amazon Video, Showtime, VUDU"),
+      (60, "Data storage capacity: 0"),
+      (60, "Battery: 2 AAA Alkaline, Required, Included"),
+      (60, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (60, "TCIN: 52709600"),
+      (60, "UPC: 829610001951"),
+      (60, "Item Number (DPCI): 008-06-0065"),
+      (61, "Number of Pieces: 8"),
+      (61, "Dimensions (Overall): 5 Inches (H) x 4.75 Inches (W) x 8 Inches (D)"),
+      (61, "Suggested Age: 18 Months and Up"),
+      (61, "Weight: 1.15 Pounds"),
+      (61, "Material: Wood"),
+      (61, "Assembly Details: No Assembly Required"),
+      (61, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (61, "Educational Focus: Fine Motor Skills"),
+      (61, "Battery: No Battery Used"),
+      (61, "Care & Cleaning: Spot or Wipe Clean"),
+      (61, "TCIN: 79896740"),
+      (61, "UPC: 4020972058072"),
+      (61, "Item Number (DPCI): 087-08-8367"),
+      (62, "Dimensions (Overall): 9.13 Inches (H) x 5.98 Inches (W) x 2.52 Inches (D)"),
+      (62, "Suggested Age: 8 Years and Up"),
+      (62, "Weight: .4 Pounds"),
+      (62, "Material: ABS (Acrylonitrile Butadiene Styrene)"),
+      (62, "Number of Figures: 1"),
+      (62, "Doll Theme: Robots"),
+      (62, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (62, "Articulation: 5 Points of Articulation"),
+      (62, "Battery: No Battery Used"),
+      (62, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (62, "TCIN: 79416594"),
+      (62, "UPC: 5010993705207"),
+      (62, "Item Number (DPCI): 087-16-8197"),
+      (63, "Dimensions (Overall): 12.5 Inches (H) x 11.5 Inches (W) x 8.5 Inches (D)"),
+      (63, "Suggested Age: 18 Years and Up"),
+      (63, "Weight: 1.27 Pounds"),
+      (63, "Material: Polyvinyl Chloride (PVC)"),
+      (63, "Number of Figures: 1"),
+      (63, "Doll Theme: Superheroes and Comics"),
+      (63, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (63, "Articulation: 5 Points of Articulation"),
+      (63, "Battery: 4 C Alkaline, Required, Not Included"),
+      (63, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (63, "TCIN: 79661916"),
+      (63, "UPC: 630509864935"),
+      (63, "Item Number (DPCI): 087-16-2023"),
+      (64, "Dimensions (Overall): 18 Inches (H) x 7 Inches (W) x 9 Inches (D)"),
+      (64, "Suggested Age: 6 Years and Up"),
+      (64, "Weight: 1.94 Pounds"),
+      (64, "Material: Plastic"),
+      (64, "Number of Figures: 0"),
+      (64, "Doll Theme: TV and Movies"),
+      (64, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (64, "Articulation: No Articulation"),
+      (64, "Battery: No Battery Used"),
+      (64, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (64, "TCIN: 79416582"),
+      (64, "UPC: 887961872569"),
+      (64, "Item Number (DPCI): 087-16-8938"),
+      (65, "Dimensions (Overall): 7 Inches (H) x 3 Inches (W) x 1.5 Inches (D)"),
+      (65, "Suggested Age: 17 Years and Up"),
+      (65, "Weight: .45 Pounds"),
+      (65, "Material: Plastic"),
+      (65, "Number of Figures: 1"),
+      (65, "Doll Theme: TV and Movies"),
+      (65, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (65, "Articulation: No Articulation"),
+      (65, "Battery: No Battery Used"),
+      (65, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (65, "TCIN: 54198117"),
+      (65, "UPC: 634482454671"),
+      (65, "Item Number (DPCI): 323-07-0215"),
+      (66, "Hair Type: No Hair"),
+      (66, "Dimensions (Overall): 9.5 Inches (H) x 4 Inches (W) x 10.5 Inches (D)"),
+      (66, "Suggested Age: 2 Years and Up"),
+      (66, "Weight: .7 Pounds"),
+      (66, "Material: Plastic"),
+      (66, "Doll Theme: Baby and Infant"),
+      (66, "Skin Tone: Medium"),
+      (66, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (66, "Doll gender: Girl"),
+      (66, "Hair Color: No Hair"),
+      (66, "Articulation: Articulated"),
+      (66, "Doll eye color: Varies"),
+      (66, "Battery: No Battery Used"),
+      (66, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (66, "TCIN: 76152458"),
+      (66, "UPC: 889933387279"),
+      (66, "Item Number (DPCI): 086-04-0639"),
+      (67, "Hair Type: No Hair"),
+      (67, "Dimensions (Overall): 10 Inches (H) x 9.25 Inches (W) x 7.8 Inches (D)"),
+      (67, "Suggested Age: 3 Years and Up"),
+      (67, "Weight: 2.6 Pounds"),
+      (67, "Material: Plastic"),
+      (67, "Includes: Doll Accessories"),
+      (67, "Doll Theme: Baby and Infant"),
+      (67, "Skin Tone: Light"),
+      (67, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (67, "Doll gender: Girl"),
+      (67, "Hair Color: Blue"),
+      (67, "Articulation: Articulated"),
+      (67, "Doll eye color: Blue"),
+      (67, "Battery: 3 AA Alkaline, Required, Included"),
+      (67, "Warranty: No Applicable Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (67, "TCIN: 76152516"),
+      (67, "UPC: 8421134093072"),
+      (67, "Item Number (DPCI): 086-04-1156"),
+      (68, "Suggested Age: 8 Years and Up"),
+      (68, "Material: Paper, Plastic"),
+      (68, "Includes: Figures, Instruction Guide, Tweezers"),
+      (68, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (68, "Number of Players: 1 or More Players"),
+      (68, "Educational Focus: Science, Biology"),
+      (68, "Battery: No Battery Used"),
+      (68, "TCIN: 53219845"),
+      (68, "UPC: 834509000540"),
+      (68, "Item Number (DPCI): 086-00-2800"),
+      (69, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (69, "Suggested Age: 6 Years and Up"),
+      (69, "Material: Paper, Plastic"),
+      (69, "Includes: Storage Bag, Instruction Guide, Candy Making Ingredients"),
+      (69, "Number of Players: 1 Player"),
+      (69, "Educational Focus: Science"),
+      (69, "Battery: No Battery Used"),
+      (69, "TCIN: 54370021"),
+      (69, "UPC: 814743013469"),
+      (69, "Item Number (DPCI): 086-00-2864"),
+      (70, "Contains: Does Not Contain Any of the 8 Major Allergens"),
+      (70, "Suggested Age: 6 Years and Up"),
+      (70, "Material: Plastic"),
+      (70, "Includes: Stickers, Rocks, jar, Figures"),
+      (70, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (70, "Number of Players: 1 Player"),
+      (70, "Educational Focus: Creative Thinking, Science"),
+      (70, "Battery: No Battery Used"),
+      (70, "TCIN: 16710285"),
+      (70, "UPC: 092633113707"),
+      (70, "Item Number (DPCI): 081-04-3823"),
+      (71, "Number of Pieces: 7"),
+      (71, "Suggested Age: 18-24 Months"),
+      (71, "Weight: 3.3 Pounds"),
+      (71, "Material: Plastic"),
+      (71, "Includes: Tambourine, Castanets"),
+      (71, "Educational Focus: Large Motor Skills, Social Skills, Music"),
+      (71, "Battery: No Battery Used"),
+      (71, "TCIN: 12026425"),
+      (71, "UPC: 062243220874"),
+      (71, "Item Number (DPCI): 204-06-0423"),
+      (72, "Suggested Age: 2-5 Years"),
+      (72, "Weight: 1.76 Pounds"),
+      (72, "Material: Plastic"),
+      (72, "Educational Focus: Shapes and Colors, Social Skills, Creative Thinking"),
+      (72, "Battery: 4 AA Alkaline, Required, Included"),
+      (72, "Warranty: 90 Day Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (72, "TCIN: 76151295"),
+      (72, "UPC: 3417765187001"),
+      (72, "Item Number (DPCI): 204-10-1102"),
+      (73, "Suggested Age: 3 Years and Up"),
+      (73, "Material: Plastic"),
+      (73, "Includes: Instruction Guide"),
+      (73, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (73, "Number of Players: 2 Players"),
+      (73, "Educational Focus: Creative Thinking"),
+      (73, "Power Source: Battery-Powered"),
+      (73, "Battery: 4 AAA Alkaline, Required, Not Included"),
+      (73, "TCIN: 76439767"),
+      (73, "UPC: 092298944739"),
+      (73, "Item Number (DPCI): 087-16-1012"),
+      (74, "Suggested Age: 3 Years and Up"),
+      (74, "Material: Plastic"),
+      (74, "Includes: Storage Case"),
+      (74, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (74, "Number of Players: 1 Player"),
+      (74, "Educational Focus: Creative Thinking"),
+      (74, "Power Source: Battery-Powered"),
+      (74, "Battery: 3 AG3/LR41 Alkaline, Required, Included"),
+      (74, "TCIN: 79405836"),
+      (74, "UPC: 886144541315"),
+      (74, "Item Number (DPCI): 087-08-0091"),
+      (75, "Suggested Age: 8 Years and Up"),
+      (75, "Includes: Instruction Guide"),
+      (75, "CPSC Choking Hazard Warnings: Choking_hazard_contains_small_ball, choking_hazard_small_parts"),
+      (75, "Number of Players: 1 Player"),
+      (75, "Educational Focus: Large Motor Skills, Creative Thinking"),
+      (75, "TCIN: 546700"),
+      (75, "UPC: 000772011709"),
+      (75, "Item Number (DPCI): 204-06-0147"),
+      (76, "Dimensions (Overall): 49 Inches (H) x 35 Inches (W) x 9.5 Inches (D)"),
+      (76, "Material: Plastic (Frame)"),
+      (76, "Suggested Age: 2 Years and Up"),
+      (76, "Material: Plastic"),
+      (76, "Assembly Details: Adult Assembly Required, Tools Not Provided"),
+      (76, "Battery: No Battery Used"),
+      (76, "TCIN: 77401899"),
+      (76, "UPC: 050743651717"),
+      (76, "Item Number (DPCI): 091-15-0653"),
+      (77, "Dimensions (Overall): 57.4 Inches (H) x 54.3 Inches (W) x 53.9 Inches (D)"),
+      (77, "Material: Wood, Cedar (Frame)"),
+      (77, "Suggested Age: 3-10 Years"),
+      (77, "Material: Plastic, Metal, Wood"),
+      (77, "Assembly Details: Adult Assembly Required, Tools Not Provided"),
+      (77, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (77, "Battery: No Battery Used"),
+      (77, "TCIN: 76385602"),
+      (77, "UPC: 706943659038"),
+      (77, "Item Number (DPCI): 091-15-1855"),
+      (78, "Dimensions (Overall): 46.0 Inches (H) x 39.0 Inches (W)"),
+      (78, "Material: Cardboard (Frame)"),
+      (78, "Suggested Age: 3 Years and Up"),
+      (78, "Material: Cardboard"),
+      (78, "Includes: Steering Wheel, Instructions"),
+      (78, "Battery: No Battery Used"),
+      (78, "TCIN: 52966980"),
+      (78, "UPC: 000772055109"),
+      (78, "Item Number (DPCI): 204-06-3310"),
+      (79, "Number of Pieces: 25"),
+      (79, "Dimensions (Overall): 12.83 Inches (H) x 12.0 Inches (W) x 16 Inches (D)"),
+      (79, "Suggested Age: 1 Year"),
+      (79, "Weight: 4.31 Pounds"),
+      (79, "Material: Plastic"),
+      (79, "Includes: Blocks"),
+      (79, "Educational Focus: Large Motor Skills"),
+      (79, "Battery: No Battery Used"),
+      (79, "TCIN: 15536929"),
+      (79, "UPC: 065541078451"),
+      (79, "Item Number (DPCI): 204-07-0944"),
+      (80, "Suggested Age: 2 Years and Up"),
+      (80, "CPSC Choking Hazard Warnings: Choking_hazard_small_parts"),
+      (80, "TCIN: 79342028"),
+      (81, "Scent: Mint, Lemon"),
+      (81, "Product Warning: Keep out of eyes, keep out of reach of children"),
+      (81, "Capacity (Volume): 28 fl oz (US)"),
+      (81, "Product Form: Liquid"),
+      (81, "Sustainability Claims: Cruelty-Free"),
+      (81, "Recommended Surface Application: Glass"),
+      (81, "Product Results: Cleaner"),
+      (81, "Recommended Product Application: Windows, Mirrors"),
+      (81, "TCIN: 75663185"),
+      (81, "UPC: 829576020966"),
+      (81, "Item Number (DPCI): 003-02-0787"),
+      (82, "Scent: Unscented"),
+      (82, "Product Warning: Keep out of eyes, keep out of reach of children, keep out of reach of animals"),
+      (82, "Capacity (Volume): 26 fl oz (US)"),
+      (82, "Product Form: Liquid"),
+      (82, "Recommended Surface Application: Glass"),
+      (82, "Product Results: Cleaner"),
+      (82, "Recommended Product Application: Windows"),
+      (82, "TCIN: 75666309"),
+      (82, "UPC: 119800002036"),
+      (82, "Item Number (DPCI): 003-05-4986"),
+      (83, "Scent: Lavender"),
+      (83, "Health Facts: Animal By-Product-Free, Dye-Free, Formaldehyde Donor-Free, Paraben-Free, Petroleum-Free, Phthalate-Free, Contains Naturally Derived Ingredients, Aluminum-Free"),
+      (83, "Product Warning: Keep out of reach of children, keep out of reach of animals, keep out of eyes, flush immediately if product enters eyes"),
+      (83, "Capacity (Volume): 24 Ounces"),
+      (83, "Product Form: Liquid"),
+      (83, "Sustainability Claims: Plant-Based, Cruelty-Free, Not Tested on Animals, Biodegradable, Recyclable, Post-Consumer Recycled Material"),
+      (83, "Recommended Surface Application: Glass, windows, Multi-Surface"),
+      (83, "Product Results: Cleaner, Streak Free Glass"),
+      (83, "Recommended Product Application: Mirrors, Multi-Purpose"),
+      (83, "TCIN: 52329231"),
+      (83, "UPC: 808124111608"),
+      (83, "Item Number (DPCI): 003-02-0608"),
+      (84, "Scent: Sea Minerals"),
+      (84, "Health Facts: Contains Naturally Derived Ingredients, Phthalate-Free, Paraben-Free, Aluminum-Free, Dye-Free"),
+      (84, "Product Warning: Keep out of reach of children, drink water if product is swallowed, flush immediately if product enters eyes"),
+      (84, "Capacity (Volume): 23 fl oz (US)"),
+      (84, "Product Form: Liquid"),
+      (84, "Recommended Surface Application: Glass"),
+      (84, "Product Results: Cleaner, Removes Dirt, Removes Grease, Removes Finger Prints, Removes Dust"),
+      (84, "Recommended Product Application: Mirrors, windows"),
+      (84, "TCIN: 75662671"),
+      (84, "UPC: 732913447121"),
+      (84, "Item Number (DPCI): 003-02-8013"),
+      (85, "Scent: Citrus"),
+      (85, "Health Facts: Phosphate-Free, Hypoallergenic, Non-Toxic, Paraben-Free, Phthalate-Free"),
+      (85, "Product Warning: Keep out of reach of children"),
+      (85, "Capacity (Volume): 28 Ounces"),
+      (85, "Product Form: Liquid"),
+      (85, "Sustainability Claims: Recyclable, Contains Recycled Content, Not Tested on Animals"),
+      (85, "Recommended Surface Application: Multi-Surface, Non-Porous"),
+      (85, "Industry or Government Certifications: MBDC Certified"),
+      (85, "Product Results: Cleaner, Disinfects"),
+      (85, "Recommended Product Application: Multi-Purpose"),
+      (85, "TCIN: 51952812"),
+      (85, "UPC: 817939017432"),
+      (85, "Item Number (DPCI): 003-02-0641"),
+      (86, "Scent: Unscented"),
+      (86, "Health Facts: Bleach-Free"),
+      (86, "Product Warning: Keep off of clothing, keep out of eyes, keep out of reach of children, seek medical help if product is swallowed, wash contaminated clothing after handling, wash hands with soap and water after handling, flush immediately if product enters eyes"),
+      (86, "Capacity (Volume): 30 Ounces"),
+      (86, "Product Form: Liquid"),
+      (86, "Recommended Surface Application: Glass, Ceramic, porcelain, Plastic"),
+      (86, "Product Results: Cleaner, Disinfects"),
+      (86, "Recommended Product Application: Shower, Toilet, Bath Tub, Countertops, Floor"),
+      (86, "Surfaces Not Recommended: Aluminum, Wood, Marble, Brass"),
+      (86, "TCIN: 13028043"),
+      (86, "UPC: 044600080338"),
+      (86, "Item Number (DPCI): 003-05-0332"),
+      (87, "Scent: Fresh"),
+      (87, "Product Warning: Contains corrosive ingredients, flush immediately if product enters eyes, keep off of clothing, keep out of eyes, keep out of reach of children, product can cause irreversible eye damage, seek medical help if product is swallowed, wash contaminated clothing after handling, wash hands with soap and water after handling, wear protective gloves when handling, avoid contact with skin"),
+      (87, "Capacity (Volume): 48 Ounces"),
+      (87, "Product Form: Liquid Gel"),
+      (87, "Recommended Surface Application: Ceramic"),
+      (87, "Product Results: Cleaner, Removes Dirt, Removes Soil, Used for Cleaning, Eliminates Stains"),
+      (87, "Recommended Product Application: Toilet"),
+      (87, "TCIN: 13341728"),
+      (87, "UPC: 044600306278"),
+      (87, "Item Number (DPCI): 003-05-0717"),
+      (88, "Scent: Fir, Cypress"),
+      (88, "Health Facts: Aluminum-Free, Paraben-Free, No Fragrance Added, Phthalate-Free, Dye-Free, Contains Naturally Derived Ingredients, Animal By-Product-Free, Artificial Fragrance-Free, Bleach-Free, Phosphate-Free, Phosphorus-Free, Ammonia-Free"),
+      (88, "Product Warning: Flush immediately if product enters eyes, seek medical help if product is swallowed, drink water if product is swallowed, keep out of reach of children, flush immediately if product touches skin, avoid contact with skin"),
+      (88, "Capacity (Volume): 32 Ounces"),
+      (88, "Product Form: Liquid"),
+      (88, "Sustainability Claims: Cruelty-Free, Plant-Based"),
+      (88, "Recommended Surface Application: Porcelain"),
+      (88, "Product Results: Removes Rust, Removes Limescale, Eliminates Stains, Used for Cleaning"),
+      (88, "Recommended Product Application: Toilet"),
+      (88, "Surfaces Not Recommended: Suede, Unfinished Leather, Unfinished Wood, Fabric, Silk"),
+      (88, "TCIN: 13208821"),
+      (88, "UPC: 732913227044"),
+      (88, "Item Number (DPCI): 003-02-0029"),
+      (89, "Dimensions (Overall): 23.03 Inches (H) x 5.0 Inches (W) x 2.01 Inches (D)"),
+      (89, "Recommended Surface Application: Multi-Surface, Wood Surfaces"),
+      (89, "Recommended Product Application: Floor"),
+      (89, "Material: Plastic"),
+      (89, "TCIN: 17316119"),
+      (89, "UPC: 037000928140"),
+      (89, "Item Number (DPCI): 003-05-0383"),
+      (90, "Dimensions (Overall): 27.34 Inches (H) x 5.51 Inches (W) x 4.37 Inches (D)"),
+      (90, "Recommended Surface Application: Floor, Multi-Surface"),
+      (90, "Recommended Product Application: Floor, Multi-Purpose"),
+      (90, "Material: Plastic"),
+      (90, "TCIN: 18813263"),
+      (90, "UPC: 037000928102"),
+      (90, "Item Number (DPCI): 003-05-0385"),
+      (91, "Scent: Fresh"),
+      (91, "Product Warning: Keep out of reach of children"),
+      (91, "Capacity (Volume): 42.6 Ounces"),
+      (91, "Product Form: Powder"),
+      (91, "Recommended Surface Application: Carpet"),
+      (91, "Product Results: Eliminates Odors"),
+      (91, "Recommended Product Application: Carpet"),
+      (91, "TCIN: 12856531"),
+      (91, "UPC: 033200114437"),
+      (91, "Item Number (DPCI): 003-04-0327"),
+      (92, "Dimensions (Overall): 19.5 Inches (H) x 11.5 Inches (W) x 13.35 Inches (D)"),
+      (92, "Handle Material: Plastic, Metal"),
+      (92, "Material: Plastic, Metal"),
+      (92, "TCIN: 50335649"),
+      (92, "UPC: 041785998151"),
+      (92, "Item Number (DPCI): 003-03-0027"),
+      (93, "Dimensions (Overall): 55.25 Inches (H) x 15.88 Inches (W) x 1.25 Inches (D)"),
+      (93, "Includes: Dust Pan, Broom"),
+      (93, "Features: Grip Handle, Hanging Loop"),
+      (93, "Recommended Surface Application: Linoleum, Laminate, Tile Floors, Floor, Outdoor Hard Surfaces"),
+      (93, "Material: Polyester, Steel"),
+      (93, "TCIN: 16972603"),
+      (93, "UPC: 071736002484"),
+      (93, "Item Number (DPCI): 003-03-2055"),
+      (94, "Scent: Original"),
+      (94, "Health Facts: Phosphate-Free"),
+      (94, "Product Warning: Keep out of eyes, wash contaminated clothing after handling, seek medical help if product is swallowed, keep out of reach of children, keep container tightly sealed"),
+      (94, "Capacity (Volume): 27 ounces"),
+      (94, "Product Form: Capsule"),
+      (94, "Number of uses: 35"),
+      (94, "TCIN: 80201361"),
+      (94, "UPC: 829576122738"),
+      (94, "Item Number (DPCI): 003-08-7668"),
+      (95, "Scent: Original"),
+      (95, "Health Facts: Phosphate-Free"),
+      (95, "Product Warning: Keep out of reach of children, keep container tightly sealed, seek medical help if product is swallowed"),
+      (95, "Capacity (Volume): 92 fl oz (US)"),
+      (95, "Formulation: Concentrated"),
+      (95, "Product Form: Liquid"),
+      (95, "Sustainability Claims: Recyclable, Biodegradable"),
+      (95, "Surfaces Not Recommended: Leather"),
+      (95, "Number of uses: 64"),
+      (95, "TCIN: 13918059"),
+      (95, "UPC: 037000402183"),
+      (95, "Item Number (DPCI): 003-08-0703"),
+      (96, "Scent: Unscented"),
+      (96, "Health Facts: Dye-Free, Bleach-Free, Fluoride-Free, Hypoallergenic, No Fragrance Added"),
+      (96, "Product Warning: Seek medical help if product is swallowed, keep out of reach of children, keep out of reach of animals, keep out of eyes, flush immediately if product enters eyes"),
+      (96, "Capacity (Volume): 141 fl oz (US)"),
+      (96, "Features: Sensitive Formula"),
+      (96, "Formulation: Concentrated"),
+      (96, "Product Form: Liquid"),
+      (96, "Sustainability Claims: Biodegradable"),
+      (96, "Surfaces Not Recommended: Fur, Wool, Velvet, Suede, Rayon, Silk, Leather"),
+      (96, "Number of uses: 94"),
+      (96, "TCIN: 48638959"),
+      (96, "UPC: 072613461592"),
+      (96, "Item Number (DPCI): 003-08-0106"),
+      (97, "Scent: Fresh, Outdoor"),
+      (97, "Health Facts: Phosphate-Free"),
+      (97, "Product Warning: Keep out of reach of children, keep container tightly sealed"),
+      (97, "Product Form: Sheet"),
+      (97, "Package Quantity: 250"),
+      (97, "TCIN: 76152966"),
+      (97, "UPC: 037000514572"),
+      (97, "Item Number (DPCI): 003-07-3779"),
+      (98, "Scent: Original"),
+      (98, "Health Facts: Phosphate-Free"),
+      (98, "Product Warning: Keep container tightly sealed, keep out of reach of children"),
+      (98, "Capacity (Volume): 105"),
+      (98, "Product Form: Sheet"),
+      (98, "Package Quantity: 105"),
+      (98, "TCIN: 51847739"),
+      (98, "UPC: 037000978350"),
+      (98, "Item Number (DPCI): 003-07-0392"),
+      (99, "Dimensions (Overall): 41.93 Inches (H) x 15.59 Inches (W) x 13.39 Inches (D)"),
+      (99, "Weight: 15.19 Pounds"),
+      (99, "Includes: Large Area Cleaning Tool, Crevice Tool, Pet Hair Tool, Multi-Angle Brush, Stair Tool"),
+      (99, "Features: Filter, Tangle Free Turbine Tool, Pet Hair Pick Up"),
+      (99, "Capacity (Volume): .42 Gallon"),
+      (99, "Cable/Cord Length: 24.5 Feet"),
+      (99, "Wattage Required: 210 watts"),
+      (99, "Number of Speeds: 1"),
+      (99, "Bag Type: Bagless"),
+      (99, "Cleaning Path Width: 13.4 Inches"),
+      (99, "Recommended Surface Application: Hard Floor, Carpet, Hardwood"),
+      (99, "Filter Type: HEPA"),
+      (99, "Hose Length: 15.3 Feet"),
+      (99, "Power Source: Electric"),
+      (99, "Battery: No Battery Used"),
+      (99, "Warranty: 5 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (99, "TCIN: 76578376"),
+      (99, "UPC: 885609005034"),
+      (99, "Item Number (DPCI): 329-00-0097"),
+      (100, "Dimensions (Overall): 3.54 Inches (H) x 13.4 Inches (W) x 13.4 Inches (D)"),
+      (100, "Weight: 6.77 Pounds"),
+      (100, "Includes: Instruction Manual, Filter, Charging Base"),
+      (100, "Features: Automatic Height Adjustment, Pet Hair Pick Up, Variable Suction Control, Edge Cleaning, Dirt Detection Sensor"),
+      (100, "Capacity (Volume): .6 Liter"),
+      (100, "Run Time: 90 Minutes"),
+      (100, "Number of Speeds: 1"),
+      (100, "Bag Type: Bagless"),
+      (100, "Cleaning Path Width: 7 Inches"),
+      (100, "Recommended Surface Application: Hardwood, Hard Floor, Carpet, Multi-Surface"),
+      (100, "Filter Type: Standard"),
+      (100, "Hose Length: 0 Inches"),
+      (100, "Power Source: Battery-Powered"),
+      (100, "Battery: 1 Non-Universal Lithium Ion, Required, Included"),
+      (100, "Warranty: 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"),
+      (100, "TCIN: 53741618"),
+      (100, "UPC: 885155015426"),
+      (100, "Item Number (DPCI): 329-00-0025")

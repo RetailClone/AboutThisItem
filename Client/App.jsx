@@ -29,10 +29,15 @@ class App extends React.Component {
     e.preventDefault();
     fetch(`http://localhost:1701/${this.state.selectedItem}`, { method: "GET" })
       .then((res) => res.json())
-      .then((data) => console.log("ITEM DESC?: ", data));
+      .then((data) =>
+        this.setState({
+          itemDescription: data[0].item_description,
+          itemSpecs: data,
+          itemHighlights: data,
+        })
+      );
   }
 
-  // this.setState({ itemDescription: data.item_description }
   render() {
     const {
       selectedItem,

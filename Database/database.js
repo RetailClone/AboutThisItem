@@ -6,9 +6,9 @@ const connection = mysql.createConnection({
   database: 'about_this_item'
 });
 
-// get item description
-const getDesc = (id, cb) => {
-  const queryString = 'SELECT item_description FROM items WHERE id = ?';
+// get the info!
+const getInfo = (id, cb) => {
+  const queryString = 'SELECT items.item_description, item_specs.specs, item_highlights.highlights FROM items INNER JOIN item_specs ON items.id = item_specs.item_id INNER JOIN item_highlights ON item_specs.item_id = item_highlights.item_id WHERE items.id = ?';
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);
@@ -19,8 +19,6 @@ const getDesc = (id, cb) => {
     }
   })
 }
-// get item specs
-// get item highlights
 
 connection.connect((err => {
   if (err) {
@@ -30,4 +28,4 @@ connection.connect((err => {
   }
 }));
 
-module.exports = { getDesc }
+module.exports = { getInfo }
