@@ -9,7 +9,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedItem: null,
+      selectedItem: "",
       itemDescription: "",
       itemSpecs: [],
       itemHighlights: [],
@@ -28,10 +28,11 @@ class App extends React.Component {
   submitHandler(e) {
     e.preventDefault();
     fetch(`http://localhost:1701/${this.state.selectedItem}`, { method: "GET" })
-      .then((response) => response.json())
-      .then((data) => this.setState({ itemDescription: data }));
+      .then((res) => res.json())
+      .then((data) => console.log("ITEM DESC?: ", data));
   }
 
+  // this.setState({ itemDescription: data.item_description }
   render() {
     const {
       selectedItem,
@@ -42,14 +43,17 @@ class App extends React.Component {
     return (
       <div>
         <h1>About This Item</h1>
-        <input
-          type="number"
-          placeholder="Enter Item #"
-          onChange={this.changeHandler}
-        ></input>
-        <button type="submit" onSubmit={this.submitHandler}>
-          Submit
-        </button>
+        <form onSubmit={this.submitHandler}>
+          <label>
+            Enter Product ID:
+            <input
+              type="text"
+              value={selectedItem}
+              onChange={this.changeHandler}
+            />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
         <Highlights highlights={itemHighlights} />
         <Description desc={itemDescription} />
         <Specs specs={itemSpecs} />
