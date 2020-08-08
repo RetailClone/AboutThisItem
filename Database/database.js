@@ -1,6 +1,6 @@
 const mysql = require('mysql');
-const dbconfig = require('./dbconfig.js');
-const connection = mysql.createConnection(dbconfig);
+const mysqlConfig = require('./dbconfig.js');
+const connection = mysql.createConnection(mysqlConfig);
 
 // get all the info! - this does not work as intended because that query string returns an array of objects which are the number of specs * the number of highlights, causing duplicates to render to the page
 
@@ -63,7 +63,7 @@ connection.connect((err => {
   if (err) {
     console.log(`Couldn't connect to database`, err);
   } else {
-    console.log(`Connected to the about_this_item database`);
+    console.log(`Connected to mySQL database`);
   }
 }));
 

@@ -3,8 +3,8 @@ import React from "react";
 const Description = ({ desc }) => {
   return (
     <div id="description">
-      <h2>Description</h2>
-      <p>{desc}</p>
+      <h3>Description</h3>
+      <p id="descText">{desc}</p>
     </div>
   );
 };

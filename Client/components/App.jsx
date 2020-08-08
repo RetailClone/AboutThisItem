@@ -1,12 +1,14 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import "../styles/styles.css";
 import Description from "./Description.jsx";
 import Specs from "./Specs.jsx";
 import Highlights from "./Highlights.jsx";
-import "../styles/styles.css";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       selectedItem: "",
       itemDescription: "",
@@ -17,7 +19,6 @@ class App extends React.Component {
     this.changeHandler = this.changeHandler.bind(this);
     this.submitHandler = this.submitHandler.bind(this);
   }
-
   // get a description displaying
   changeHandler(e) {
     // console.log("changeHandler: ", e.target.value);
@@ -48,6 +49,7 @@ class App extends React.Component {
       itemSpecs,
       itemHighlights,
     } = this.state;
+
     return (
       <div>
         <form onSubmit={this.submitHandler}>

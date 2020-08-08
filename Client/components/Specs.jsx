@@ -4,17 +4,21 @@ const Specs = ({ specs }) => {
   // console.log(specs);
   return (
     <div id="specs">
-      <h2>Specifications</h2>
+      <h3>Specifications</h3>
       <ul style={{ listStyleType: "none" }}>
         {specs.map((spec, idx) => {
           return (
             <div key={idx}>
+              <br></br>
               <li>
                 <span id="boldSlice">
                   {spec.specs.slice(0, spec.specs.indexOf(":") + 1)}
                 </span>
-                {spec.specs.slice(spec.specs.indexOf(":") + 1)}
+                <span id="lightSlice">
+                  {spec.specs.slice(spec.specs.indexOf(":") + 1)}
+                </span>
               </li>
+              <br></br>
               <hr></hr>
             </div>
           );
