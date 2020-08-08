@@ -62,6 +62,9 @@ class App extends React.Component {
           <input type="submit" value="Submit" />
         </form>
         <h1 id="about">About This Item</h1>
+        <hr />
+        <br />
+        <br />
         <Highlights highlights={itemHighlights} />
         <div className="flex-container">
           <div className="flex-child specs">
