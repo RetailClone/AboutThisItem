@@ -1,10 +1,6 @@
 const mysql = require('mysql');
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'sqlpassword',
-  database: 'about_this_item'
-});
+const dbconfig = require('./dbconfig.js');
+const connection = mysql.createConnection(dbconfig);
 
 // get all the info! - this does not work as intended because that query string returns an array of objects which are the number of specs * the number of highlights, causing duplicates to render to the page
 
