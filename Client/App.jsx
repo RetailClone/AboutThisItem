@@ -51,7 +51,6 @@ class App extends React.Component {
     } = this.state;
     return (
       <div>
-        <h1>About This Item</h1>
         <form onSubmit={this.submitHandler}>
           <label>
             Enter Product ID:
@@ -63,9 +62,16 @@ class App extends React.Component {
           </label>
           <input type="submit" value="Submit" />
         </form>
+        <h1 id="about">About This Item</h1>
         <Highlights highlights={itemHighlights} />
-        <Description desc={itemDescription} />
-        <Specs specs={itemSpecs} />
+        <div className="flex-container">
+          <div className="flex-child specs">
+            <Specs specs={itemSpecs} />
+          </div>
+          <div className="flex-child desc">
+            <Description desc={itemDescription} />
+          </div>
+        </div>
       </div>
     );
   }

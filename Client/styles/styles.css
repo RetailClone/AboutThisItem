@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(50, 50, 50, 0.1);
+  font-family: Helvetica, sans-serif;
+}
+
+#about {
+  text-align: center;
+}
+
+#description,
+#highlights,
+#specs {
+  background-color: white;
+  padding: 5px;
+}
+
+#highlights {
+  margin-bottom: 10px;
+}
+
+#boldSlice {
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 0px;
+}
