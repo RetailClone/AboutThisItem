@@ -24,6 +24,14 @@ const Specs = ({ specs }) => {
           );
         })}
       </ul>
+      <br></br>
+      <p>
+        If the item details above aren’t accurate or complete, we want to know
+        about it.{" "}
+        <a href="http://localhost:1701/tooBad.html">
+          Report incorrect product info.
+        </a>
+      </p>
     </div>
   );
 };

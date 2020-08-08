@@ -7,15 +7,13 @@ body {
   text-align: center;
 }
 
-#description,
-#highlights,
-#specs {
+#highlights {
   background-color: white;
   padding: 20px;
 }
 
 #highlights {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #boldSlice {
@@ -32,12 +30,24 @@ body {
 
 .flex-container {
   display: flex;
+  background-color: white;
 }
 
 .flex-child {
   flex: 1;
+  padding: 20px;
 }
 
 .flex-child:first-child {
   margin-right: 0px;
+  padding: 20px;
+}
+
+#tooBad {
+  display: flex;
+  background-color: #ca0813;
+  color: white;
+  font-size: xx-large;
+  justify-content: center;
+  text-align: center;
 }
