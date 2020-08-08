@@ -53,14 +53,12 @@ class App extends React.Component {
     return (
       <div>
         <form onSubmit={this.submitHandler}>
-          <label>
-            Enter Product ID:
-            <input
-              type="text"
-              value={selectedItem}
-              onChange={this.changeHandler}
-            />
-          </label>
+          <input
+            type="text"
+            placeholder="Enter Item ID#"
+            value={selectedItem}
+            onChange={this.changeHandler}
+          />
           <input type="submit" value="Submit" />
         </form>
         <h1 id="about">About This Item</h1>
