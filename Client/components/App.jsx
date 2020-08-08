@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./styles/styles.css";
-import Description from "./components/Description.jsx";
-import Specs from "./components/Specs.jsx";
-import Highlights from "./components/Highlights.jsx";
+import Description from "./Description.jsx";
+import Specs from "./Specs.jsx";
+import Highlights from "./Highlights.jsx";
+import "../styles/styles.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -77,4 +76,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("app"));
+export default App;
