@@ -1,5 +1,5 @@
 node_modules
 public/bundle.js
 dbconfig.js
-tooBad.html
-targetRedLogo.png
+public/tooBad.html
+public/targetRedLogo.png
