@@ -71,10 +71,10 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
-  align-items: stretch;
+  justify-content: space-evenly;
   border-bottom: 1px solid #aaa;
-  margin: 0, 0, 20px, 20px;
-  padding: 0;
+  margin: 0, 0, 10px, 10px;
+  padding-bottom: 0;
   cursor: pointer;
 }
 
@@ -82,10 +82,10 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
-  align-items: stretch;
+  justify-content: space-evenly;
   border-bottom: 1px solid #aaa;
-  margin: 0, 0, 20px, 20px;
-  padding: 0;
+  margin: 0, 0, 10px, 10px;
+  padding-bottom: 0;
   cursor: pointer;
 }
 
@@ -113,6 +113,12 @@ body {
 }
 
 .react-tabs__tab--selected {
+  background: #f7f7f7;
+  font-weight: bolder;
+  border-bottom: 3px solid #ca0813;
+}
+
+.react-tabs__tab--selected:hover {
   background: #f7f7f7;
   border-bottom: 3px solid #ca0813;
 }

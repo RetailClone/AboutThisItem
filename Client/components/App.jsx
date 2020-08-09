@@ -5,6 +5,7 @@ import Description from "./Description.jsx";
 import Specs from "./Specs.jsx";
 import Highlights from "./Highlights.jsx";
 import ShipReturn from "./ShipReturn.jsx";
+import QA from "./QA.jsx";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 class App extends React.Component {
@@ -94,7 +95,9 @@ class App extends React.Component {
           <TabPanel>
             <ShipReturn shipping={shippingOptions} returns={returnOptions} />
           </TabPanel>
-          <TabPanel></TabPanel>
+          <TabPanel>
+            <QA />
+          </TabPanel>
         </Tabs>
       </div>
     );
