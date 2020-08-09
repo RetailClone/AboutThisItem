@@ -96,7 +96,7 @@ class App extends React.Component {
             <ShipReturn shipping={shippingOptions} returns={returnOptions} />
           </TabPanel>
           <TabPanel>
-            <QA />
+            <QA item={selectedItem} />
           </TabPanel>
         </Tabs>
       </div>

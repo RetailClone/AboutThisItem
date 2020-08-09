@@ -6,9 +6,15 @@ class QA extends React.Component {
     super();
     this.state = {};
   }
-
+  // feetch the
   render() {
-    return <div>Q&A section</div>;
+    const { item } = this.props;
+    return (
+      <div>
+        <h1>Q&A section</h1>
+        <h2>Selected Item: {item}</h2>
+      </div>
+    );
   }
 }
 
