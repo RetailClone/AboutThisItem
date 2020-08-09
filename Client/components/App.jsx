@@ -4,6 +4,8 @@ import "../styles/styles.css";
 import Description from "./Description.jsx";
 import Specs from "./Specs.jsx";
 import Highlights from "./Highlights.jsx";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "../styles/react-tabs.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -62,9 +64,15 @@ class App extends React.Component {
           <input type="submit" value="Submit" />
         </form>
         <h1 id="about">About This Item</h1>
-        <hr />
-        <br />
-        <br />
+        <Tabs defaultIndex={1} onSelect={(index) => console.log(index)}>
+          <TabList id="tabs">
+            <Tab>Details</Tab>
+            <Tab>Shipping & Returns</Tab>
+            <Tab>Q&A</Tab>
+          </TabList>
+          <TabPanel></TabPanel>
+          <TabPanel></TabPanel>
+        </Tabs>
         <Highlights highlights={itemHighlights} />
         <div className="flex-container">
           <div className="flex-child specs">
