@@ -8,7 +8,7 @@ const getDesc = (id, cb) => {
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);
-      console.error("Could not get description from DB - database.js line 30");
+      console.error("Could not get description from DB - database.js line 11");
       return;
     } else {
       cb(null, results);
@@ -22,7 +22,7 @@ const getSpecs = (id, cb) => {
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);
-      console.error("Could not get specs from DB - database.js line 44");
+      console.error("Could not get specs from DB - database.js line 25");
       return;
     } else {
       cb(null, results);
@@ -37,7 +37,41 @@ const getHighlights = (id, cb) => {
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);
-      console.error("Could not get highlights from DB - database.js line 58");
+      console.error("Could not get highlights from DB - database.js line 40");
+      return;
+    } else {
+      cb(null, results);
+    }
+  });
+};
+
+//get shipping options
+const getShippingOptions = (id, cb) => {
+  const queryString =
+    "SELECT shipping_details FROM shipping_options WHERE item_id = ?";
+  connection.query(queryString, [id], (err, results) => {
+    if (err) {
+      cb(err, null);
+      console.error(
+        "Could not get shipping details from DB - database.js line 56"
+      );
+      return;
+    } else {
+      cb(null, results);
+    }
+  });
+};
+
+//get return options
+const getReturnOptions = (id, cb) => {
+  const queryString =
+    "SELECT return_details FROM return_options WHERE item_id = ?";
+  connection.query(queryString, [id], (err, results) => {
+    if (err) {
+      cb(err, null);
+      console.error(
+        "Could not get return details from DB - database.js line 73"
+      );
       return;
     } else {
       cb(null, results);
@@ -53,4 +87,10 @@ connection.connect((err) => {
   }
 });
 
-module.exports = { getDesc, getSpecs, getHighlights };
+module.exports = {
+  getDesc,
+  getSpecs,
+  getHighlights,
+  getShippingOptions,
+  getReturnOptions,
+};

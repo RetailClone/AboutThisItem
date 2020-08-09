@@ -4,8 +4,8 @@ import "../styles/styles.css";
 import Description from "./Description.jsx";
 import Specs from "./Specs.jsx";
 import Highlights from "./Highlights.jsx";
+import ShipReturn from "./ShipReturn.jsx";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "../styles/react-tabs.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -16,6 +16,8 @@ class App extends React.Component {
       itemDescription: "",
       itemSpecs: [],
       itemHighlights: [],
+      shippingOptions: [],
+      returnOptions: [],
     };
 
     this.changeHandler = this.changeHandler.bind(this);
@@ -42,6 +44,12 @@ class App extends React.Component {
       .then((highlightData) =>
         this.setState({ itemHighlights: highlightData })
       );
+    fetch(`http://localhost:1701/shipping/${this.state.selectedItem}`)
+      .then((res) => res.json())
+      .then((shippingData) => this.setState({ shippingOptions: shippingData }));
+    fetch(`http://localhost:1701/returns/${this.state.selectedItem}`)
+      .then((res) => res.json())
+      .then((returnData) => this.setState({ returnOptions: returnData }));
   }
 
   render() {
@@ -50,6 +58,8 @@ class App extends React.Component {
       itemDescription,
       itemSpecs,
       itemHighlights,
+      shippingOptions,
+      returnOptions,
     } = this.state;
 
     return (
@@ -81,7 +91,9 @@ class App extends React.Component {
               </div>
             </div>
           </TabPanel>
-          <TabPanel></TabPanel>
+          <TabPanel>
+            <ShipReturn shipping={shippingOptions} returns={returnOptions} />
+          </TabPanel>
           <TabPanel></TabPanel>
         </Tabs>
       </div>
