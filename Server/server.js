@@ -63,7 +63,7 @@ app.get("/shipping/:id", (req, res) => {
 
 // get return options
 app.get("/returns/:id", (req, res) => {
-  db.getShippingOptions(req.params.id, (err, results) => {
+  db.getReturnOptions(req.params.id, (err, results) => {
     if (err) {
       res.status(500).send(err);
       console.error("Server side get returns failure. Server.js line 69");

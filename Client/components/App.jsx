@@ -75,10 +75,10 @@ class App extends React.Component {
         </form>
         <h1 id="about">About This Item</h1>
         <Tabs defaultIndex={0}>
-          <TabList id="tabs">
-            <Tab className="tab">Details</Tab>
-            <Tab className="tab">Shipping & Returns</Tab>
-            <Tab className="tab">Q&A</Tab>
+          <TabList>
+            <Tab>Details</Tab>
+            <Tab>Shipping & Returns</Tab>
+            <Tab>Q&A</Tab>
           </TabList>
           <TabPanel>
             <Highlights highlights={itemHighlights} />

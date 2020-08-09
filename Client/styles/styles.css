@@ -13,15 +13,19 @@ body {
   text-align: center;
 }
 
-#highlights,
+#highlightList,
 #shipReturns {
   background-color: white;
   padding: 20px;
 }
 
-#highlights {
+#highlightList {
   margin-bottom: 20px;
 }
+
+/* #highlights {
+  display: inline;
+} */
 
 #boldSlice {
   font-weight: bold;
@@ -50,7 +54,7 @@ body {
   padding: 20px;
 }
 
-#tooBad {
+#easter {
   display: flex;
   background-color: #ca0813;
   color: white;
@@ -69,8 +73,9 @@ body {
   justify-content: center;
   align-items: stretch;
   border-bottom: 1px solid #aaa;
-  margin-bottom: 40px;
+  margin: 0, 0, 20px, 20px;
   padding: 0;
+  cursor: pointer;
 }
 
 .react-tabs__tab-list:hover {
@@ -91,7 +96,7 @@ body {
   bottom: -1px;
   position: relative;
   list-style: none;
-  padding: 100px 12px;
+  padding: 6px 12px;
   cursor: pointer;
 }
 
@@ -117,11 +122,11 @@ body {
   cursor: default;
 }
 
-.react-tsabs__tab:focus {
+/* .react-tsabs__tab:focus {
   box-shadow: 0 0 5px hsl(208, 99%, 50%);
   border-color: hsl(208, 99%, 50%);
   outline: none;
-}
+} */
 
 .react-tabs__tab:focus:after {
   content: "";
@@ -130,7 +135,7 @@ body {
   left: -4px;
   right: -4px;
   bottom: -5px;
-  background: #fff;
+  background: #f7f7f7;
 }
 
 .react-tabs__tab-panel {

@@ -15,6 +15,11 @@ const ShipReturn = ({ shipping, returns }) => {
         {returns.map((reeturn, idx) => {
           return <li key={idx}>{reeturn.return_details}</li>;
         })}
+        <li>
+          See the{" "}
+          <a href="http://localhost:1701/returnPolicy.html">return policy</a>{" "}
+          for more information.
+        </li>
       </ul>
     </div>
   );
