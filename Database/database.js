@@ -80,7 +80,20 @@ const getReturnOptions = (id, cb) => {
 };
 
 //get questions
+const getQuestions = (id, cb) => {
+  const queryString = "SELECT question FROM questions WHERE item_id = ?";
+  connection.query(queryString, [id], (err, results) => {
+    if (err) {
+      cb(err, null);
+      console.error("Could not get questions from DB - database.js line 88");
+      return;
+    } else {
+      cb(null, results);
+    }
+  });
+};
 
+//connection test
 connection.connect((err) => {
   if (err) {
     console.log(`Couldn't connect to database`, err);
@@ -95,4 +108,5 @@ module.exports = {
   getHighlights,
   getShippingOptions,
   getReturnOptions,
+  getQuestions,
 };

@@ -74,6 +74,19 @@ app.get("/returns/:id", (req, res) => {
   });
 });
 
+// get questions
+app.get("/questions/:id", (req, res) => {
+  db.getQuestions(req.params.id, (err, results) => {
+    if (err) {
+      res.status(500).send(err);
+      console.error("Server side get questions failure. Server.js line 82");
+      return;
+    } else {
+      res.status(200).send(results);
+    }
+  });
+});
+
 app.listen(PORT, () => {
   // console.log("DIR", __dirname);
   console.log(`listening on port ${PORT}`);

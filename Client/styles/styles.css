@@ -23,6 +23,30 @@ body {
   margin-bottom: 20px;
 }
 
+#questions {
+  border-bottom: 1px solid #aaa;
+}
+
+#questionText {
+  font-weight: bolder;
+}
+
+#answerButton {
+  width: 75px;
+  height: 30px;
+  border-radius: 8%;
+  background-color: #ffffff;
+  border: 1px solid #888888;
+}
+
+#answerButton:hover {
+  width: 75px;
+  height: 30px;
+  border-radius: 8%;
+  background-color: #f4f4f4;
+  border: 1px solid #888888;
+  cursor: pointer;
+}
 /* #highlights {
   display: inline;
 } */

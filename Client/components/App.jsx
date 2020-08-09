@@ -19,6 +19,7 @@ class App extends React.Component {
       itemHighlights: [],
       shippingOptions: [],
       returnOptions: [],
+      questions: [],
     };
 
     this.changeHandler = this.changeHandler.bind(this);
@@ -51,6 +52,9 @@ class App extends React.Component {
     fetch(`http://localhost:1701/returns/${this.state.selectedItem}`)
       .then((res) => res.json())
       .then((returnData) => this.setState({ returnOptions: returnData }));
+    fetch(`http://localhost:1701/questions/${this.state.selectedItem}`)
+      .then((res) => res.json())
+      .then((questionData) => this.setState({ questions: questionData }));
   }
 
   render() {
@@ -61,6 +65,7 @@ class App extends React.Component {
       itemHighlights,
       shippingOptions,
       returnOptions,
+      questions,
     } = this.state;
 
     return (
@@ -96,7 +101,7 @@ class App extends React.Component {
             <ShipReturn shipping={shippingOptions} returns={returnOptions} />
           </TabPanel>
           <TabPanel>
-            <QA item={selectedItem} />
+            <QA questions={questions} />
           </TabPanel>
         </Tabs>
       </div>
