@@ -1,4 +1,5 @@
 import React from "react";
+import Question from "./Question.jsx";
 import "../styles/styles.css";
 
 class QA extends React.Component {
@@ -11,8 +12,7 @@ class QA extends React.Component {
     const { item } = this.props;
     return (
       <div>
-        <h1>Q&A section</h1>
-        <h2>Selected Item: {item}</h2>
+        <Question />
       </div>
     );
   }

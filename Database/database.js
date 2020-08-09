@@ -79,6 +79,8 @@ const getReturnOptions = (id, cb) => {
   });
 };
 
+//get questions
+
 connection.connect((err) => {
   if (err) {
     console.log(`Couldn't connect to database`, err);
