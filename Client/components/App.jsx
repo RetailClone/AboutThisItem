@@ -53,7 +53,7 @@ class App extends React.Component {
     } = this.state;
 
     return (
-      <div>
+      <div id="app">
         <form onSubmit={this.submitHandler}>
           <input
             type="text"
@@ -64,24 +64,26 @@ class App extends React.Component {
           <input type="submit" value="Submit" />
         </form>
         <h1 id="about">About This Item</h1>
-        <Tabs defaultIndex={1} onSelect={(index) => console.log(index)}>
+        <Tabs defaultIndex={0}>
           <TabList id="tabs">
-            <Tab>Details</Tab>
-            <Tab>Shipping & Returns</Tab>
-            <Tab>Q&A</Tab>
+            <Tab className="tab">Details</Tab>
+            <Tab className="tab">Shipping & Returns</Tab>
+            <Tab className="tab">Q&A</Tab>
           </TabList>
+          <TabPanel>
+            <Highlights highlights={itemHighlights} />
+            <div className="flex-container">
+              <div className="flex-child specs">
+                <Specs specs={itemSpecs} />
+              </div>
+              <div className="flex-child desc">
+                <Description desc={itemDescription} />
+              </div>
+            </div>
+          </TabPanel>
           <TabPanel></TabPanel>
           <TabPanel></TabPanel>
         </Tabs>
-        <Highlights highlights={itemHighlights} />
-        <div className="flex-container">
-          <div className="flex-child specs">
-            <Specs specs={itemSpecs} />
-          </div>
-          <div className="flex-child desc">
-            <Description desc={itemDescription} />
-          </div>
-        </div>
       </div>
     );
   }
