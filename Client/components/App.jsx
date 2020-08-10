@@ -19,13 +19,12 @@ class App extends React.Component {
       shippingOptions: [],
       returnOptions: [],
       questions: [],
-      show: false,
     };
 
     this.changeHandler = this.changeHandler.bind(this);
     this.submitHandler = this.submitHandler.bind(this);
-    this.toggleDiv = this.toggleDiv.bind(this);
-    this.showMore = this.showMore.bind(this);
+    this.moreOrLess = this.moreOrLess.bind(this);
+    this.buttonChange = this.buttonChange.bind(this);
   }
   // get a description displaying
   changeHandler(e) {
@@ -59,19 +58,17 @@ class App extends React.Component {
       .then((questionData) => this.setState({ questions: questionData }));
   }
 
-  toggleDiv() {
-    const { show } = this.state;
-    this.setState({ show: !show });
-    var inputVal = document.getElementById("show");
-    if (inputVal.innerHTML === "Show More") {
-      inputVal.innerHTML = "Show Less";
-    } else if (inputVal.innerHTML === "Show Less") {
-      inputVal.innerHTML = "Show More";
+  buttonChange() {
+    let buttonText = document.getElementById("show");
+    if (buttonText.innerHTML === "Show More") {
+      buttonText.innerHTML = "Show Less";
+    } else if (buttonText.innerHTML === "Show Less") {
+      buttonText.innerHTML = "Show More";
     }
   }
 
-  showMore() {
-    const appClass = document.getElementById("app");
+  moreOrLess() {
+    let appClass = document.getElementById("details");
     if (appClass.className === "less") {
       appClass.className = "more";
     } else if (appClass.className === "more") {
@@ -88,11 +85,10 @@ class App extends React.Component {
       shippingOptions,
       returnOptions,
       questions,
-      show,
     } = this.state;
 
     return (
-      <div className="less" id="app">
+      <div>
         <form onSubmit={this.submitHandler}>
           <input
             type="text"
@@ -110,7 +106,26 @@ class App extends React.Component {
             <Tab>Q&A</Tab>
           </TabList>
           <TabPanel>
-            <Highlights highlights={itemHighlights} />
+            <div id="details" className="less">
+              <Highlights id="highlights" highlights={itemHighlights} />
+              <div className="flex-container">
+                <div className="flex-child specs">
+                  <Specs specs={itemSpecs} />
+                </div>
+                <div className="flex-child desc">
+                  <Description desc={itemDescription} />
+                </div>
+              </div>
+            </div>
+            <button
+              id="show"
+              onClick={() => {
+                this.moreOrLess();
+                this.buttonChange();
+              }}
+            >
+              Show More
+            </button>
           </TabPanel>
           <TabPanel>
             <ShipReturn shipping={shippingOptions} returns={returnOptions} />
@@ -119,34 +134,6 @@ class App extends React.Component {
             <QA questions={questions} />
           </TabPanel>
         </Tabs>
-        {show && (
-          <Box itemSpecs={itemSpecs} itemDescription={itemDescription} />
-        )}
-        <button
-          id="show"
-          onClick={() => {
-            this.toggleDiv();
-            this.showMore();
-          }}
-        >
-          Show More
-        </button>
-      </div>
-    );
-  }
-}
-
-class Box extends React.Component {
-  render() {
-    const { itemSpecs, itemDescription } = this.props;
-    return (
-      <div className="flex-container">
-        <div className="flex-child specs">
-          <Specs specs={itemSpecs} />
-        </div>
-        <div className="flex-child desc">
-          <Description desc={itemDescription} />
-        </div>
       </div>
     );
   }

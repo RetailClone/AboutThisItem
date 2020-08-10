@@ -10,7 +10,7 @@ body {
 }
 
 .less {
-  height: 700px;
+  height: 350px;
   overflow: hidden;
 }
 
@@ -20,6 +20,17 @@ body {
 
 #about {
   text-align: center;
+}
+
+#highlight {
+  padding: 10px;
+}
+
+#highlights {
+  height: flex;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #highlightList,
@@ -42,6 +53,8 @@ body {
 
 #answerButton,
 #show {
+  position: relative;
+  bottom: 0px;
   width: 90px;
   height: 30px;
   border-radius: 8%;
@@ -52,6 +65,8 @@ body {
 
 #answerButton,
 #show:hover {
+  position: relative;
+  bottom: 0px;
   width: 90px;
   height: 30px;
   border-radius: 8%;
@@ -60,9 +75,6 @@ body {
   padding: 5px 10px;
   cursor: pointer;
 }
-/* #highlights {
-  display: inline;
-} */
 
 #boldSlice {
   font-weight: bold;

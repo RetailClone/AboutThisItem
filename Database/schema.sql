@@ -388,7 +388,7 @@ INSERT INTO item_highlights (item_id, highlights) VALUES
   (46, "Provides up to 5 hours of play with each charge"),
   (46, "Easily track lost earbuds with 'Find My Buds' feature on free Bose app"),
   (47, "High-performance wireless earphones"),
-  (47, "Up to 15 hours of listening time1"),
+  (47, "Up to 15 hours of listening time!"),
   (47, "Adjustable, secure-fit earhooks for comfort and stability"),
   (47, "Reinforced, sleek design for sweat & water resistance during tough workouts"),
   (47, "Integrated on-ear controls for music, phone calls, and voice capability"),
