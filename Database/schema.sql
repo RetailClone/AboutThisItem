@@ -67,7 +67,7 @@ FOREIGN KEY (item_id) REFERENCES items(id)
 CREATE TABLE answers
 (
 id INT AUTO_INCREMENT NOT NULL,
-qestion_id INT NOT NULL,
+question_id INT NOT NULL,
 answer VARCHAR(2000) NOT NULL,
 PRIMARY KEY (id),
 FOREIGN KEY (question_id) REFERENCES questions(id)
