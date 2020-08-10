@@ -5,8 +5,11 @@ body {
 }
 
 #app {
+  position: absolute;
+  width: 80%;
   background-color: #f7f7f7;
-  padding: 10px;
+  padding: 30px;
+  margin: 0 10%;
 }
 
 .less {
@@ -53,20 +56,17 @@ body {
 
 #answerButton,
 #show {
-  position: relative;
-  bottom: 0px;
   width: 90px;
   height: 30px;
   border-radius: 8%;
   background-color: #ffffff;
   border: 1px solid #888888;
   padding: 5px 10px;
+  margin-top: 10px;
 }
 
 #answerButton,
 #show:hover {
-  position: relative;
-  bottom: 0px;
   width: 90px;
   height: 30px;
   border-radius: 8%;
@@ -91,16 +91,19 @@ body {
 .flex-container {
   display: flex;
   background-color: white;
+  height: 100%;
 }
 
 .flex-child {
   flex: 1;
   padding: 20px;
+  height: 100%;
 }
 
 .flex-child:first-child {
   margin-right: 0px;
   padding: 20px;
+  height: 100%;
 }
 
 #easter {
@@ -120,21 +123,10 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
-  justify-content: space-evenly;
   border-bottom: 1px solid #aaa;
   margin: 0, 0, 10px, 10px;
   padding-bottom: 0;
 }
-
-/* .react-tabs__tab-list:hover {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  justify-content: space-evenly;
-  border-bottom: 1px solid #aaa;
-  margin: 0, 0, 10px, 10px;
-  padding-bottom: 0;
-} */
 
 .react-tabs__tab {
   display: inline-block;
