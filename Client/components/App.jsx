@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "../styles/styles.css";
 import Description from "./Description.jsx";
 import Specs from "./Specs.jsx";
@@ -20,10 +19,13 @@ class App extends React.Component {
       shippingOptions: [],
       returnOptions: [],
       questions: [],
+      show: false,
     };
 
     this.changeHandler = this.changeHandler.bind(this);
     this.submitHandler = this.submitHandler.bind(this);
+    this.toggleDiv = this.toggleDiv.bind(this);
+    this.showMore = this.showMore.bind(this);
   }
   // get a description displaying
   changeHandler(e) {
@@ -57,6 +59,26 @@ class App extends React.Component {
       .then((questionData) => this.setState({ questions: questionData }));
   }
 
+  toggleDiv() {
+    const { show } = this.state;
+    this.setState({ show: !show });
+    var inputVal = document.getElementById("show");
+    if (inputVal.innerHTML === "Show More") {
+      inputVal.innerHTML = "Show Less";
+    } else if (inputVal.innerHTML === "Show Less") {
+      inputVal.innerHTML = "Show More";
+    }
+  }
+
+  showMore() {
+    const appClass = document.getElementById("app");
+    if (appClass.className === "less") {
+      appClass.className = "more";
+    } else if (appClass.className === "more") {
+      appClass.className = "less";
+    }
+  }
+
   render() {
     const {
       selectedItem,
@@ -66,10 +88,11 @@ class App extends React.Component {
       shippingOptions,
       returnOptions,
       questions,
+      show,
     } = this.state;
 
     return (
-      <div id="app">
+      <div className="less" id="app">
         <form onSubmit={this.submitHandler}>
           <input
             type="text"
@@ -88,14 +111,6 @@ class App extends React.Component {
           </TabList>
           <TabPanel>
             <Highlights highlights={itemHighlights} />
-            <div className="flex-container">
-              <div className="flex-child specs">
-                <Specs specs={itemSpecs} />
-              </div>
-              <div className="flex-child desc">
-                <Description desc={itemDescription} />
-              </div>
-            </div>
           </TabPanel>
           <TabPanel>
             <ShipReturn shipping={shippingOptions} returns={returnOptions} />
@@ -104,6 +119,34 @@ class App extends React.Component {
             <QA questions={questions} />
           </TabPanel>
         </Tabs>
+        {show && (
+          <Box itemSpecs={itemSpecs} itemDescription={itemDescription} />
+        )}
+        <button
+          id="show"
+          onClick={() => {
+            this.toggleDiv();
+            this.showMore();
+          }}
+        >
+          Show More
+        </button>
+      </div>
+    );
+  }
+}
+
+class Box extends React.Component {
+  render() {
+    const { itemSpecs, itemDescription } = this.props;
+    return (
+      <div className="flex-container">
+        <div className="flex-child specs">
+          <Specs specs={itemSpecs} />
+        </div>
+        <div className="flex-child desc">
+          <Description desc={itemDescription} />
+        </div>
       </div>
     );
   }

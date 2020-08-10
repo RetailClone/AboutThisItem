@@ -9,6 +9,15 @@ body {
   padding: 10px;
 }
 
+.less {
+  height: 700px;
+  overflow: hidden;
+}
+
+.more {
+  height: 100%;
+}
+
 #about {
   text-align: center;
 }
@@ -31,20 +40,24 @@ body {
   font-weight: bolder;
 }
 
-#answerButton {
-  width: 75px;
+#answerButton,
+#show {
+  width: 90px;
   height: 30px;
   border-radius: 8%;
   background-color: #ffffff;
   border: 1px solid #888888;
+  padding: 5px 10px;
 }
 
-#answerButton:hover {
-  width: 75px;
+#answerButton,
+#show:hover {
+  width: 90px;
   height: 30px;
   border-radius: 8%;
   background-color: #f4f4f4;
   border: 1px solid #888888;
+  padding: 5px 10px;
   cursor: pointer;
 }
 /* #highlights {
@@ -99,10 +112,9 @@ body {
   border-bottom: 1px solid #aaa;
   margin: 0, 0, 10px, 10px;
   padding-bottom: 0;
-  cursor: pointer;
 }
 
-.react-tabs__tab-list:hover {
+/* .react-tabs__tab-list:hover {
   display: flex;
   list-style: none;
   justify-content: center;
@@ -110,8 +122,7 @@ body {
   border-bottom: 1px solid #aaa;
   margin: 0, 0, 10px, 10px;
   padding-bottom: 0;
-  cursor: pointer;
-}
+} */
 
 .react-tabs__tab {
   display: inline-block;
