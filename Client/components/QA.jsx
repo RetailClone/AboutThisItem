@@ -12,10 +12,24 @@ const QA = ({ questions }) => {
             </li>
           );
         })}
-        <form>
-          <input id="answerButton" type="submit" value="Answer It" />
-        </form>
       </ul>
+      <button id="answerButton">Answer It</button>
+      <form id="answerForm">
+        <label>
+          <h2>your answer</h2>
+          <input id="answerField" type="text" name="answer" />
+          <input
+            id="screenNameField"
+            type="text"
+            name="screenName"
+            placeholder="screen name"
+          />
+        </label>
+        <div id="answerFormSubmitButtons">
+          <input id="cancelSubmitAnswer" type="submit" value="Cancel" />
+          <input id="submitAnswer" type="submit" value="Submit Answer" />
+        </div>
+      </form>
     </div>
   );
 };

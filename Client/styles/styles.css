@@ -54,6 +54,24 @@ body {
   font-weight: bolder;
 }
 
+#answerForm {
+  margin-left: 5%;
+}
+
+#answerForm input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+#answerField {
+  height: 130px;
+}
+
+#answerFormSubmitButtons {
+  display: inline;
+}
+
 #answerButton,
 #show {
   width: 90px;
@@ -65,15 +83,19 @@ body {
   margin-top: 10px;
 }
 
-#answerButton,
+#answerButton:hover,
 #show:hover {
-  width: 90px;
-  height: 30px;
-  border-radius: 8%;
   background-color: #f4f4f4;
   border: 1px solid #888888;
   padding: 5px 10px;
   cursor: pointer;
+}
+
+#answerButton:active,
+#show:active {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 #boldSlice {
@@ -167,12 +189,6 @@ body {
   cursor: default;
 }
 
-/* .react-tsabs__tab:focus {
-  box-shadow: 0 0 5px hsl(208, 99%, 50%);
-  border-color: hsl(208, 99%, 50%);
-  outline: none;
-} */
-
 .react-tabs__tab:focus:after {
   content: "";
   position: absolute;
@@ -190,3 +206,9 @@ body {
 .react-tabs__tab-panel--selected {
   display: block;
 }
+
+/* .react-tsabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+} */

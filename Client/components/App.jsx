@@ -19,6 +19,7 @@ class App extends React.Component {
       shippingOptions: [],
       returnOptions: [],
       questions: [],
+      answers: [],
     };
 
     this.changeHandler = this.changeHandler.bind(this);
