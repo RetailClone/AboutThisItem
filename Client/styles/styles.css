@@ -4,7 +4,7 @@ body {
   padding: 5px;
 }
 
-#app {
+#about {
   position: absolute;
   width: 80%;
   background-color: #f7f7f7;
@@ -21,7 +21,7 @@ body {
   height: 100%;
 }
 
-#about {
+#appHeader {
   text-align: center;
 }
 

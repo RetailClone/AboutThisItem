@@ -2422,7 +2422,7 @@ INSERT INTO questions (item_id, question) VALUES
 (87,"What happens when you mix this with ammonia? I heard it starts to produce chlorine ga......."),
 (88,"Why'd it take y'all seven generations to come up with toilet bowl cleaner? Not that hard to spin up some noxious chemial to get the butt barnacles off the inside of the commode."),
 (89,"How heavy is heavy duty? Like, cleaning up after awful-tenants-have-trashed-the-place-for-several-years heavy duty? "),
-(90,"Why have we gotten so good at making products whose only purupose is generate more consumption and more garbage?"),
+(90,"Why have we gotten so good at making products whose only purpose is generate more consumption and more garbage?"),
 (91,"Carpets? Why not just cover your pets in it and cut the stank off at the source?"),
 (92,"It's a mop and a bucket. Why call it a system? Is that the word that makes it cost 30 bucks?"),
 (93,"Good thing it's precision. Can you imagine cleaning with a less-precise broom? "),

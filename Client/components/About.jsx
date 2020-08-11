@@ -9,7 +9,7 @@ import QA from "./QA.jsx";
 import Answers from "./Answers.jsx";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-class App extends React.Component {
+class About extends React.Component {
   constructor(props) {
     super(props);
 
@@ -132,7 +132,7 @@ class App extends React.Component {
     } = this.state;
 
     return (
-      <div>
+      <div id="about">
         <form onSubmit={this.submitHandler}>
           <input
             type="text"
@@ -142,7 +142,7 @@ class App extends React.Component {
           />
           <input type="submit" value="Submit" />
         </form>
-        <h1 id="about">About This Item</h1>
+        <h1 id="appHeader">About This Item</h1>
         <Tabs defaultIndex={0}>
           <TabList>
             <Tab>Details</Tab>
@@ -189,4 +189,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default About;
