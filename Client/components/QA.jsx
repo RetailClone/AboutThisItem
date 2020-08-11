@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/styles.css";
 
-const QA = ({ questions, display }) => {
+const QA = ({ questions, display, cancel }) => {
   return (
     <div id="questions">
       <ul style={{ listStyleType: "none" }}>
@@ -36,7 +36,12 @@ const QA = ({ questions, display }) => {
           </div>
         </label>
         <div id="answerFormSubmitButtons">
-          <input id="cancelSubmitAnswer" type="submit" value="Cancel" />
+          <input
+            id="cancelSubmitAnswer"
+            type="submit"
+            value="Cancel"
+            onClick={cancel}
+          />
           <input id="submitAnswer" type="submit" value="Submit Answer" />
         </div>
       </form>
