@@ -33,7 +33,6 @@ class About extends React.Component {
   }
   // get a description displaying
   changeHandler(e) {
-    // console.log("changeHandler: ", e.target.value);
     this.setState({ selectedItem: e.target.value });
   }
 
@@ -132,7 +131,7 @@ class About extends React.Component {
     } = this.state;
 
     return (
-      <div id="about">
+      <div>
         <form onSubmit={this.submitHandler}>
           <input
             type="text"
