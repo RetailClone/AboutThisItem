@@ -43,26 +43,44 @@ class App extends React.Component {
       .get(`http://localhost:1701/description/${this.state.selectedItem}`)
       .then((descData) =>
         this.setState({ itemDescription: descData.data[0].item_description })
-      );
+      )
+      .catch((error) => {
+        console.error(error);
+      });
     axios
       .get(`http://localhost:1701/specs/${this.state.selectedItem}`)
-      .then((specData) => this.setState({ itemSpecs: specData.data }));
+      .then((specData) => this.setState({ itemSpecs: specData.data }))
+      .catch((error) => {
+        console.error(error);
+      });
     axios
       .get(`http://localhost:1701/highlights/${this.state.selectedItem}`)
       .then((highlightData) =>
         this.setState({ itemHighlights: highlightData.data })
-      );
+      )
+      .catch((error) => {
+        console.error(error);
+      });
     axios
       .get(`http://localhost:1701/shipping/${this.state.selectedItem}`)
       .then((shippingData) =>
         this.setState({ shippingOptions: shippingData.data })
-      );
+      )
+      .catch((error) => {
+        console.error(error);
+      });
     axios
       .get(`http://localhost:1701/returns/${this.state.selectedItem}`)
-      .then((returnData) => this.setState({ returnOptions: returnData.data }));
+      .then((returnData) => this.setState({ returnOptions: returnData.data }))
+      .catch((error) => {
+        console.error(error);
+      });
     axios
       .get(`http://localhost:1701/questions/${this.state.selectedItem}`)
-      .then((questionData) => this.setState({ questions: questionData.data }));
+      .then((questionData) => this.setState({ questions: questionData.data }))
+      .catch((error) => {
+        console.error(error);
+      });
   }
 
   buttonChange() {
