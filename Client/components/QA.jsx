@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/styles.css";
 
-const QA = ({ questions }) => {
+const QA = ({ questions, display }) => {
   return (
     <div id="questions">
       <ul style={{ listStyleType: "none" }}>
@@ -13,17 +13,27 @@ const QA = ({ questions }) => {
           );
         })}
       </ul>
-      <button id="answerButton">Answer It</button>
-      <form id="answerForm">
+      <button id="answerButton" className="answerButtonOn" onClick={display}>
+        Answer It
+      </button>
+      <form id="answerForm" className="noAnswerForm">
         <label>
           <h2>your answer</h2>
-          <input id="answerField" type="text" name="answer" />
-          <input
-            id="screenNameField"
-            type="text"
-            name="screenName"
-            placeholder="screen name"
-          />
+          <div id="answerTextFields">
+            <input
+              id="answerField"
+              type="text"
+              name="answer"
+              placeholder="answer"
+            />
+            <input
+              id="screenNameField"
+              type="text"
+              name="screenName"
+              placeholder="screen name"
+            />
+            <p>this name will be displayed with your answer</p>
+          </div>
         </label>
         <div id="answerFormSubmitButtons">
           <input id="cancelSubmitAnswer" type="submit" value="Cancel" />

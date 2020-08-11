@@ -5,6 +5,7 @@ import Specs from "./Specs.jsx";
 import Highlights from "./Highlights.jsx";
 import ShipReturn from "./ShipReturn.jsx";
 import QA from "./QA.jsx";
+import Answers from "./Answers.jsx";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 class App extends React.Component {
@@ -26,6 +27,8 @@ class App extends React.Component {
     this.submitHandler = this.submitHandler.bind(this);
     this.moreOrLess = this.moreOrLess.bind(this);
     this.buttonChange = this.buttonChange.bind(this);
+    this.displayAnswerField = this.displayAnswerField.bind(this);
+    this.cancelAnswerField = this.cancelAnswerField.bind(this);
   }
   // get a description displaying
   changeHandler(e) {
@@ -77,6 +80,24 @@ class App extends React.Component {
     }
   }
 
+  displayAnswerField() {
+    let formDisplay = document.getElementById("answerForm");
+    if (formDisplay.className === "noAnswerForm") {
+      formDisplay.className = "yesAnwerForm";
+    }
+    let answerButtonOnOff = document.getElementById("answerButton");
+    if (answerButtonOnOff.className === "answerButtonOn") {
+      answerButtonOnOff.className = "answerButtonOff";
+    }
+  }
+
+  cancelAnswerField() {
+    let formDisplay = document.getElementById("answerForm");
+    if (formDisplay.className === "yesAnswerForm") {
+      formDisplay.className = "noAnwerForm";
+    }
+  }
+
   render() {
     const {
       selectedItem,
@@ -86,6 +107,7 @@ class App extends React.Component {
       shippingOptions,
       returnOptions,
       questions,
+      answers,
     } = this.state;
 
     return (
@@ -132,7 +154,11 @@ class App extends React.Component {
             <ShipReturn shipping={shippingOptions} returns={returnOptions} />
           </TabPanel>
           <TabPanel>
-            <QA questions={questions} />
+            <QA
+              questions={questions}
+              display={() => this.displayAnswerField()}
+            />
+            <Answers answers={answers} />
           </TabPanel>
         </Tabs>
       </div>

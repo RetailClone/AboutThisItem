@@ -54,11 +54,21 @@ body {
   font-weight: bolder;
 }
 
-#answerForm {
-  margin-left: 5%;
+.noAnswerForm {
+  display: none;
 }
 
-#answerForm input {
+.yesAnswerForm {
+  margin-left: 100px;
+}
+
+#answerTextFields {
+  height: 300px;
+  border-bottom: 1px solid #d0d0d0;
+  margin: 10px 0;
+}
+
+#answerTextFields input {
   width: 100%;
   margin: 10px 0;
   padding: 20px;
@@ -66,10 +76,28 @@ body {
 
 #answerField {
   height: 130px;
+  border: 1px solid #888888;
+}
+
+#screenNameField {
+  height: 40px;
+  margin-bottom: 1px;
+  border: 1px solid #888888;
 }
 
 #answerFormSubmitButtons {
-  display: inline;
+  display: flex;
+  width: 100%;
+  margin: 10px 0px;
+  align-items: center;
+  align-content: center;
+}
+
+#cancelSubmitAnswer,
+#submitAnswer {
+  width: 50%;
+  height: 50px;
+  margin: 0 10px;
 }
 
 #answerButton,
@@ -80,7 +108,7 @@ body {
   background-color: #ffffff;
   border: 1px solid #888888;
   padding: 5px 10px;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 #answerButton:hover,
@@ -96,6 +124,10 @@ body {
   background-color: #2d2d2d;
   color: #ffffff;
   text-decoration: underline;
+}
+
+.answerButtonOff {
+  display: none;
 }
 
 #boldSlice {
