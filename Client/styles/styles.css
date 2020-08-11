@@ -4,7 +4,7 @@ body {
   padding: 5px;
 }
 
-#about {
+#Aabout {
   position: absolute;
   width: 80%;
   background-color: #f7f7f7;
@@ -12,90 +12,90 @@ body {
   margin: 0 10%;
 }
 
-.less {
+.Aless {
   height: 350px;
   overflow: hidden;
 }
 
-.more {
+.Amore {
   height: 100%;
 }
 
-#appHeader {
+#AappHeader {
   text-align: center;
 }
 
-#highlight {
+#Ahighlight {
   padding: 10px;
 }
 
-#highlights {
+#Ahighlights {
   height: flex;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-#highlightList,
-#shipReturns {
+#AhighlightList,
+#AshipReturns {
   background-color: white;
   padding: 20px;
 }
 
-#highlightList {
+#AhighlightList {
   margin-bottom: 20px;
 }
 
-#questions {
+#Aquestions {
   border-bottom: 1px solid #aaa;
 }
 
-#questionText {
+#AquestionText {
   font-weight: bolder;
 }
 
-#answerForm {
+#AanswerForm {
   margin-left: 50px;
 }
 
-.noAnswerForm {
+.AnoAnswerForm {
   display: none;
 }
 
-#answerform p {
+#Aanswerform p {
   color: #666666;
   font-size: 0.8em;
 }
 
-#answerFormButtonText {
+#AanswerFormButtonText {
   font-size: 1em !important;
   color: #2d2d2d !important;
 }
 
-#answerTextFields {
+#AanswerTextFields {
   height: 300px;
   border-bottom: 1px solid #d0d0d0;
   margin: 10px 0;
 }
 
-#answerTextFields input {
+#AanswerTextFields input {
   width: 100%;
   margin: 10px 0;
   padding: 0px 10px;
 }
 
-#answerField {
+#AanswerField {
   height: 130px;
   border: 1px solid #888888;
 }
 
-#screenNameField {
+#AscreenNameField {
   height: 40px;
   margin-bottom: 0 !important;
   border: 1px solid #888888;
 }
 
-#answerFormSubmitButtons {
+#AanswerFormSubmitButtons {
   display: flex;
   width: 100%;
   margin: 10px 0px;
@@ -103,31 +103,31 @@ body {
   align-content: center;
 }
 
-#cancelSubmitAnswer,
-#submitAnswer {
+#AcancelSubmitAnswer,
+#AsubmitAnswer {
   width: 50%;
   height: 50px;
   margin: 0 10px;
   font-size: 1em;
 }
 
-#cancelSubmitAnswer {
+#AcancelSubmitAnswer {
   background-color: #ffffff;
   border: 1px solid #888888;
 }
 
-#submitAnswer {
+#AsubmitAnswer {
   background-color: #ca0813;
   border: 1px solid #ca0813;
   color: #ffffff;
 }
 
-#answerButton {
+#AanswerButton {
   margin-left: 50px !important;
 }
 
-#answerButton,
-#show {
+#AanswerButton,
+#Ashow {
   width: 90px;
   height: 30px;
   border-radius: 8%;
@@ -137,60 +137,60 @@ body {
   margin: 10px 0;
 }
 
-#answerButton:hover,
-#show:hover {
+#AanswerButton:hover,
+#Ashow:hover {
   background-color: #f4f4f4;
   border: 1px solid #888888;
   padding: 5px 10px;
   cursor: pointer;
 }
 
-#answerButton:active,
-#show:active {
+#AanswerButton:active,
+#Ashow:active {
   background-color: #2d2d2d;
   color: #ffffff;
   text-decoration: underline;
 }
 
-.answerButtonOff {
+.AanswerButtonOff {
   display: none;
 }
 
-#boldSlice {
+#AboldSlice {
   font-weight: bold;
 }
 
-#lightSlice {
+#AlightSlice {
   font-weight: lighter;
 }
 
-#descText {
+#AdescText {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.flex-container {
+.Aflex-container {
   display: flex;
   background-color: white;
   height: 100%;
 }
 
-.flex-child {
+.Aflex-child {
   flex: 1;
   padding: 20px;
   height: 100%;
 }
 
-.flex-child:first-child {
+.Aflex-child:first-child {
   margin-right: 0px;
   padding: 20px;
   height: 100%;
 }
 
-#easter {
+.Aeaster {
   display: flex;
   background-color: #ca0813;
   color: white;
-  font-size: xx-large;
+  font-size: x-large;
   justify-content: center;
   text-align: center;
 }

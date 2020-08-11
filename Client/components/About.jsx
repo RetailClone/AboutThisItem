@@ -83,38 +83,38 @@ class About extends React.Component {
   }
 
   buttonChange() {
-    let buttonText = document.getElementById("show");
-    if (buttonText.innerHTML === "Show More") {
-      buttonText.innerHTML = "Show Less";
-    } else if (buttonText.innerHTML === "Show Less") {
-      buttonText.innerHTML = "Show More";
+    let buttonText = document.getElementById("Ashow");
+    if (buttonText.innerHTML === "AShow More") {
+      buttonText.innerHTML = "AShow Less";
+    } else if (buttonText.innerHTML === "AShow Less") {
+      buttonText.innerHTML = "AShow More";
     }
   }
 
   moreOrLess() {
-    let appClass = document.getElementById("details");
-    if (appClass.className === "less") {
-      appClass.className = "more";
-    } else if (appClass.className === "more") {
-      appClass.className = "less";
+    let appClass = document.getElementById("Adetails");
+    if (appClass.className === "Aless") {
+      appClass.className = "Amore";
+    } else if (appClass.className === "Amore") {
+      appClass.className = "Aless";
     }
   }
 
   displayAnswerField() {
-    let formDisplay = document.getElementById("answerForm");
-    if (formDisplay.className === "noAnswerForm") {
-      formDisplay.className = "yesAnwerForm";
+    let formDisplay = document.getElementById("AanswerForm");
+    if (formDisplay.className === "AnoAnswerForm") {
+      formDisplay.className = "AyesAnwerForm";
     }
-    let answerButtonOnOff = document.getElementById("answerButton");
-    if (answerButtonOnOff.className === "answerButtonOn") {
-      answerButtonOnOff.className = "answerButtonOff";
+    let answerButtonOnOff = document.getElementById("AanswerButton");
+    if (answerButtonOnOff.className === "AanswerButtonOn") {
+      answerButtonOnOff.className = "AanswerButtonOff";
     }
   }
 
   cancelAnswerField() {
-    let formDisplay = document.getElementById("answerForm");
-    if (formDisplay.className === "yesAnswerForm") {
-      formDisplay.className = "noAnwerForm";
+    let formDisplay = document.getElementById("AanswerForm");
+    if (formDisplay.className === "AyesAnswerForm") {
+      formDisplay.className = "AnoAnwerForm";
     }
   }
 
@@ -141,7 +141,7 @@ class About extends React.Component {
           />
           <input type="submit" value="Submit" />
         </form>
-        <h1 id="appHeader">About This Item</h1>
+        <h1 id="AappHeader">About This Item</h1>
         <Tabs defaultIndex={0}>
           <TabList>
             <Tab>Details</Tab>
@@ -149,19 +149,19 @@ class About extends React.Component {
             <Tab>Q&A</Tab>
           </TabList>
           <TabPanel>
-            <div id="details" className="less">
-              <Highlights id="highlights" highlights={itemHighlights} />
-              <div className="flex-container">
-                <div className="flex-child specs">
+            <div id="Adetails" className="Aless">
+              <Highlights id="Ahighlights" highlights={itemHighlights} />
+              <div className="Aflex-container">
+                <div className="Aflex-child specs">
                   <Specs specs={itemSpecs} />
                 </div>
-                <div className="flex-child desc">
+                <div className="Aflex-child desc">
                   <Description desc={itemDescription} />
                 </div>
               </div>
             </div>
             <button
-              id="show"
+              id="Ashow"
               onClick={() => {
                 this.moreOrLess();
                 this.buttonChange();

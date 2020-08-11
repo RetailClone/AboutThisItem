@@ -2,32 +2,35 @@ import React from "react";
 import "../styles/styles.css";
 
 const QA = ({ item, questions, display, cancel }) => {
+  // const [item, cancel] = useState(item, cancel);
+  // TODO - implement react hooks to handle form submissions in this functional component
+
   return (
-    <div id="questions">
+    <div id="Aquestions">
       <ul style={{ listStyleType: "none" }}>
         {questions.map((question, idx) => {
           return (
-            <li id="questionText" key={idx}>
+            <li id="AquestionText" key={idx}>
               Q: {question.question}
             </li>
           );
         })}
       </ul>
-      <button id="answerButton" className="answerButtonOn" onClick={display}>
+      <button id="AanswerButton" className="AanswerButtonOn" onClick={display}>
         Answer It
       </button>
-      <form id="answerForm" className="noAnswerForm">
+      <form id="AanswerForm" className="AnoAnswerForm">
         <label>
           <h2>your answer</h2>
-          <div id="answerTextFields">
+          <div id="AanswerTextFields">
             <input
-              id="answerField"
+              id="AanswerField"
               type="text"
               name="answer"
               placeholder="answer"
             />
             <input
-              id="screenNameField"
+              id="AscreenNameField"
               type="text"
               name="screenName"
               placeholder="screen name"
@@ -35,18 +38,18 @@ const QA = ({ item, questions, display, cancel }) => {
             <p>this name will be displayed with your answer</p>
           </div>
         </label>
-        <p id="answerFormButtonText">
+        <p id="AanswerFormButtonText">
           by submitting I agree to the{" "}
           {<a href="http://localhost:1701/qaguidelines.html">q&a guidelines</a>}
         </p>
-        <div id="answerFormSubmitButtons">
+        <div id="AanswerFormSubmitButtons">
           <input
-            id="cancelSubmitAnswer"
+            id="AcancelSubmitAnswer"
             type="submit"
             value="cancel"
             onClick={cancel}
           />
-          <input id="submitAnswer" type="submit" value="submit answer" />
+          <input id="AsubmitAnswer" type="submit" value="submit answer" />
         </div>
       </form>
     </div>
