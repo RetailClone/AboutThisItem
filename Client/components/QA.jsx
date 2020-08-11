@@ -36,13 +36,21 @@ const QA = ({ questions, display, cancel }) => {
           </div>
         </label>
         <div id="answerFormSubmitButtons">
+          <p>
+            by submitting I agree to the{" "}
+            {
+              <a href="http://localhost:1701/qaguidelines.html">
+                q&a guidelines
+              </a>
+            }
+          </p>
           <input
             id="cancelSubmitAnswer"
             type="submit"
-            value="Cancel"
+            value="cancel"
             onClick={cancel}
           />
-          <input id="submitAnswer" type="submit" value="Submit Answer" />
+          <input id="submitAnswer" type="submit" value="submit answer" />
         </div>
       </form>
     </div>

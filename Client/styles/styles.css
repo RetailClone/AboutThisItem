@@ -54,12 +54,17 @@ body {
   font-weight: bolder;
 }
 
+#answerForm {
+  margin-left: 50px;
+}
+
 .noAnswerForm {
   display: none;
 }
 
-.yesAnswerForm {
-  margin-left: 100px;
+#answerform p {
+  color: #666666;
+  font-size: 0.8em;
 }
 
 #answerTextFields {
@@ -71,7 +76,7 @@ body {
 #answerTextFields input {
   width: 100%;
   margin: 10px 0;
-  padding: 20px;
+  padding: 0px 10px;
 }
 
 #answerField {
@@ -81,7 +86,7 @@ body {
 
 #screenNameField {
   height: 40px;
-  margin-bottom: 1px;
+  margin-bottom: 0 !important;
   border: 1px solid #888888;
 }
 
@@ -98,6 +103,22 @@ body {
   width: 50%;
   height: 50px;
   margin: 0 10px;
+  font-size: 1em;
+}
+
+#cancelSubmitAnswer {
+  background-color: #ffffff;
+  border: 1px solid #888888;
+}
+
+#submitAnswer {
+  background-color: #ca0813;
+  border: 1px solid #ca0813;
+  color: #ffffff;
+}
+
+#answerButton {
+  margin-left: 50px !important;
 }
 
 #answerButton,
@@ -238,9 +259,3 @@ body {
 .react-tabs__tab-panel--selected {
   display: block;
 }
-
-/* .react-tsabs__tab:focus {
-  box-shadow: 0 0 5px hsl(208, 99%, 50%);
-  border-color: hsl(208, 99%, 50%);
-  outline: none;
-} */
