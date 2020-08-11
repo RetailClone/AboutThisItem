@@ -2341,7 +2341,7 @@ INSERT INTO questions (item_id, question) VALUES
 (6,"So... listeria? Is that still a thing? Did we all just collectively forget about that?"),
 (7,"The rising crust worked almost too well. It rose and filled my entire oven. The yeast become a sentient, intelligent civilizaiton for a brief moment, but died out on account of the sweltering temperatures inside the oven."),
 (8,"Can I use this as a glue to secure my out-of-control kids to the ceiling? That way they're in one place AND they have something to eat."),
-(9,"What do you think of this jingle? My bacon has a first name, it's O-S-C-A-R, my bacon has a second name it's "),
+(9,"What do you think of this jingle? My bacon has a first name, it's O-S-C-A-R, my bacon has a second name it's 'unconscionable, industrial-scale animal cruelty.'"),
 (10,"I find it very low class that this salad lacks anchovies. Any chance you plebian lowlifes class up your offerings a little for your guests with more discriminating tastes?"),
 (11,"How many ounces of truffles are we talking about here in this 6-ounce bag of truffles?"),
 (12,"Oh these are just much too sour. I scrape the sour powerder off of these before my kids can eat them. Can these come in sour-free variety?"),
