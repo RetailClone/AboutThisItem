@@ -3,7 +3,7 @@ import "../styles/styles.css";
 
 const QA = ({ item, questions, display, cancel }) => {
   // const [item, cancel] = useState(item, cancel);
-  // TODO - implement react hooks to handle form submissions in this functional component
+  // TODO - implement react hooks to handle form submissions in this functional component Dani suggested setState() and useEffect() (which is similar to component did mount)
 
   return (
     <div id="Aquestions">
