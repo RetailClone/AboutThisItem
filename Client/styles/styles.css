@@ -1,0 +1,266 @@
+body {
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  padding: 5px;
+}
+
+#app {
+  position: absolute;
+  width: 80%;
+  background-color: #f7f7f7;
+  padding: 30px;
+  margin: 0 10%;
+}
+
+.less {
+  height: 350px;
+  overflow: hidden;
+}
+
+.more {
+  height: 100%;
+}
+
+#about {
+  text-align: center;
+}
+
+#highlight {
+  padding: 10px;
+}
+
+#highlights {
+  height: flex;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#highlightList,
+#shipReturns {
+  background-color: white;
+  padding: 20px;
+}
+
+#highlightList {
+  margin-bottom: 20px;
+}
+
+#questions {
+  border-bottom: 1px solid #aaa;
+}
+
+#questionText {
+  font-weight: bolder;
+}
+
+#answerForm {
+  margin-left: 50px;
+}
+
+.noAnswerForm {
+  display: none;
+}
+
+#answerform p {
+  color: #666666;
+  font-size: 0.8em;
+}
+
+#answerFormButtonText {
+  font-size: 1em !important;
+  color: #2d2d2d !important;
+}
+
+#answerTextFields {
+  height: 300px;
+  border-bottom: 1px solid #d0d0d0;
+  margin: 10px 0;
+}
+
+#answerTextFields input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 0px 10px;
+}
+
+#answerField {
+  height: 130px;
+  border: 1px solid #888888;
+}
+
+#screenNameField {
+  height: 40px;
+  margin-bottom: 0 !important;
+  border: 1px solid #888888;
+}
+
+#answerFormSubmitButtons {
+  display: flex;
+  width: 100%;
+  margin: 10px 0px;
+  align-items: center;
+  align-content: center;
+}
+
+#cancelSubmitAnswer,
+#submitAnswer {
+  width: 50%;
+  height: 50px;
+  margin: 0 10px;
+  font-size: 1em;
+}
+
+#cancelSubmitAnswer {
+  background-color: #ffffff;
+  border: 1px solid #888888;
+}
+
+#submitAnswer {
+  background-color: #ca0813;
+  border: 1px solid #ca0813;
+  color: #ffffff;
+}
+
+#answerButton {
+  margin-left: 50px !important;
+}
+
+#answerButton,
+#show {
+  width: 90px;
+  height: 30px;
+  border-radius: 8%;
+  background-color: #ffffff;
+  border: 1px solid #888888;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+#answerButton:hover,
+#show:hover {
+  background-color: #f4f4f4;
+  border: 1px solid #888888;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#answerButton:active,
+#show:active {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.answerButtonOff {
+  display: none;
+}
+
+#boldSlice {
+  font-weight: bold;
+}
+
+#lightSlice {
+  font-weight: lighter;
+}
+
+#descText {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  background-color: white;
+  height: 100%;
+}
+
+.flex-child {
+  flex: 1;
+  padding: 20px;
+  height: 100%;
+}
+
+.flex-child:first-child {
+  margin-right: 0px;
+  padding: 20px;
+  height: 100%;
+}
+
+#easter {
+  display: flex;
+  background-color: #ca0813;
+  color: white;
+  font-size: xx-large;
+  justify-content: center;
+  text-align: center;
+}
+
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  border-bottom: 1px solid #aaa;
+  margin: 0, 0, 10px, 10px;
+  padding-bottom: 0;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.react-tabs__tab:hover {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.react-tabs__tab--selected {
+  background: #f7f7f7;
+  font-weight: bolder;
+  border-bottom: 3px solid #ca0813;
+}
+
+.react-tabs__tab--selected:hover {
+  background: #f7f7f7;
+  border-bottom: 3px solid #ca0813;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #f7f7f7;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}

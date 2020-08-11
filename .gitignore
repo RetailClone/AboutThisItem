@@ -1,0 +1,5 @@
+node_modules
+dbconfig.js
+public/bundle.js
+public/tooBad.html
+public/targetRedLogo.png
