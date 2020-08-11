@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/styles.css";
+import axios from "axios";
 import Description from "./Description.jsx";
 import Specs from "./Specs.jsx";
 import Highlights from "./Highlights.jsx";
@@ -38,28 +39,30 @@ class App extends React.Component {
 
   submitHandler(e) {
     e.preventDefault();
-    fetch(`http://localhost:1701/description/${this.state.selectedItem}`)
-      .then((res) => res.json())
+    axios
+      .get(`http://localhost:1701/description/${this.state.selectedItem}`)
       .then((descData) =>
-        this.setState({ itemDescription: descData[0].item_description })
+        this.setState({ itemDescription: descData.data[0].item_description })
       );
-    fetch(`http://localhost:1701/specs/${this.state.selectedItem}`)
-      .then((res) => res.json())
-      .then((specData) => this.setState({ itemSpecs: specData }));
-    fetch(`http://localhost:1701/highlights/${this.state.selectedItem}`)
-      .then((res) => res.json())
+    axios
+      .get(`http://localhost:1701/specs/${this.state.selectedItem}`)
+      .then((specData) => this.setState({ itemSpecs: specData.data }));
+    axios
+      .get(`http://localhost:1701/highlights/${this.state.selectedItem}`)
       .then((highlightData) =>
-        this.setState({ itemHighlights: highlightData })
+        this.setState({ itemHighlights: highlightData.data })
       );
-    fetch(`http://localhost:1701/shipping/${this.state.selectedItem}`)
-      .then((res) => res.json())
-      .then((shippingData) => this.setState({ shippingOptions: shippingData }));
-    fetch(`http://localhost:1701/returns/${this.state.selectedItem}`)
-      .then((res) => res.json())
-      .then((returnData) => this.setState({ returnOptions: returnData }));
-    fetch(`http://localhost:1701/questions/${this.state.selectedItem}`)
-      .then((res) => res.json())
-      .then((questionData) => this.setState({ questions: questionData }));
+    axios
+      .get(`http://localhost:1701/shipping/${this.state.selectedItem}`)
+      .then((shippingData) =>
+        this.setState({ shippingOptions: shippingData.data })
+      );
+    axios
+      .get(`http://localhost:1701/returns/${this.state.selectedItem}`)
+      .then((returnData) => this.setState({ returnOptions: returnData.data }));
+    axios
+      .get(`http://localhost:1701/questions/${this.state.selectedItem}`)
+      .then((questionData) => this.setState({ questions: questionData.data }));
   }
 
   buttonChange() {
