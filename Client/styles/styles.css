@@ -67,6 +67,11 @@ body {
   font-size: 0.8em;
 }
 
+#answerFormButtonText {
+  font-size: 1em !important;
+  color: #2d2d2d !important;
+}
+
 #answerTextFields {
   height: 300px;
   border-bottom: 1px solid #d0d0d0;

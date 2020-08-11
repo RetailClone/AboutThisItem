@@ -155,6 +155,7 @@ class App extends React.Component {
           </TabPanel>
           <TabPanel>
             <QA
+              item={selectedItem}
               questions={questions}
               display={() => this.displayAnswerField()}
               cancel={() => this.cancelAnswerField()}
