@@ -6,6 +6,7 @@
   "dependencies": {
     "@babel/cli": "^7.10.5",
     "axios": "^0.19.2",
+    "bluebird": "^3.7.2",
     "bootstrap": "^4.5.2",
     "chai": "^4.2.0",
     "cors": "^2.8.5",

@@ -29,91 +29,30 @@ class About extends React.Component {
     this.buttonChange = this.buttonChange.bind(this);
     this.displayAnswerField = this.displayAnswerField.bind(this);
     this.cancelAnswerField = this.cancelAnswerField.bind(this);
-    this.getItemDesc = this.getItemDesc.bind(this);
-    this.getItemSpecs = this.getItemSpecs.bind(this);
-    this.getItemHighlights = this.getItemHighlights.bind(this);
-    this.getItemShippingInfo = this.getItemShippingInfo.bind(this);
-    this.getItemReturnInfo = this.getItemReturnInfo.bind(this);
-    this.getItemQuestions = this.getItemQuestions.bind(this);
+    this.getItemData = this.getItemData.bind(this);
   }
   // get a description displaying
   selectAnItem(e) {
     this.setState({ selectedItem: e.target.value });
-    this.getItemDesc(e.target.value);
-    this.getItemSpecs(e.target.value);
-    this.getItemHighlights(e.target.value);
-    this.getItemShippingInfo(e.target.value);
-    this.getItemReturnInfo(e.target.value);
-    this.getItemQuestions(e.target.value);
+    this.getItemData(e.target.value);
   }
 
   componentDidMount() {
-    this.getItemDesc(1);
-    this.getItemSpecs(1);
-    this.getItemHighlights(1);
-    this.getItemShippingInfo(1);
-    this.getItemReturnInfo(1);
-    this.getItemQuestions(1);
+    this.getItemData(1);
   }
 
-  getItemDesc(id) {
-    axios
-      .get(`http://localhost:1701/description/${id}`)
-      .then((descData) =>
-        this.setState({ itemDescription: descData.data[0].item_description })
-      )
-      .catch((error) => {
-        console.error(error);
-      });
-  }
-
-  getItemSpecs(id) {
-    axios
-      .get(`http://localhost:1701/specs/${id}`)
-      .then((specData) => this.setState({ itemSpecs: specData.data }))
-      .catch((error) => {
-        console.error(error);
-      });
-  }
-
-  getItemHighlights(id) {
-    axios
-      .get(`http://localhost:1701/highlights/${id}`)
-      .then((highlightData) =>
-        this.setState({ itemHighlights: highlightData.data })
-      )
-      .catch((error) => {
-        console.error(error);
-      });
-  }
-
-  getItemShippingInfo(id) {
-    axios
-      .get(`http://localhost:1701/shipping/${id}`)
-      .then((shippingData) =>
-        this.setState({ shippingOptions: shippingData.data })
-      )
-      .catch((error) => {
-        console.error(error);
-      });
-  }
-
-  getItemReturnInfo(id) {
-    axios
-      .get(`http://localhost:1701/returns/${id}`)
-      .then((returnData) => this.setState({ returnOptions: returnData.data }))
-      .catch((error) => {
-        console.error(error);
-      });
-  }
-
-  getItemQuestions(id) {
-    axios
-      .get(`http://localhost:1701/questions/${id}`)
-      .then((questionData) => this.setState({ questions: questionData.data }))
-      .catch((error) => {
-        console.error(error);
-      });
+  // get all item data
+  getItemData(id) {
+    axios.get(`http://localhost:1701/${id}`).then((itemData) =>
+      this.setState({
+        itemDescription: itemData.data.desc[0].item_description,
+        itemSpecs: itemData.data.specs,
+        itemHighlights: itemData.data.highlights,
+        shippingOptions: itemData.data.shippingOptions,
+        returnOptions: itemData.data.returnOptions,
+        questions: itemData.data.questions,
+      })
+    );
   }
 
   buttonChange() {
