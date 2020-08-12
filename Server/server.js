@@ -37,11 +37,11 @@ app.get("/:id", (req, res) => {
     })
     .then((questions) => {
       results.questions = questions;
-      res.send(results);
+      res.status(200).send(results);
     })
     .catch((err) => {
       console.error(
-        "Server failed to get info from DB - Server.js line 43",
+        "Server failed to get info from DB - Server.js line 44",
         err
       );
       res.sendStatus(500);
