@@ -105,56 +105,58 @@ class About extends React.Component {
 
     return (
       <div>
-        <form>
-          <input
-            type="text"
-            placeholder="Enter Item ID#"
-            value={selectedItem}
-            onChange={this.selectAnItem}
-          />
-        </form>
-        <h1 id="AappHeader">About This Item</h1>
-        <Tabs defaultIndex={0}>
-          <TabList>
-            <Tab>Details</Tab>
-            <Tab>Shipping & Returns</Tab>
-            <Tab>Q&A</Tab>
-          </TabList>
-          <TabPanel>
-            <div id="Adetails" className="Aless">
-              <Highlights id="Ahighlights" highlights={itemHighlights} />
-              <div className="Aflex-container">
-                <div className="Aflex-child specs">
-                  <Specs specs={itemSpecs} />
-                </div>
-                <div className="Aflex-child desc">
-                  <Description desc={itemDescription} />
+        <div id="about-this-item">
+          <form>
+            <input
+              type="text"
+              placeholder="Enter Item ID#"
+              value={selectedItem}
+              onChange={this.selectAnItem}
+            />
+          </form>
+          <h1 id="AappHeader">About This Item</h1>
+          <Tabs defaultIndex={0}>
+            <TabList>
+              <Tab>Details</Tab>
+              <Tab>Shipping & Returns</Tab>
+              <Tab>Q&A</Tab>
+            </TabList>
+            <TabPanel>
+              <div id="Adetails" className="Aless">
+                <Highlights id="Ahighlights" highlights={itemHighlights} />
+                <div className="Aflex-container">
+                  <div className="Aflex-child specs">
+                    <Specs specs={itemSpecs} />
+                  </div>
+                  <div className="Aflex-child desc">
+                    <Description desc={itemDescription} />
+                  </div>
                 </div>
               </div>
-            </div>
-            <button
-              id="Ashow"
-              onClick={() => {
-                this.moreOrLess();
-                this.buttonChange();
-              }}
-            >
-              Show More
-            </button>
-          </TabPanel>
-          <TabPanel>
-            <ShipReturn shipping={shippingOptions} returns={returnOptions} />
-          </TabPanel>
-          <TabPanel>
-            <QA
-              item={selectedItem}
-              questions={questions}
-              display={() => this.displayAnswerField()}
-              cancel={() => this.cancelAnswerField()}
-            />
-            <Answers answers={answers} />
-          </TabPanel>
-        </Tabs>
+              <button
+                id="Ashow"
+                onClick={() => {
+                  this.moreOrLess();
+                  this.buttonChange();
+                }}
+              >
+                Show More
+              </button>
+            </TabPanel>
+            <TabPanel>
+              <ShipReturn shipping={shippingOptions} returns={returnOptions} />
+            </TabPanel>
+            <TabPanel>
+              <QA
+                item={selectedItem}
+                questions={questions}
+                display={() => this.displayAnswerField()}
+                cancel={() => this.cancelAnswerField()}
+              />
+              <Answers answers={answers} />
+            </TabPanel>
+          </Tabs>
+        </div>
       </div>
     );
   }

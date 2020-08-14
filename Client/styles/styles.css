@@ -4,7 +4,8 @@ body {
   padding: 5px;
 }
 
-#Aabout {
+#about-this-item {
+  /* position: absolute; */
   position: absolute;
   width: 80%;
   background-color: #f7f7f7;
