@@ -14,7 +14,7 @@ class About extends React.Component {
     super(props);
 
     this.state = {
-      selectedItem: "",
+      selectedItem: window.product_id,
       itemDescription: "",
       itemSpecs: [],
       itemHighlights: [],
@@ -38,7 +38,7 @@ class About extends React.Component {
   }
 
   componentDidMount() {
-    this.getItemData(1);
+    this.getItemData(this.state.selectedItem);
   }
 
   // get all item data

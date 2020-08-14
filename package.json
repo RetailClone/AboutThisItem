@@ -33,7 +33,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "react:dev": "webpack -d --watch",
-    "server:dev": "nodemon ./server/server.js",
+    "server:dev": "nodemon ./Server/server.js",
     "seed": "mysql -u root -p < source database/schema.sql"
   },
   "repository": {
