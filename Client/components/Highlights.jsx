@@ -2,12 +2,12 @@ import React from "react";
 
 const Highlights = ({ highlights }) => {
   return (
-    <div id="highlightList">
+    <div id="AhighlightList">
       <h3>Highlights</h3>
-      <ul id="highlights">
+      <ul id="Ahighlights">
         {highlights.map((highlight, idx) => {
           return (
-            <li id="highlight" key={idx}>
+            <li id="Ahighlight" key={idx}>
               {highlight.highlights}
             </li>
           );
