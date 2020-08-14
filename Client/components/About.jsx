@@ -73,10 +73,11 @@ class About extends React.Component {
     }
   }
 
-  displayAnswerField() {
+  displayAnswerField(e) {
+    e.preventDefault();
     let formDisplay = document.getElementById("AanswerForm");
     if (formDisplay.className === "AnoAnswerForm") {
-      formDisplay.className = "AyesAnwerForm";
+      formDisplay.className = "AyesAnswerForm";
     }
     let answerButtonOnOff = document.getElementById("AanswerButton");
     if (answerButtonOnOff.className === "AanswerButtonOn") {
@@ -84,10 +85,16 @@ class About extends React.Component {
     }
   }
 
-  cancelAnswerField() {
+  cancelAnswerField(e) {
+    e.preventDefault();
     let formDisplay = document.getElementById("AanswerForm");
+    console.log(formDisplay);
     if (formDisplay.className === "AyesAnswerForm") {
-      formDisplay.className = "AnoAnwerForm";
+      formDisplay.className = "AnoAnswerForm";
+    }
+    let answerButtonOnOff = document.getElementById("AanswerButton");
+    if (answerButtonOnOff.className === "AanswerButtonOff") {
+      answerButtonOnOff.className = "AanswerButtonOn";
     }
   }
 
@@ -104,7 +111,7 @@ class About extends React.Component {
     } = this.state;
 
     return (
-      <div>
+      <div id="about-this-item-outer-container">
         <div id="about-this-item">
           <form>
             <input
@@ -148,10 +155,9 @@ class About extends React.Component {
             </TabPanel>
             <TabPanel>
               <QA
-                item={selectedItem}
                 questions={questions}
-                display={() => this.displayAnswerField()}
-                cancel={() => this.cancelAnswerField()}
+                display={(e) => this.displayAnswerField(e)}
+                cancel={(e) => this.cancelAnswerField(e)}
               />
               <Answers answers={answers} />
             </TabPanel>

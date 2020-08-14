@@ -1,16 +1,21 @@
 import React from "react";
 import "../styles/styles.css";
 
-const QA = ({ item, questions, display, cancel }) => {
+const QA = ({ questions, display, cancel }) => {
   // const [item, cancel] = useState(item, cancel);
   // TODO - implement react hooks to handle form submissions in this functional component Dani suggested setState() and useEffect() (which is similar to component did mount)
+
+  //axios post request
 
   return (
     <div id="Aquestions">
       <ul style={{ listStyleType: "none" }}>
-        {questions.map((question, idx) => {
+        {questions.map((question) => {
+          {
+            console.log("QUESTION", question.question, question.id);
+          }
           return (
-            <li id="AquestionText" key={idx}>
+            <li id="AquestionText" key={question.id}>
               Q: {question.question}
             </li>
           );
@@ -43,13 +48,12 @@ const QA = ({ item, questions, display, cancel }) => {
           {<a href="http://localhost:1701/qaguidelines.html">q&a guidelines</a>}
         </p>
         <div id="AanswerFormSubmitButtons">
-          <input
-            id="AcancelSubmitAnswer"
-            type="submit"
-            value="cancel"
-            onClick={cancel}
-          />
-          <input id="AsubmitAnswer" type="submit" value="submit answer" />
+          <button id="AcancelSubmitAnswer" onClick={cancel}>
+            cancel
+          </button>
+          <button id="AsubmitAnswer" type="submit">
+            submit answer
+          </button>
         </div>
       </form>
     </div>

@@ -81,7 +81,8 @@ const getReturnOptions = (id, cb) => {
 
 //get questions
 const getQuestions = (id, cb) => {
-  const queryString = "SELECT question FROM questions WHERE item_id = ?";
+  const queryString =
+    "SELECT question, id, item_id FROM questions WHERE item_id = ?";
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);
@@ -91,6 +92,11 @@ const getQuestions = (id, cb) => {
       cb(null, results);
     }
   });
+};
+
+//post a new answer
+const newAnswer = (id, cb) => {
+  connection.connect;
 };
 
 //connection test

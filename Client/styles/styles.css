@@ -4,9 +4,12 @@ body {
   padding: 5px;
 }
 
+#about-this-item-outer-container {
+  height: fit-content;
+}
+
 #about-this-item {
   /* position: absolute; */
-  position: relative;
   width: 80%;
   background-color: #f7f7f7;
   padding: 30px;
@@ -20,6 +23,8 @@ body {
 
 .Amore {
   height: 100%;
+  overflow: hidden;
+  height: fit-content;
 }
 
 #AappHeader {
@@ -31,6 +36,7 @@ body {
 }
 
 #Ahighlights {
+  list-style: disc;
   height: flex;
   display: flex;
   justify-content: space-between;
@@ -62,6 +68,10 @@ body {
 .AnoAnswerForm {
   display: none;
 }
+
+/* .AyesAnswerForm {
+
+} */
 
 #Aanswerform p {
   color: #666666;
