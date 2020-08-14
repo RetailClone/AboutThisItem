@@ -6,7 +6,7 @@ body {
 
 #about-this-item {
   /* position: absolute; */
-  position: absolute;
+  position: relative;
   width: 80%;
   background-color: #f7f7f7;
   padding: 30px;
@@ -172,19 +172,19 @@ body {
 .Aflex-container {
   display: flex;
   background-color: white;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .Aflex-child {
   flex: 1;
   padding: 20px;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .Aflex-child:first-child {
   margin-right: 0px;
   padding: 20px;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .Aeaster {

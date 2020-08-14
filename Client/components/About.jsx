@@ -57,10 +57,10 @@ class About extends React.Component {
 
   buttonChange() {
     let buttonText = document.getElementById("Ashow");
-    if (buttonText.innerHTML === "AShow More") {
-      buttonText.innerHTML = "AShow Less";
-    } else if (buttonText.innerHTML === "AShow Less") {
-      buttonText.innerHTML = "AShow More";
+    if (buttonText.innerHTML === "Show More") {
+      buttonText.innerHTML = "Show Less";
+    } else if (buttonText.innerHTML === "Show Less") {
+      buttonText.innerHTML = "Show More";
     }
   }
 
