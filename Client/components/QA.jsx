@@ -2,9 +2,6 @@ import React from "react";
 import "../styles/styles.css";
 
 const QA = ({ questions, display, cancel }) => {
-  // const [item, cancel] = useState(item, cancel);
-  // TODO - implement react hooks to handle form submissions in this functional component Dani suggested setState() and useEffect() (which is similar to component did mount)
-
   //axios post request
 
   return (
@@ -51,7 +48,7 @@ const QA = ({ questions, display, cancel }) => {
           <button id="AcancelSubmitAnswer" onClick={cancel}>
             cancel
           </button>
-          <button id="AsubmitAnswer" type="submit">
+          <button id="AsubmitAnswer" type="submit" onClick={submitAnswer}>
             submit answer
           </button>
         </div>
