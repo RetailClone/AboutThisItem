@@ -48,7 +48,7 @@ const QA = ({ questions, display, cancel }) => {
           <button id="AcancelSubmitAnswer" onClick={cancel}>
             cancel
           </button>
-          <button id="AsubmitAnswer" type="submit" onClick={submitAnswer}>
+          <button id="AsubmitAnswer" type="submit">
             submit answer
           </button>
         </div>
