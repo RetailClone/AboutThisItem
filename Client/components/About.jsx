@@ -30,7 +30,7 @@ class About extends React.Component {
     this.displayAnswerField = this.displayAnswerField.bind(this);
     this.cancelAnswerField = this.cancelAnswerField.bind(this);
     this.getItemData = this.getItemData.bind(this);
-    this.submitAnswer = this.submitAnswer.bind(this);
+    // this.submitAnswer = this.submitAnswer.bind(this);
   }
   // get a description displaying
   selectAnItem(e) {
@@ -100,20 +100,20 @@ class About extends React.Component {
     }
   }
 
-  submitAnswer(e) {
-    e.preventDefault();
-    axios
-      .post("/")
-      .then((response) => console.log("AXIOS POST RESPONSE", response));
-    let formDisplay = document.getElementById("AanswerForm");
-    if (formDisplay.className === "AyesAnswerForm") {
-      formDisplay.className = "AnoAnswerForm";
-    }
-    let answerButtonOnOff = document.getElementById("AanswerButton");
-    if (answerButtonOnOff.className === "AanswerButtonOff") {
-      answerButtonOnOff.className = "AanswerButtonOn";
-    }
-  }
+  // submitAnswer(e) {
+  //   e.preventDefault();
+  //   axios
+  //     .post("/")
+  //     .then((response) => console.log("AXIOS POST RESPONSE", response));
+  //   let formDisplay = document.getElementById("AanswerForm");
+  //   if (formDisplay.className === "AyesAnswerForm") {
+  //     formDisplay.className = "AnoAnswerForm";
+  //   }
+  //   let answerButtonOnOff = document.getElementById("AanswerButton");
+  //   if (answerButtonOnOff.className === "AanswerButtonOff") {
+  //     answerButtonOnOff.className = "AanswerButtonOn";
+  //   }
+  // }
 
   render() {
     const {
@@ -173,11 +173,11 @@ class About extends React.Component {
             <TabPanel>
               <QA
                 questions={questions}
+                answers={answers}
                 display={(e) => this.displayAnswerField(e)}
                 cancel={(e) => this.cancelAnswerField(e)}
-                submitAnswer={(e) => this.submitAnswer(e)}
+                // submitAnswer={(e) => this.submitAnswer(e)}
               />
-              <Answers answers={answers} />
             </TabPanel>
           </Tabs>
         </div>

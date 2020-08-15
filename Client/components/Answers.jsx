@@ -1,7 +1,7 @@
 import React from "react";
 
 const Answers = ({ answers }) => {
-  console.log("ANSWER DATA", answers);
+  // console.log("ANSWER DATA", answers);
   return (
     <div>
       <ul style={{ listStyleType: "none" }}>

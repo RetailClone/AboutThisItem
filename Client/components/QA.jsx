@@ -1,16 +1,35 @@
-import React from "react";
-import "../styles/styles.css";
+import React, { useState } from "react";
+import Answers from "./Answers.jsx";
+import axios from "axios";
 
-const QA = ({ questions, display, cancel, submitAnswer }) => {
+const QA = ({ questions, display, cancel, answers }) => {
   //axios post request
+  const [answer, setAnswer] = useState("");
+  const [screen_name, setScreen_name] = useState("");
+  const [question_id] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios
+      .post("/", { answer, screen_name, question_id })
+      .then((response) => console.log("AXIOS POST RESPONSE", response));
+    let formDisplay = document.getElementById("AanswerForm");
+    if (formDisplay.className === "AyesAnswerForm") {
+      formDisplay.className = "AnoAnswerForm";
+    }
+    let answerButtonOnOff = document.getElementById("AanswerButton");
+    if (answerButtonOnOff.className === "AanswerButtonOff") {
+      answerButtonOnOff.className = "AanswerButtonOn";
+    }
+  };
 
   return (
     <div id="Aquestions">
       <ul style={{ listStyleType: "none" }}>
         {questions.map((question) => {
-          {
-            console.log("QUESTION", question.question, question.id);
-          }
+          // {
+          //   console.log("QUESTION DATA", question.question, question.id);
+          // }
           return (
             <li id="AquestionText" key={question.id}>
               Q: {question.question}
@@ -18,23 +37,27 @@ const QA = ({ questions, display, cancel, submitAnswer }) => {
           );
         })}
       </ul>
+      <Answers answers={answers} />
       <button id="AanswerButton" className="AanswerButtonOn" onClick={display}>
         Answer It
       </button>
-      <form id="AanswerForm" className="AnoAnswerForm">
+      <form id="AanswerForm" className="AnoAnswerForm" onSubmit={handleSubmit}>
         <label>
           <h2>your answer</h2>
           <div id="AanswerTextFields">
             <input
               id="AanswerField"
               type="text"
-              name="answer"
+              name={answer}
+              question_id={question_id}
+              onChange={(e) => setAnswer(e.target.value)}
               placeholder="answer"
             />
             <input
               id="AscreenNameField"
               type="text"
-              name="screenName"
+              name={screen_name}
+              onChange={(e) => setScreen_name(e.target.value)}
               placeholder="screen name"
             />
             <p>this name will be displayed with your answer</p>
@@ -48,9 +71,7 @@ const QA = ({ questions, display, cancel, submitAnswer }) => {
           <button id="AcancelSubmitAnswer" onClick={cancel}>
             cancel
           </button>
-          <button id="AsubmitAnswer" type="submit" onClick={submitAnswer}>
-            submit answer
-          </button>
+          <input id="AsubmitAnswer" type="submit" value="submitAnswer" />
         </div>
       </form>
     </div>

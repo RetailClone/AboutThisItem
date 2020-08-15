@@ -110,13 +110,18 @@ const getAnswers = (id, cb) => {
 
 //post a new answer
 const newAnswer = (data, cb) => {
-  const queryString =
-    "INSERT INTO answers (question_id, screen_name, answer) VALUES (?, ?, ?)";
-  connection.query(queryString, (err, results) => {
+  const { answer, screen_name, question_id } = data;
+  {
+    console.log(data);
+  }
+  const queryString = "INSERT INTO answers (screen_name, answer) VALUES (?, ?)";
+  connection.query(queryString, [screen_name, answer], (err, results) => {
     if (err) {
       cb(err, null);
+      console.error("Could not insert answers into DB - database.js line 118");
+    } else {
+      cb(null, results);
     }
-    cb(null, results);
   });
 };
 

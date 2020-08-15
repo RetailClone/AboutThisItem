@@ -53,16 +53,15 @@ app.get("/:id", (req, res) => {
 });
 
 // // post a new answer
-// app.post("/", (req, res) => {
-//   db.newAnswer(req.body, (err, results) => {
-//     console.log("WRECK", req.body);
-//     if (err) {
-//       res.status(500).send(err);
-//     } else {
-//       res.status(200).send(results);
-//     }
-//   });
-// });
+app.post("/", (req, res) => {
+  db.newAnswer(req.body, (err, results) => {
+    if (err) {
+      res.status(500).send(err);
+    } else {
+      res.status(200).send(results);
+    }
+  });
+});
 
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
