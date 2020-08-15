@@ -43,7 +43,7 @@ class About extends React.Component {
 
   // get all item data
   getItemData(id) {
-    axios.get(`http://localhost:1701/${id}`).then((itemData) =>
+    axios.get(`./${id}`).then((itemData) =>
       this.setState({
         itemDescription: itemData.data.desc[0].item_description,
         itemSpecs: itemData.data.specs,
