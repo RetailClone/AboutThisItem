@@ -6,7 +6,6 @@ import Specs from "./Specs.jsx";
 import Highlights from "./Highlights.jsx";
 import ShipReturn from "./ShipReturn.jsx";
 import QA from "./QA.jsx";
-import Answers from "./Answers.jsx";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 class About extends React.Component {
@@ -27,8 +26,6 @@ class About extends React.Component {
     this.selectAnItem = this.selectAnItem.bind(this);
     this.moreOrLess = this.moreOrLess.bind(this);
     this.buttonChange = this.buttonChange.bind(this);
-    this.displayAnswerField = this.displayAnswerField.bind(this);
-    this.cancelAnswerField = this.cancelAnswerField.bind(this);
     this.getItemData = this.getItemData.bind(this);
     // this.submitAnswer = this.submitAnswer.bind(this);
   }
@@ -75,45 +72,6 @@ class About extends React.Component {
       appClass.className = "Aless";
     }
   }
-
-  displayAnswerField(e) {
-    e.preventDefault();
-    let formDisplay = document.getElementById("AanswerForm");
-    if (formDisplay.className === "AnoAnswerForm") {
-      formDisplay.className = "AyesAnswerForm";
-    }
-    let answerButtonOnOff = document.getElementById("AanswerButton");
-    if (answerButtonOnOff.className === "AanswerButtonOn") {
-      answerButtonOnOff.className = "AanswerButtonOff";
-    }
-  }
-
-  cancelAnswerField(e) {
-    e.preventDefault();
-    let formDisplay = document.getElementById("AanswerForm");
-    if (formDisplay.className === "AyesAnswerForm") {
-      formDisplay.className = "AnoAnswerForm";
-    }
-    let answerButtonOnOff = document.getElementById("AanswerButton");
-    if (answerButtonOnOff.className === "AanswerButtonOff") {
-      answerButtonOnOff.className = "AanswerButtonOn";
-    }
-  }
-
-  // submitAnswer(e) {
-  //   e.preventDefault();
-  //   axios
-  //     .post("/")
-  //     .then((response) => console.log("AXIOS POST RESPONSE", response));
-  //   let formDisplay = document.getElementById("AanswerForm");
-  //   if (formDisplay.className === "AyesAnswerForm") {
-  //     formDisplay.className = "AnoAnswerForm";
-  //   }
-  //   let answerButtonOnOff = document.getElementById("AanswerButton");
-  //   if (answerButtonOnOff.className === "AanswerButtonOff") {
-  //     answerButtonOnOff.className = "AanswerButtonOn";
-  //   }
-  // }
 
   render() {
     const {
@@ -171,13 +129,7 @@ class About extends React.Component {
               <ShipReturn shipping={shippingOptions} returns={returnOptions} />
             </TabPanel>
             <TabPanel>
-              <QA
-                questions={questions}
-                answers={answers}
-                display={(e) => this.displayAnswerField(e)}
-                cancel={(e) => this.cancelAnswerField(e)}
-                // submitAnswer={(e) => this.submitAnswer(e)}
-              />
+              <QA questions={questions} answers={answers} />
             </TabPanel>
           </Tabs>
         </div>

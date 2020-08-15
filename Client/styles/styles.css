@@ -61,7 +61,7 @@ body {
   border-bottom: 1px solid #aaa;
 }
 
-#AquestionText {
+.AquestionText {
   font-weight: bolder;
 }
 

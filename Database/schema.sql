@@ -71,7 +71,7 @@ question_id INT NOT NULL,
 screen_name VARCHAR(100) NOT NULL,
 answer VARCHAR(2000) NOT NULL,
 PRIMARY KEY (id),
-FOREIGN KEY (question_id) REFERENCES items(id)
+FOREIGN KEY (question_id) REFERENCES questions(id)
 );
 
 INSERT INTO categories (id, category_name) VALUES
