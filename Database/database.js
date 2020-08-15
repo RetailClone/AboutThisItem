@@ -114,15 +114,22 @@ const newAnswer = (data, cb) => {
   {
     console.log(data);
   }
-  const queryString = "INSERT INTO answers (screen_name, answer) VALUES (?, ?)";
-  connection.query(queryString, [screen_name, answer], (err, results) => {
-    if (err) {
-      cb(err, null);
-      console.error("Could not insert answers into DB - database.js line 118");
-    } else {
-      cb(null, results);
+  const queryString =
+    "INSERT INTO answers (screen_name, answer, question_id) VALUES (?, ?, ?)";
+  connection.query(
+    queryString,
+    [screen_name, answer, question_id],
+    (err, results) => {
+      if (err) {
+        cb(err, null);
+        console.error(
+          "Could not insert answers into DB - database.js line 118"
+        );
+      } else {
+        cb(null, results);
+      }
     }
-  });
+  );
 };
 
 //connection test

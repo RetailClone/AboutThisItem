@@ -6,7 +6,7 @@ const QA = ({ questions, display, cancel, answers }) => {
   //axios post request
   const [answer, setAnswer] = useState("");
   const [screen_name, setScreen_name] = useState("");
-  const [question_id] = useState("");
+  const [question_id, setQuestion_id] = useState(1);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -27,11 +27,9 @@ const QA = ({ questions, display, cancel, answers }) => {
     <div id="Aquestions">
       <ul style={{ listStyleType: "none" }}>
         {questions.map((question) => {
-          // {
-          //   console.log("QUESTION DATA", question.question, question.id);
-          // }
           return (
             <li id="AquestionText" key={question.id}>
+              <div id="spooky">{question.id}</div>
               Q: {question.question}
             </li>
           );
@@ -49,7 +47,6 @@ const QA = ({ questions, display, cancel, answers }) => {
               id="AanswerField"
               type="text"
               name={answer}
-              question_id={question_id}
               onChange={(e) => setAnswer(e.target.value)}
               placeholder="answer"
             />
