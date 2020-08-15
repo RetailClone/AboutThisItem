@@ -49,22 +49,16 @@ app.get("/:id", (req, res) => {
 });
 
 // post a new answer
-// app.post("/:id", (req, res) => {});
-// const createAnswer = (data.)
-
-// const createNewCow = (data, cb) => {
-//   const { name, description } = data;
-//   connection.query(
-//     `INSERT INTO cows (name, description) VALUES (?, ?)`,
-//     [name, description],
-//     (err, results) => {
-//       if (err) {
-//         cb(err, null);
-//       }
-//       cb(null, results);
-//     }
-//   );
-// };
+app.post("/", (req, res) => {
+  db.newAnswer(req.body, (err, results) => {
+    console.log("WRECK", req.body);
+    if (err) {
+      res.status(500).send(err);
+    } else {
+      res.status(200).send(results);
+    }
+  });
+});
 
 app.listen(PORT, () => {
   // console.log("DIR", __dirname);

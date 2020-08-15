@@ -95,8 +95,15 @@ const getQuestions = (id, cb) => {
 };
 
 //post a new answer
-const newAnswer = (id, cb) => {
-  connection.connect;
+const newAnswer = (data, cb) => {
+  const queryString =
+    "INSERT INTO answers (question_id, screen_name, answer) VALUES (?, ?, ?)";
+  connection.query(queryString, (err, results) => {
+    if (err) {
+      cb(err, null);
+    }
+    cb(null, results);
+  });
 };
 
 //connection test
@@ -115,4 +122,5 @@ module.exports = {
   getShippingOptions,
   getReturnOptions,
   getQuestions,
+  newAnswer,
 };

@@ -30,6 +30,7 @@ class About extends React.Component {
     this.displayAnswerField = this.displayAnswerField.bind(this);
     this.cancelAnswerField = this.cancelAnswerField.bind(this);
     this.getItemData = this.getItemData.bind(this);
+    this.submitAnswer = this.submitAnswer.bind(this);
   }
   // get a description displaying
   selectAnItem(e) {
@@ -41,22 +42,19 @@ class About extends React.Component {
     this.getItemData(1);
   }
 
+  // explicit aws route `http://ec2-3-129-250-209.us-east-2.compute.amazonaws.com:1701/${id}`
   // get all item data
   getItemData(id) {
-    axios
-      .get(
-        `http://ec2-3-129-250-209.us-east-2.compute.amazonaws.com:1701/${id}`
-      )
-      .then((itemData) =>
-        this.setState({
-          itemDescription: itemData.data.desc[0].item_description,
-          itemSpecs: itemData.data.specs,
-          itemHighlights: itemData.data.highlights,
-          shippingOptions: itemData.data.shippingOptions,
-          returnOptions: itemData.data.returnOptions,
-          questions: itemData.data.questions,
-        })
-      );
+    axios.get(`./${id}`).then((itemData) =>
+      this.setState({
+        itemDescription: itemData.data.desc[0].item_description,
+        itemSpecs: itemData.data.specs,
+        itemHighlights: itemData.data.highlights,
+        shippingOptions: itemData.data.shippingOptions,
+        returnOptions: itemData.data.returnOptions,
+        questions: itemData.data.questions,
+      })
+    );
   }
 
   buttonChange() {
@@ -92,7 +90,21 @@ class About extends React.Component {
   cancelAnswerField(e) {
     e.preventDefault();
     let formDisplay = document.getElementById("AanswerForm");
-    console.log(formDisplay);
+    if (formDisplay.className === "AyesAnswerForm") {
+      formDisplay.className = "AnoAnswerForm";
+    }
+    let answerButtonOnOff = document.getElementById("AanswerButton");
+    if (answerButtonOnOff.className === "AanswerButtonOff") {
+      answerButtonOnOff.className = "AanswerButtonOn";
+    }
+  }
+
+  submitAnswer(e) {
+    e.preventDefault();
+    axios
+      .post("/")
+      .then((response) => console.log("AXIOS POST RESPONSE", response));
+    let formDisplay = document.getElementById("AanswerForm");
     if (formDisplay.className === "AyesAnswerForm") {
       formDisplay.className = "AnoAnswerForm";
     }
@@ -162,6 +174,7 @@ class About extends React.Component {
                 questions={questions}
                 display={(e) => this.displayAnswerField(e)}
                 cancel={(e) => this.cancelAnswerField(e)}
+                submitAnswer={(e) => this.submitAnswer(e)}
               />
               <Answers answers={answers} />
             </TabPanel>

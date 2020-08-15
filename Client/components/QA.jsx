@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/styles.css";
 
-const QA = ({ questions, display, cancel }) => {
+const QA = ({ questions, display, cancel, submitAnswer }) => {
   //axios post request
 
   return (
@@ -48,7 +48,7 @@ const QA = ({ questions, display, cancel }) => {
           <button id="AcancelSubmitAnswer" onClick={cancel}>
             cancel
           </button>
-          <button id="AsubmitAnswer" type="submit">
+          <button id="AsubmitAnswer" type="submit" onClick={submitAnswer}>
             submit answer
           </button>
         </div>
