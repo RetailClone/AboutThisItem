@@ -13,22 +13,20 @@ class About extends React.Component {
     super(props);
 
     this.state = {
-      selectedItem: "",
+      selectedItem: 1,
       itemDescription: "",
       itemSpecs: [],
       itemHighlights: [],
       shippingOptions: [],
       returnOptions: [],
-      questions: [],
-      answers: [],
     };
 
     this.selectAnItem = this.selectAnItem.bind(this);
     this.moreOrLess = this.moreOrLess.bind(this);
     this.buttonChange = this.buttonChange.bind(this);
     this.getItemData = this.getItemData.bind(this);
-    // this.submitAnswer = this.submitAnswer.bind(this);
   }
+
   // get a description displaying
   selectAnItem(e) {
     this.setState({ selectedItem: e.target.value });
@@ -39,7 +37,8 @@ class About extends React.Component {
     this.getItemData(1);
   }
 
-  // explicit aws route `http://ec2-3-129-250-209.us-east-2.compute.amazonaws.com:1701/${id}`
+  // TODO explicit aws route `http://ec2-3-129-250-209.us-east-2.compute.amazonaws.com:1701/${id}`
+
   // get all item data
   getItemData(id) {
     axios.get(`./${id}`).then((itemData) =>
@@ -49,8 +48,6 @@ class About extends React.Component {
         itemHighlights: itemData.data.highlights,
         shippingOptions: itemData.data.shippingOptions,
         returnOptions: itemData.data.returnOptions,
-        questions: itemData.data.questions,
-        answers: itemData.data.answers,
       })
     );
   }
@@ -81,8 +78,6 @@ class About extends React.Component {
       itemHighlights,
       shippingOptions,
       returnOptions,
-      questions,
-      answers,
     } = this.state;
 
     return (
@@ -129,7 +124,7 @@ class About extends React.Component {
               <ShipReturn shipping={shippingOptions} returns={returnOptions} />
             </TabPanel>
             <TabPanel>
-              <QA questions={questions} answers={answers} />
+              <QA id={selectedItem} />
             </TabPanel>
           </Tabs>
         </div>

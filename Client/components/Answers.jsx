@@ -9,7 +9,6 @@ const Answers = ({ answers }) => {
           return (
             <li id="AanswerText" key={answer.id}>
               A: {answer.answer}
-              <br />
               {answer.screen_name}
             </li>
           );

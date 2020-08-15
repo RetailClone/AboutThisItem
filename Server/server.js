@@ -11,6 +11,27 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(__dirname + "/../Public"));
 
+// get answers to a specific question
+app.get("/answers/:id", (req, res) => {
+  db.getAnswers(req.params.id, (err, results) => {
+    if (err) {
+      res.status(500).send(err);
+    } else {
+      res.status(200).send(results);
+    }
+  });
+});
+
+// get questions
+app.get("/questions/:id", (req, res) => {
+  db.getQuestions(req.params.id, (err, results) => {
+    if (err) {
+      res.status(500).send(err);
+    } else {
+      res.status(200).send(results);
+    }
+  });
+});
 //get all data about an item asynchronously using promise chain
 app.get("/:id", (req, res) => {
   const results = {};
@@ -33,14 +54,6 @@ app.get("/:id", (req, res) => {
     })
     .then((returnOptions) => {
       results.returnOptions = returnOptions;
-      return db.getQuestionsAsync(req.params.id);
-    })
-    .then((questions) => {
-      results.questions = questions;
-      return db.getAnswersAsync(req.params.id);
-    })
-    .then((answers) => {
-      results.answers = answers;
       res.status(200).send(results);
     })
     .catch((err) => {
@@ -52,7 +65,7 @@ app.get("/:id", (req, res) => {
     });
 });
 
-// // post a new answer
+// post a new answer
 app.post("/", (req, res) => {
   db.newAnswer(req.body, (err, results) => {
     if (err) {

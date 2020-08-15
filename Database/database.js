@@ -86,7 +86,7 @@ const getQuestions = (id, cb) => {
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);
-      console.error("Could not get questions from DB - database.js line 88");
+      console.error("Could not get questions from DB - database.js line 89");
       return;
     } else {
       cb(null, results);
@@ -110,15 +110,15 @@ const getAnswers = (id, cb) => {
 
 //post a new answer
 const newAnswer = (data, cb) => {
-  const { answer, screen_name, question_id } = data;
+  const { question_id, screen_name, answer } = data;
   {
     console.log(data);
   }
   const queryString =
-    "INSERT INTO answers (screen_name, answer, question_id) VALUES (?, ?, ?)";
+    "INSERT INTO answers (question_id, screen_name, answer) VALUES (?, ?, ?)";
   connection.query(
     queryString,
-    [screen_name, answer, question_id],
+    [question_id, screen_name, answer],
     (err, results) => {
       if (err) {
         cb(err, null);
