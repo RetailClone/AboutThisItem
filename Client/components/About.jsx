@@ -43,16 +43,20 @@ class About extends React.Component {
 
   // get all item data
   getItemData(id) {
-    axios.get(`./${id}`).then((itemData) =>
-      this.setState({
-        itemDescription: itemData.data.desc[0].item_description,
-        itemSpecs: itemData.data.specs,
-        itemHighlights: itemData.data.highlights,
-        shippingOptions: itemData.data.shippingOptions,
-        returnOptions: itemData.data.returnOptions,
-        questions: itemData.data.questions,
-      })
-    );
+    axios
+      .get(
+        `http://ec2-3-129-250-209.us-east-2.compute.amazonaws.com:1701/${id}`
+      )
+      .then((itemData) =>
+        this.setState({
+          itemDescription: itemData.data.desc[0].item_description,
+          itemSpecs: itemData.data.specs,
+          itemHighlights: itemData.data.highlights,
+          shippingOptions: itemData.data.shippingOptions,
+          returnOptions: itemData.data.returnOptions,
+          questions: itemData.data.questions,
+        })
+      );
   }
 
   buttonChange() {
