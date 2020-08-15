@@ -34,11 +34,12 @@ class About extends React.Component {
   }
 
   componentDidMount() {
+    // sets default baseURL for ALL axios reqs
+    axios.defaults.baseURL =
+      "http://ec2-3-129-250-209.us-east-2.compute.amazonaws.com:1701";
+    // "http://localhost:1701";
     this.getItemData(1);
   }
-
-  // TODO explicit aws route `http://ec2-3-129-250-209.us-east-2.compute.amazonaws.com:1701/${id}`
-
   // get all item data
   getItemData(id) {
     axios.get(`./${id}`).then((itemData) =>
