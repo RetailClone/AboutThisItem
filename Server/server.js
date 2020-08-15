@@ -37,30 +37,33 @@ app.get("/:id", (req, res) => {
     })
     .then((questions) => {
       results.questions = questions;
+      return db.getAnswersAsync(req.params.id);
+    })
+    .then((answers) => {
+      results.answers = answers;
       res.status(200).send(results);
     })
     .catch((err) => {
       console.error(
-        "Server failed to get info from DB - Server.js line 44",
+        "Server failed to get info from DB - Server.js line 48",
         err
       );
-      res.sendStatus(500);
+      res.status(500).send("Bad server response chain");
     });
 });
 
-// post a new answer
-app.post("/", (req, res) => {
-  db.newAnswer(req.body, (err, results) => {
-    console.log("WRECK", req.body);
-    if (err) {
-      res.status(500).send(err);
-    } else {
-      res.status(200).send(results);
-    }
-  });
-});
+// // post a new answer
+// app.post("/", (req, res) => {
+//   db.newAnswer(req.body, (err, results) => {
+//     console.log("WRECK", req.body);
+//     if (err) {
+//       res.status(500).send(err);
+//     } else {
+//       res.status(200).send(results);
+//     }
+//   });
+// });
 
 app.listen(PORT, () => {
-  // console.log("DIR", __dirname);
   console.log(`listening on port ${PORT}`);
 });

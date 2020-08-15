@@ -94,6 +94,20 @@ const getQuestions = (id, cb) => {
   });
 };
 
+const getAnswers = (id, cb) => {
+  const queryString =
+    "SELECT id, question_id, screen_name, answer FROM answers WHERE question_id = ?";
+  connection.query(queryString, [id], (err, results) => {
+    if (err) {
+      cb(err, null);
+      console.error("Could not get answers from DB - database.js line 103");
+      return;
+    } else {
+      cb(null, results);
+    }
+  });
+};
+
 //post a new answer
 const newAnswer = (data, cb) => {
   const queryString =
@@ -122,5 +136,6 @@ module.exports = {
   getShippingOptions,
   getReturnOptions,
   getQuestions,
+  getAnswers,
   newAnswer,
 };

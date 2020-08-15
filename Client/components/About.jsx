@@ -53,6 +53,7 @@ class About extends React.Component {
         shippingOptions: itemData.data.shippingOptions,
         returnOptions: itemData.data.returnOptions,
         questions: itemData.data.questions,
+        answers: itemData.data.answers,
       })
     );
   }

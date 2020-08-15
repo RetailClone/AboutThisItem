@@ -71,7 +71,7 @@ question_id INT NOT NULL,
 screen_name VARCHAR(100) NOT NULL,
 answer VARCHAR(2000) NOT NULL,
 PRIMARY KEY (id),
-FOREIGN KEY (question_id) REFERENCES questions(id)
+FOREIGN KEY (question_id) REFERENCES items(id)
 );
 
 INSERT INTO categories (id, category_name) VALUES
@@ -2433,3 +2433,5 @@ INSERT INTO questions (item_id, question) VALUES
 (98,"Does it cover up the stench of failure?"),
 (99,"Why does this vacuum not suck? Or does it suck? Wait, which way is this tired joke supposed to go? I don't even get it anymore."),
 (100,"What happens when this thing becomes self aware? Will it follow Asimov's three laws of robotics?");
+
+INSERT INTO answers (question_id, screen_name, answer) VALUES (1, "test name", "Lorem Ipsum Dies Irae Gloria in excelsis deo");
