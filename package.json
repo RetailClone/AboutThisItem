@@ -6,12 +6,14 @@
   "dependencies": {
     "@babel/cli": "^7.10.5",
     "axios": "^0.19.2",
+    "bluebird": "^3.7.2",
     "bootstrap": "^4.5.2",
     "chai": "^4.2.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
     "mocha": "^8.1.1",
+    "moment": "^2.27.0",
     "mysql": "^2.18.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
@@ -32,7 +34,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "react:dev": "webpack -d --watch",
-    "server:dev": "nodemon ./server/server.js",
+    "server:dev": "nodemon ./Server/server.js",
     "seed": "mysql -u root -p < source database/schema.sql"
   },
   "repository": {

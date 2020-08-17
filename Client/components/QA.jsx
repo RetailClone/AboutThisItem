@@ -1,54 +1,113 @@
-import React from "react";
-import "../styles/styles.css";
+import React, { useState, useEffect } from "react";
+import Question from "./Question.jsx";
+import axios from "axios";
 
-const QA = ({ item, questions, display, cancel }) => {
+const QA = ({ id }) => {
+  const [questions, setQuestions] = useState([]);
+  const [inputValue, setInputValue] = useState("");
+  const [question, setQuestion] = useState("");
+  const [showQuestionForm, setShowQuestionForm] = useState(false);
+  const [showQuestionButton, setShowQuestionButton] = useState(true);
+
+  useEffect(() => {
+    if (!showQuestionForm) {
+      axios.get(`./questions/${id}`).then((response) => {
+        setQuestions(response.data);
+      });
+    }
+  }, [id, showQuestionForm]);
+
+  const handleAnswer = (question_id, screen_name, answer) => {
+    axios
+      .post("/postAnswer", { question_id, screen_name, answer })
+      .then((response) => console.log("AXIOS POST ANSWER RESPONSE", response));
+  };
+
+  const handleQuestion = (item_id, question) => {
+    axios
+      .post("/postQuestion", { item_id, question })
+      .then((response) =>
+        console.log("AXIOS POST QUESTION RESPONSE", response)
+      );
+  };
+
+  const handleQuestionChange = (e) => {
+    setQuestion(e.target.value);
+    setInputValue(e.target.value);
+  };
+
+  const toggleQuestionField = (e) => {
+    e.preventDefault();
+    setShowQuestionForm(!showQuestionForm);
+    setShowQuestionButton(!showQuestionButton);
+  };
+
+  const handleQuestionSubmit = (e) => {
+    e.preventDefault();
+    setInputValue("");
+    setShowQuestionForm(false);
+    setShowQuestionButton(true);
+    handleQuestion(id, question);
+  };
+
   return (
-    <div id="questions">
-      <ul style={{ listStyleType: "none" }}>
-        {questions.map((question, idx) => {
-          return (
-            <li id="questionText" key={idx}>
-              Q: {question.question}
-            </li>
-          );
-        })}
-      </ul>
-      <button id="answerButton" className="answerButtonOn" onClick={display}>
-        Answer It
-      </button>
-      <form id="answerForm" className="noAnswerForm">
+    <div>
+      <div id="Aquestions">
+        <ul style={{ listStyleType: "none" }}>
+          {questions.map((question) => {
+            return (
+              <Question
+                key={question.id}
+                question={question}
+                handleAnswer={handleAnswer}
+              />
+            );
+          })}
+        </ul>
+      </div>
+      <form
+        id="question-form"
+        className={showQuestionForm ? "yes-question-form" : "no-question-form"}
+        onSubmit={handleQuestionSubmit}
+      >
         <label>
-          <h2>your answer</h2>
-          <div id="answerTextFields">
+          <h2>Your question</h2>
+          <div id="question-text-fields">
             <input
-              id="answerField"
+              id="question-field"
               type="text"
-              name="answer"
-              placeholder="answer"
+              name={question}
+              onChange={handleQuestionChange}
+              // onChange={(e) => setQuestion(e.target.value)}
+              value={inputValue}
+              placeholder="question"
             />
-            <input
-              id="screenNameField"
-              type="text"
-              name="screenName"
-              placeholder="screen name"
-            />
-            <p>this name will be displayed with your answer</p>
           </div>
         </label>
-        <p id="answerFormButtonText">
+        <p id="AanswerFormButtonText">
           by submitting I agree to the{" "}
           {<a href="http://localhost:1701/qaguidelines.html">q&a guidelines</a>}
         </p>
-        <div id="answerFormSubmitButtons">
-          <input
-            id="cancelSubmitAnswer"
-            type="submit"
-            value="cancel"
-            onClick={cancel}
-          />
-          <input id="submitAnswer" type="submit" value="submit answer" />
+        <div id="question-form-submit-buttons">
+          <button
+            id="cancel-submit-answer-button"
+            onClick={toggleQuestionField}
+          >
+            cancel
+          </button>
+          <input id="submit-question" type="submit" value="submit question" />
         </div>
       </form>
+      <button
+        id="question-submit-button"
+        className={
+          showQuestionButton ? "yes-question-button" : "no-question-button"
+        }
+        type="submit"
+        onClick={toggleQuestionField}
+      >
+        Ask a question
+      </button>
     </div>
   );
 };

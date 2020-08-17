@@ -9,17 +9,17 @@ const Specs = ({ specs }) => {
         {specs.map((spec, idx) => {
           return (
             <div key={idx}>
-              <br></br>
+              <br />
               <li>
-                <span id="boldSlice">
+                <span id="AboldSlice">
                   {spec.specs.slice(0, spec.specs.indexOf(":") + 1)}
                 </span>
-                <span id="lightSlice">
+                <span id="AlightSlice">
                   {spec.specs.slice(spec.specs.indexOf(":") + 1)}
                 </span>
               </li>
-              <br></br>
-              <hr></hr>
+              <br />
+              <hr />
             </div>
           );
         })}
