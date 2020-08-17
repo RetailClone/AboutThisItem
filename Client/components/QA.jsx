@@ -51,7 +51,7 @@ const QA = ({ id }) => {
   };
 
   return (
-    <div>
+    <div id="question-and-answer-container">
       <div id="Aquestions">
         <ul style={{ listStyleType: "none" }}>
           {questions.map((question) => {
@@ -98,16 +98,18 @@ const QA = ({ id }) => {
           <input id="submit-question" type="submit" value="submit question" />
         </div>
       </form>
-      <button
-        id="question-submit-button"
-        className={
-          showQuestionButton ? "yes-question-button" : "no-question-button"
-        }
-        type="submit"
-        onClick={toggleQuestionField}
-      >
-        Ask a question
-      </button>
+      <div id="ask-a-question-button-container">
+        <button
+          id="question-submit-button"
+          className={
+            showQuestionButton ? "yes-question-button" : "no-question-button"
+          }
+          type="submit"
+          onClick={toggleQuestionField}
+        >
+          Ask a question
+        </button>
+      </div>
     </div>
   );
 };

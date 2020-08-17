@@ -133,11 +133,16 @@ body {
   font-size: 1em;
 }
 
+#ask-a-question-button-container {
+  display: flex;
+}
+
 #question-submit-button {
   text-align: center;
-  width: 90%;
+  width: 100%;
+  max-width: 500px;
   height: 50px;
-  margin: 10px;
+  margin: 10px auto;
   font-size: 1em;
   background-color: #ca0813;
   border: 1px solid #ca0813;
