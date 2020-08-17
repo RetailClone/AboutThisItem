@@ -9,10 +9,12 @@ const QA = ({ id }) => {
   const [showQuestionButton, setShowQuestionButton] = useState(true);
 
   useEffect(() => {
-    axios.get(`./questions/${id}`).then((response) => {
-      setQuestions(response.data);
-    });
-  }, [id]);
+    if (!showQuestionForm) {
+      axios.get(`./questions/${id}`).then((response) => {
+        setQuestions(response.data);
+      });
+    }
+  }, [id, showQuestionForm]);
 
   const handleAnswer = (question_id, screen_name, answer) => {
     axios
@@ -38,7 +40,7 @@ const QA = ({ id }) => {
     e.preventDefault();
     setShowQuestionForm(false);
     setShowQuestionButton(true);
-    handleQuestion(question.id, question);
+    handleQuestion(id, question);
   };
 
   return (

@@ -2,6 +2,7 @@ body {
   background-color: white;
   font-family: Helvetica, sans-serif;
   padding: 5px;
+  color: rgb(51, 51, 51);
 }
 
 #about-this-item-outer-container {
@@ -55,10 +56,6 @@ body {
 
 #AhighlightList {
   margin-bottom: 20px;
-}
-
-#Aquestions {
-  border-bottom: 1px solid #aaa;
 }
 
 .question-text {
@@ -196,6 +193,11 @@ body {
 
 .AanswerButtonOff {
   display: none;
+}
+
+#question-container {
+  border-bottom: 1px solid #d0d0d0;
+  margin-bottom: 10px;
 }
 
 #AboldSlice {

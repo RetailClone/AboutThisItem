@@ -135,6 +135,7 @@ const newAnswer = (data, cb) => {
 
 //post a new question
 const newQuestion = (data, cb) => {
+  const { item_id, question } = data;
   const queryString = "INSERT INTO questions (item_id, question) VALUES (?, ?)";
   connection.query(queryString, [item_id, question], (err, results) => {
     if (err) {

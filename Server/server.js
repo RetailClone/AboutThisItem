@@ -79,6 +79,7 @@ app.post("/postAnswer", (req, res) => {
 // post a new question
 app.post("/postQuestion", (req, res) => {
   db.newQuestion(req.body, (err, results) => {
+    console.log("WRECK: ", req.body);
     if (err) {
       res.status(500).send(err);
     } else {
