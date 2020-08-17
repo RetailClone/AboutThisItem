@@ -66,8 +66,19 @@ app.get("/:id", (req, res) => {
 });
 
 // post a new answer
-app.post("/", (req, res) => {
+app.post("/postAnswer", (req, res) => {
   db.newAnswer(req.body, (err, results) => {
+    if (err) {
+      res.status(500).send(err);
+    } else {
+      res.status(200).send(results);
+    }
+  });
+});
+
+// post a new question
+app.post("/postQuestion", (req, res) => {
+  db.newQuestion(req.body, (err, results) => {
     if (err) {
       res.status(500).send(err);
     } else {

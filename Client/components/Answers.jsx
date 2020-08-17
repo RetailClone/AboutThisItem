@@ -1,15 +1,17 @@
 import React from "react";
+import moment from "moment";
 
 const Answers = ({ answers }) => {
-  // console.log("ANSWER DATA", answers);
   return (
     <div>
       <ul style={{ listStyleType: "none" }}>
         {answers.map((answer) => {
           return (
-            <li id="AanswerText" key={answer.id}>
-              A: {answer.answer}
-              {answer.screen_name}
+            <li key={answer.id}>
+              <span id="boldA">A:</span> {answer.answer}
+              <div id="screen-name-text">
+                {answer.screen_name} - {moment().startOf("hour").fromNow()}
+              </div>
             </li>
           );
         })}

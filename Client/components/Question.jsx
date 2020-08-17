@@ -32,7 +32,7 @@ const Questions = ({ question, handleAnswer }) => {
 
   return (
     <div>
-      <li className="AquestionText" key={question.id}>
+      <li className="question-text" key={question.id}>
         Q: {question.question}
       </li>
       <Answers answers={answers} />

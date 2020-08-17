@@ -94,13 +94,14 @@ const getQuestions = (id, cb) => {
   });
 };
 
+//get the answers
 const getAnswers = (id, cb) => {
   const queryString =
     "SELECT id, question_id, screen_name, answer FROM answers WHERE question_id = ?";
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);
-      console.error("Could not get answers from DB - database.js line 103");
+      console.error("Could not get answers from DB - database.js line 104");
       return;
     } else {
       cb(null, results);
@@ -123,13 +124,28 @@ const newAnswer = (data, cb) => {
       if (err) {
         cb(err, null);
         console.error(
-          "Could not insert answers into DB - database.js line 118"
+          "Could not insert answers into DB - database.js line 127"
         );
       } else {
         cb(null, results);
       }
     }
   );
+};
+
+//post a new question
+const newQuestion = (data, cb) => {
+  const queryString = "INSERT INTO questions (item_id, question) VALUES (?, ?)";
+  connection.query(queryString, [item_id, question], (err, results) => {
+    if (err) {
+      cb(err, null);
+      console.error(
+        "Could not insert a new question into DB - database.js line 142"
+      );
+    } else {
+      cb(null, results);
+    }
+  });
 };
 
 //connection test
@@ -150,4 +166,5 @@ module.exports = {
   getQuestions,
   getAnswers,
   newAnswer,
+  newQuestion,
 };
