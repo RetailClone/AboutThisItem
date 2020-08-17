@@ -5,6 +5,8 @@ import axios from "axios";
 const Questions = ({ question, handleAnswer }) => {
   const [answers, setAnswers] = useState([]);
   const [answer, setAnswer] = useState("");
+  const [answerInputValue, setAnswerInputValue] = useState("");
+  const [screen_nameInputValue, setScreen_nameInputValue] = useState("");
   const [screen_name, setScreen_name] = useState("");
   const [showAnswerForm, setShowAnswerForm] = useState(false);
   const [showAnswerButton, setShowAnswerButton] = useState(true);
@@ -17,6 +19,16 @@ const Questions = ({ question, handleAnswer }) => {
     }
   }, [showAnswerForm]);
 
+  const handleAnswerChange = (e) => {
+    setAnswer(e.target.value);
+    setAnswerInputValue(e.target.value);
+  };
+
+  const handleScreenNameChange = (e) => {
+    setScreen_name(e.target.value);
+    setScreen_nameInputValue(e.target.value);
+  };
+
   const toggleAnswerField = (e) => {
     e.preventDefault();
     setShowAnswerForm(!showAnswerForm);
@@ -25,6 +37,8 @@ const Questions = ({ question, handleAnswer }) => {
 
   const handleAnswerSubmit = (e) => {
     e.preventDefault();
+    setAnswerInputValue("");
+    setScreen_nameInputValue("");
     setShowAnswerForm(false);
     setShowAnswerButton(true);
     handleAnswer(question.id, screen_name, answer);
@@ -55,14 +69,18 @@ const Questions = ({ question, handleAnswer }) => {
               id="AanswerField"
               type="text"
               name={answer}
-              onChange={(e) => setAnswer(e.target.value)}
+              onChange={handleAnswerChange}
+              value={answerInputValue}
+              // onChange={(e) => setAnswer(e.target.value)}
               placeholder="answer"
             />
             <input
               id="AscreenNameField"
               type="text"
               name={screen_name}
-              onChange={(e) => setScreen_name(e.target.value)}
+              onChange={handleScreenNameChange}
+              value={screen_nameInputValue}
+              // onChange={(e) => setScreen_name(e.target.value)}
               placeholder="screen name"
             />
             <p>this name will be displayed with your answer</p>

@@ -4,6 +4,7 @@ import axios from "axios";
 
 const QA = ({ id }) => {
   const [questions, setQuestions] = useState([]);
+  const [inputValue, setInputValue] = useState("");
   const [question, setQuestion] = useState("");
   const [showQuestionForm, setShowQuestionForm] = useState(false);
   const [showQuestionButton, setShowQuestionButton] = useState(true);
@@ -30,6 +31,11 @@ const QA = ({ id }) => {
       );
   };
 
+  const handleQuestionChange = (e) => {
+    setQuestion(e.target.value);
+    setInputValue(e.target.value);
+  };
+
   const toggleQuestionField = (e) => {
     e.preventDefault();
     setShowQuestionForm(!showQuestionForm);
@@ -38,6 +44,7 @@ const QA = ({ id }) => {
 
   const handleQuestionSubmit = (e) => {
     e.preventDefault();
+    setInputValue("");
     setShowQuestionForm(false);
     setShowQuestionButton(true);
     handleQuestion(id, question);
@@ -70,7 +77,9 @@ const QA = ({ id }) => {
               id="question-field"
               type="text"
               name={question}
-              onChange={(e) => setQuestion(e.target.value)}
+              onChange={handleQuestionChange}
+              // onChange={(e) => setQuestion(e.target.value)}
+              value={inputValue}
               placeholder="question"
             />
           </div>
