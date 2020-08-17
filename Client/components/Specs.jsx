@@ -28,7 +28,7 @@ const Specs = ({ specs }) => {
       <p>
         If the item details above aren’t accurate or complete, we want to know
         about it.{" "}
-        <a href="http://localhost:1701/tooBad.html">
+        <a href={`http://${window.location.hostname}:1701/tooBad.html`}>
           Report incorrect product info.
         </a>
       </p>

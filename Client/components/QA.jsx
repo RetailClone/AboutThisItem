@@ -40,7 +40,7 @@ const QA = ({ item, questions, display, cancel }) => {
         </label>
         <p id="AanswerFormButtonText">
           by submitting I agree to the{" "}
-          {<a href="http://localhost:1701/qaguidelines.html">q&a guidelines</a>}
+          {<a href={`http://${window.location.hostname}:1701/qaguidelines.html`}>q&a guidelines</a>}
         </p>
         <div id="AanswerFormSubmitButtons">
           <input
