@@ -37,8 +37,8 @@ class About extends React.Component {
   componentDidMount() {
     // sets default baseURL for ALL axios reqs
     axios.defaults.baseURL =
-      // "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
-      "http://localhost:1701";
+      "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
+    // "http://localhost:1701";
     this.getItemData(1);
   }
 
