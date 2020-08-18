@@ -18,17 +18,11 @@ const QA = ({ id }) => {
   }, [id, showQuestionForm]);
 
   const handleAnswer = (question_id, screen_name, answer) => {
-    axios
-      .post("/postAnswer", { question_id, screen_name, answer })
-      .then((response) => console.log("AXIOS POST ANSWER RESPONSE", response));
+    axios.post("/postAnswer", { question_id, screen_name, answer });
   };
 
   const handleQuestion = (item_id, question) => {
-    axios
-      .post("/postQuestion", { item_id, question })
-      .then((response) =>
-        console.log("AXIOS POST QUESTION RESPONSE", response)
-      );
+    axios.post("/postQuestion", { item_id, question });
   };
 
   const handleQuestionChange = (e) => {

@@ -42,15 +42,6 @@ class About extends React.Component {
     this.getItemData(1);
   }
 
-  // componentDidUpdate(_, prevState) {
-  //   if (this.state.questions.length !== prevState.questions.length) {
-  //     axios.get(`./${this.state.selectedItem}`).then((itemData) => {
-  //       this.setState({ questions: itemData.data.questions });
-  //     });
-  //     console.log("Current: ", this.state.questions.length);
-  //     console.log("Previous: ", prevState.questions.length);
-  //   }
-  // }
   // get all item data
   getItemData(id) {
     axios.get(`./${id}`).then((itemData) =>
