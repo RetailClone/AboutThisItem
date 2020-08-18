@@ -11,18 +11,28 @@ const QA = ({ id }) => {
 
   useEffect(() => {
     if (!showQuestionForm) {
-      axios.get(`./questions/${id}`).then((response) => {
-        setQuestions(response.data);
-      });
+      axios
+        .get(
+          `http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701/questions/${id}`
+        )
+        .then((response) => {
+          setQuestions(response.data);
+        });
     }
   }, [id, showQuestionForm]);
 
   const handleAnswer = (question_id, screen_name, answer) => {
-    axios.post("/postAnswer", { question_id, screen_name, answer });
+    axios.post(
+      "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701/postAnswer",
+      { question_id, screen_name, answer }
+    );
   };
 
   const handleQuestion = (item_id, question) => {
-    axios.post("/postQuestion", { item_id, question });
+    axios.post(
+      "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701/postQuestion",
+      { item_id, question }
+    );
   };
 
   const handleQuestionChange = (e) => {

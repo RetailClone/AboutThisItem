@@ -9,10 +9,6 @@ body {
   height: fit-content;
 }
 
-#spooky {
-  display: none;
-}
-
 #about-this-item {
   /* position: absolute; */
   width: 80%;

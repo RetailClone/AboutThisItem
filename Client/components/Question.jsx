@@ -14,7 +14,9 @@ const Questions = ({ question, handleAnswer }) => {
   useEffect(() => {
     if (!showAnswerForm) {
       axios
-        .get(`./answers/${question.id}`)
+        .get(
+          `http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701/answers/${question.id}`
+        )
         .then((response) => setAnswers(response.data));
     }
   }, [showAnswerForm]);
