@@ -19,6 +19,7 @@ class About extends React.Component {
       itemHighlights: [],
       shippingOptions: [],
       returnOptions: [],
+      questions: [],
     };
 
     this.selectAnItem = this.selectAnItem.bind(this);
@@ -40,6 +41,7 @@ class About extends React.Component {
     // "http://localhost:1701";
     this.getItemData(1);
   }
+
   // get all item data
   getItemData(id) {
     axios.get(`./${id}`).then((itemData) =>
@@ -49,6 +51,7 @@ class About extends React.Component {
         itemHighlights: itemData.data.highlights,
         shippingOptions: itemData.data.shippingOptions,
         returnOptions: itemData.data.returnOptions,
+        questions: itemData.data.questions,
       })
     );
   }
@@ -79,6 +82,7 @@ class About extends React.Component {
       itemHighlights,
       shippingOptions,
       returnOptions,
+      questions,
     } = this.state;
 
     return (
@@ -97,7 +101,7 @@ class About extends React.Component {
             <TabList>
               <Tab>Details</Tab>
               <Tab>Shipping & Returns</Tab>
-              <Tab>Q&A</Tab>
+              <Tab>Q&A ({questions.length})</Tab>
             </TabList>
             <TabPanel>
               <div id="Adetails" className="Aless">

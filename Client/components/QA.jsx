@@ -18,17 +18,11 @@ const QA = ({ id }) => {
   }, [id, showQuestionForm]);
 
   const handleAnswer = (question_id, screen_name, answer) => {
-    axios
-      .post("/postAnswer", { question_id, screen_name, answer })
-      .then((response) => console.log("AXIOS POST ANSWER RESPONSE", response));
+    axios.post("/postAnswer", { question_id, screen_name, answer });
   };
 
   const handleQuestion = (item_id, question) => {
-    axios
-      .post("/postQuestion", { item_id, question })
-      .then((response) =>
-        console.log("AXIOS POST QUESTION RESPONSE", response)
-      );
+    axios.post("/postQuestion", { item_id, question });
   };
 
   const handleQuestionChange = (e) => {
@@ -51,7 +45,7 @@ const QA = ({ id }) => {
   };
 
   return (
-    <div>
+    <div id="question-and-answer-container">
       <div id="Aquestions">
         <ul style={{ listStyleType: "none" }}>
           {questions.map((question) => {
@@ -98,16 +92,18 @@ const QA = ({ id }) => {
           <input id="submit-question" type="submit" value="submit question" />
         </div>
       </form>
-      <button
-        id="question-submit-button"
-        className={
-          showQuestionButton ? "yes-question-button" : "no-question-button"
-        }
-        type="submit"
-        onClick={toggleQuestionField}
-      >
-        Ask a question
-      </button>
+      <div id="ask-a-question-button-container">
+        <button
+          id="question-submit-button"
+          className={
+            showQuestionButton ? "yes-question-button" : "no-question-button"
+          }
+          type="submit"
+          onClick={toggleQuestionField}
+        >
+          Ask a question
+        </button>
+      </div>
     </div>
   );
 };

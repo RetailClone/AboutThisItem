@@ -32,6 +32,7 @@ app.get("/questions/:id", (req, res) => {
     }
   });
 });
+
 //get all data about an item asynchronously using promise chain
 app.get("/:id", (req, res) => {
   const results = {};
@@ -54,6 +55,10 @@ app.get("/:id", (req, res) => {
     })
     .then((returnOptions) => {
       results.returnOptions = returnOptions;
+      return db.getQuestionsAsync(req.params.id);
+    })
+    .then((questions) => {
+      results.questions = questions;
       res.status(200).send(results);
     })
     .catch((err) => {
@@ -79,7 +84,6 @@ app.post("/postAnswer", (req, res) => {
 // post a new question
 app.post("/postQuestion", (req, res) => {
   db.newQuestion(req.body, (err, results) => {
-    console.log("WRECK: ", req.body);
     if (err) {
       res.status(500).send(err);
     } else {
@@ -88,6 +92,7 @@ app.post("/postQuestion", (req, res) => {
   });
 });
 
+// Server connection check
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });

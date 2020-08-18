@@ -112,9 +112,6 @@ const getAnswers = (id, cb) => {
 //post a new answer
 const newAnswer = (data, cb) => {
   const { question_id, screen_name, answer } = data;
-  {
-    console.log(data);
-  }
   const queryString =
     "INSERT INTO answers (question_id, screen_name, answer) VALUES (?, ?, ?)";
   connection.query(
@@ -149,7 +146,7 @@ const newQuestion = (data, cb) => {
   });
 };
 
-//connection test
+// database connection test
 connection.connect((err) => {
   if (err) {
     console.log(`Couldn't connect to database`, err);
