@@ -19,6 +19,7 @@ class About extends React.Component {
       itemHighlights: [],
       shippingOptions: [],
       returnOptions: [],
+      questions: [],
     };
 
     this.selectAnItem = this.selectAnItem.bind(this);
@@ -36,10 +37,20 @@ class About extends React.Component {
   componentDidMount() {
     // sets default baseURL for ALL axios reqs
     axios.defaults.baseURL =
-      "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
-    // "http://localhost:1701";
+      // "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
+      "http://localhost:1701";
     this.getItemData(1);
   }
+
+  // componentDidUpdate(_, prevState) {
+  //   if (this.state.questions.length !== prevState.questions.length) {
+  //     axios.get(`./${this.state.selectedItem}`).then((itemData) => {
+  //       this.setState({ questions: itemData.data.questions });
+  //     });
+  //     console.log("Current: ", this.state.questions.length);
+  //     console.log("Previous: ", prevState.questions.length);
+  //   }
+  // }
   // get all item data
   getItemData(id) {
     axios.get(`./${id}`).then((itemData) =>
@@ -49,6 +60,7 @@ class About extends React.Component {
         itemHighlights: itemData.data.highlights,
         shippingOptions: itemData.data.shippingOptions,
         returnOptions: itemData.data.returnOptions,
+        questions: itemData.data.questions,
       })
     );
   }
@@ -79,6 +91,7 @@ class About extends React.Component {
       itemHighlights,
       shippingOptions,
       returnOptions,
+      questions,
     } = this.state;
 
     return (
@@ -97,7 +110,7 @@ class About extends React.Component {
             <TabList>
               <Tab>Details</Tab>
               <Tab>Shipping & Returns</Tab>
-              <Tab>Q&A</Tab>
+              <Tab>Q&A ({questions.length})</Tab>
             </TabList>
             <TabPanel>
               <div id="Adetails" className="Aless">

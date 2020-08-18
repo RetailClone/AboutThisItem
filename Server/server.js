@@ -55,6 +55,10 @@ app.get("/:id", (req, res) => {
     })
     .then((returnOptions) => {
       results.returnOptions = returnOptions;
+      return db.getQuestionsAsync(req.params.id);
+    })
+    .then((questions) => {
+      results.questions = questions;
       res.status(200).send(results);
     })
     .catch((err) => {
