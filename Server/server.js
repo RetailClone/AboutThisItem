@@ -4,6 +4,7 @@ const cors = require("cors");
 const Promise = require("bluebird");
 // promisifies all of the db requests
 const db = Promise.promisifyAll(require("../Database/database"));
+const db2 = require("../Database/database");
 const PORT = 1701;
 
 // middleware
@@ -13,7 +14,7 @@ app.use(express.static(__dirname + "/../Public"));
 
 // get answers to a specific question
 app.get("/answers/:id", (req, res) => {
-  db.getAnswers(req.params.id, (err, results) => {
+  db2.getAnswers(req.params.id, (err, results) => {
     if (err) {
       res.status(500).send(err);
     } else {
@@ -24,7 +25,7 @@ app.get("/answers/:id", (req, res) => {
 
 // get questions
 app.get("/questions/:id", (req, res) => {
-  db.getQuestions(req.params.id, (err, results) => {
+  db2.getQuestions(req.params.id, (err, results) => {
     if (err) {
       res.status(500).send(err);
     } else {
@@ -72,7 +73,7 @@ app.get("/:id", (req, res) => {
 
 // post a new answer
 app.post("/postAnswer", (req, res) => {
-  db.newAnswer(req.body, (err, results) => {
+  db2.newAnswer(req.body, (err, results) => {
     if (err) {
       res.status(500).send(err);
     } else {
@@ -83,7 +84,7 @@ app.post("/postAnswer", (req, res) => {
 
 // post a new question
 app.post("/postQuestion", (req, res) => {
-  db.newQuestion(req.body, (err, results) => {
+  db2.newQuestion(req.body, (err, results) => {
     if (err) {
       res.status(500).send(err);
     } else {
