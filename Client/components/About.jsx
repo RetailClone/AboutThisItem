@@ -10,15 +10,14 @@ import QA from "./QA.jsx";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 // sets default baseURL for ALL axios reqs
 axios.defaults.baseURL =
-  // "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
-  "http://localhost:1701";
+  "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
 
 class About extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      selectedItem: 1,
+      selectedItem: window.product_idå,
       itemDescription: "",
       itemSpecs: [],
       itemHighlights: [],
@@ -41,6 +40,7 @@ class About extends React.Component {
 
   componentDidMount() {
     this.getItemData(1);
+    this.setState({ selectedItem: window.product_id });
   }
 
   // get all item data
@@ -89,14 +89,14 @@ class About extends React.Component {
     return (
       <div id="about-this-item-outer-container">
         <div id="about-this-item">
-          <form>
+          {/* <form>
             <input
               type="text"
               placeholder="Enter Item ID#"
               value={selectedItem}
               onChange={this.selectAnItem}
             />
-          </form>
+          </form> */}
           <h1 id="AappHeader">About This Item</h1>
           <Tabs defaultIndex={0}>
             <TabList>
