@@ -101,12 +101,7 @@ const QA = ({ id }) => {
           >
             cancel
           </button>
-          <input
-            id="submit-question"
-            type="submit"
-            onClick={toggleQuestionField}
-            value="submit question"
-          />
+          <input id="submit-question" type="submit" value="submit question" />
         </div>
       </form>
       <div id="ask-a-question-button-container">
