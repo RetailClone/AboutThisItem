@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Answers from "./Answers.jsx";
 import axios from "axios";
 
-const Questions = ({ question, handleAnswer }) => {
+const Questions = ({ question }) => {
   const [answers, setAnswers] = useState([]);
   const [answer, setAnswer] = useState("");
   const [answerInputValue, setAnswerInputValue] = useState("");
@@ -19,6 +19,17 @@ const Questions = ({ question, handleAnswer }) => {
         .catch((err) => console.error(err));
     }
   }, [showAnswerForm]);
+
+  const handleAnswer = (question_id, screen_name, answer) => {
+    axios
+      .post("./postAnswer", { question_id, screen_name, answer })
+      .then(() => {
+        axios
+          .get(`./answers/${question.id}`)
+          .then((response) => setAnswers(response.data))
+          .catch((err) => console.error(err));
+      });
+  };
 
   const handleAnswerChange = (e) => {
     setAnswer(e.target.value);

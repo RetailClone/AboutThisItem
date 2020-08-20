@@ -10,24 +10,15 @@ const QA = ({ id }) => {
   let [showQuestionButton, setShowQuestionButton] = useState(true);
 
   useEffect(() => {
-    console.log("INSIDE USE EFFECT");
     if (!showQuestionForm) {
-      console.log("INSIDE USE EFFECT IF STATEMENT");
       axios
         .get(`./questions/${id}`)
         .then((response) => {
-          console.log("RESP DATA: ", response.data);
           setQuestions(response.data);
         })
         .catch((err) => console.error(err));
     }
   }, [id, showQuestionForm]);
-
-  const handleAnswer = (question_id, screen_name, answer) => {
-    axios
-      .post("./postAnswer", { question_id, screen_name, answer })
-      .catch((err) => console.error(err));
-  };
 
   const handleQuestion = (item_id, question) => {
     axios.post("./postQuestion", { item_id, question }).then(() => {
