@@ -55,13 +55,7 @@ const QA = ({ id }) => {
       <div id="Aquestions">
         <ul style={{ listStyleType: "none" }}>
           {questions.map((question) => {
-            return (
-              <Question
-                key={question.id}
-                question={question}
-                handleAnswer={handleAnswer}
-              />
-            );
+            return <Question key={question.id} question={question} />;
           })}
         </ul>
       </div>
