@@ -30,9 +30,14 @@ const QA = ({ id }) => {
   };
 
   const handleQuestion = (item_id, question) => {
-    axios
-      .post("./postQuestion", { item_id, question })
-      .catch((err) => console.error(err));
+    axios.post("./postQuestion", { item_id, question }).then(() => {
+      axios
+        .get(`./questions/${item_id}`)
+        .then((response) => {
+          setQuestions(response.data);
+        })
+        .catch((err) => console.error(err));
+    });
   };
 
   const handleQuestionChange = (e) => {
