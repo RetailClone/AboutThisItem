@@ -69,7 +69,7 @@ const QA = ({ id }) => {
       <form
         id="question-form"
         className={showQuestionForm ? "yes-question-form" : "no-question-form"}
-        onSubmit={handleQuestionSubmit}
+        onSubmit={(handleQuestionSubmit, toggleQuestionField)}
       >
         <label>
           <h2>Your question</h2>
