@@ -9,19 +9,16 @@ const QA = ({ id }) => {
   const [showQuestionForm, setShowQuestionForm] = useState(false);
   const [showQuestionButton, setShowQuestionButton] = useState(true);
 
-  const getReponse = (id) => {
-    axios
-      .get(`./questions/${id}`)
-      .then((response) => {
-        setQuestions(response.data);
-      })
-      .catch((err) => console.error(err));
-  };
-
-  // useEffect(() => {
-  //   if (!showQuestionForm) {
-  //   }
-  // }, [id, showQuestionForm]);
+  useEffect(() => {
+    if (!showQuestionForm) {
+      axios
+        .get(`./questions/${id}`)
+        .then((response) => {
+          setQuestions(response.data);
+        })
+        .catch((err) => console.error(err));
+    }
+  }, [id, showQuestionForm]);
 
   const handleAnswer = (question_id, screen_name, answer) => {
     axios
@@ -32,7 +29,7 @@ const QA = ({ id }) => {
   const handleQuestion = (item_id, question) => {
     axios
       .post("./postQuestion", { item_id, question })
-      .then(() => getReponse(item_id))
+      // .then(() => useEffect())
       .catch((err) => console.error(err));
   };
 
