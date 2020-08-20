@@ -29,7 +29,7 @@ const QA = ({ id }) => {
   const handleQuestion = (item_id, question) => {
     axios
       .post("./postQuestion", { item_id, question })
-      .then(() => useEffect())
+      // .then(() => useEffect())
       .catch((err) => console.error(err));
   };
 
