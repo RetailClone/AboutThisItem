@@ -87,7 +87,11 @@ const QA = ({ id }) => {
         </label>
         <p id="AanswerFormButtonText">
           by submitting I agree to the{" "}
-          {<a href="http://localhost:1701/qaguidelines.html">q&a guidelines</a>}
+          {
+            <a href="http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701/qaguidelines.html">
+              q&a guidelines
+            </a>
+          }
         </p>
         <div id="question-form-submit-buttons">
           <button
