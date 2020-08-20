@@ -3,17 +3,20 @@ import Question from "./Question.jsx";
 import axios from "axios";
 
 const QA = ({ id }) => {
-  const [questions, setQuestions] = useState([]);
-  const [inputValue, setInputValue] = useState("");
-  const [question, setQuestion] = useState("");
-  const [showQuestionForm, setShowQuestionForm] = useState(false);
-  const [showQuestionButton, setShowQuestionButton] = useState(true);
+  let [questions, setQuestions] = useState([]);
+  let [inputValue, setInputValue] = useState("");
+  let [question, setQuestion] = useState("");
+  let [showQuestionForm, setShowQuestionForm] = useState(false);
+  let [showQuestionButton, setShowQuestionButton] = useState(true);
 
   useEffect(() => {
+    console.log("INSIDE USE EFFECT");
     if (!showQuestionForm) {
+      console.log("INSIDE USE EFFECT IF STATEMENT");
       axios
         .get(`./questions/${id}`)
         .then((response) => {
+          console.log("RESP DATA: ", response.data);
           setQuestions(response.data);
         })
         .catch((err) => console.error(err));
@@ -29,7 +32,6 @@ const QA = ({ id }) => {
   const handleQuestion = (item_id, question) => {
     axios
       .post("./postQuestion", { item_id, question })
-      // .then(() => useEffect())
       .catch((err) => console.error(err));
   };
 
