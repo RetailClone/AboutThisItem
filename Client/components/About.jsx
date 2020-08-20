@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/styles.css";
-import "../../node_modules/react-tabs/style/react-tabs.css";
+import "../styles/react-tabs.css";
 import axios from "axios";
 import Description from "./Description.jsx";
 import Specs from "./Specs.jsx";
