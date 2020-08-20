@@ -118,5 +118,4 @@ const QA = ({ id }) => {
     </div>
   );
 };
-
 export default QA;
