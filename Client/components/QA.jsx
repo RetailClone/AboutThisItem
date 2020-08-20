@@ -12,27 +12,24 @@ const QA = ({ id }) => {
   useEffect(() => {
     if (!showQuestionForm) {
       axios
-        .get(
-          `http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701/questions/${id}`
-        )
+        .get(`./questions/${id}`)
         .then((response) => {
           setQuestions(response.data);
-        });
+        })
+        .catch((err) => console.error(err));
     }
   }, [id, showQuestionForm]);
 
   const handleAnswer = (question_id, screen_name, answer) => {
-    axios.post(
-      "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701/postAnswer",
-      { question_id, screen_name, answer }
-    );
+    axios
+      .post("./postAnswer", { question_id, screen_name, answer })
+      .catch((err) => console.error(err));
   };
 
   const handleQuestion = (item_id, question) => {
-    axios.post(
-      "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701/postQuestion",
-      { item_id, question }
-    );
+    axios
+      .post("./postQuestion", { item_id, question })
+      .catch((err) => console.error(err));
   };
 
   const handleQuestionChange = (e) => {
