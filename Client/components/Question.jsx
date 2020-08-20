@@ -38,11 +38,11 @@ const Questions = ({ question, handleAnswer }) => {
 
   const handleAnswerSubmit = (e) => {
     e.preventDefault();
-    setAnswerInputValue("");
-    setScreen_nameInputValue("");
     setShowAnswerForm(false);
     setShowAnswerButton(true);
     handleAnswer(question.id, screen_name, answer);
+    setAnswerInputValue("");
+    setScreen_nameInputValue("");
   };
 
   return (

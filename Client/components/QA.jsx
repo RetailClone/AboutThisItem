@@ -29,6 +29,7 @@ const QA = ({ id }) => {
   const handleQuestion = (item_id, question) => {
     axios
       .post("./postQuestion", { item_id, question })
+      .then(() => useEffect())
       .catch((err) => console.error(err));
   };
 
@@ -45,10 +46,10 @@ const QA = ({ id }) => {
 
   const handleQuestionSubmit = (e) => {
     e.preventDefault();
-    setInputValue("");
     setShowQuestionForm(false);
     setShowQuestionButton(true);
     handleQuestion(id, question);
+    setInputValue("");
   };
 
   return (
