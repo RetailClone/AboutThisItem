@@ -1,16 +1,12 @@
-body {
+#about-this-item-outer-container {
+  height: fit-content;
   background-color: white;
   font-family: Helvetica, sans-serif;
   padding: 5px;
   color: rgb(51, 51, 51);
 }
 
-#about-this-item-outer-container {
-  height: fit-content;
-}
-
 #about-this-item {
-  /* position: absolute; */
   width: 80%;
   background-color: #f7f7f7;
   padding: 30px;

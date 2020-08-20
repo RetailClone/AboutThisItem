@@ -90,14 +90,6 @@ class About extends React.Component {
     return (
       <div id="about-this-item-outer-container">
         <div id="about-this-item">
-          {/* <form>
-            <input
-              type="text"
-              placeholder="Enter Item ID#"
-              value={selectedItem}
-              onChange={this.selectAnItem}
-            />
-          </form> */}
           <h1 id="AappHeader">About This Item</h1>
           <Tabs defaultIndex={0}>
             <TabList>
