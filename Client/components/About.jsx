@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/styles.css";
+import "../../node_modules/react-tabs/style/react-tabs.css";
 import axios from "axios";
 import Description from "./Description.jsx";
 import Specs from "./Specs.jsx";
@@ -7,6 +8,10 @@ import Highlights from "./Highlights.jsx";
 import ShipReturn from "./ShipReturn.jsx";
 import QA from "./QA.jsx";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+// sets default baseURL for ALL axios reqs
+axios.defaults.baseURL =
+  // "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
+  "http://localhost:1701";
 
 class About extends React.Component {
   constructor(props) {
@@ -35,10 +40,6 @@ class About extends React.Component {
   }
 
   componentDidMount() {
-    // sets default baseURL for ALL axios reqs
-    axios.defaults.baseURL =
-      "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
-    // "http://localhost:1701";
     this.getItemData(1);
   }
 
