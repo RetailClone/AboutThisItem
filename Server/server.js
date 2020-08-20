@@ -26,6 +26,7 @@ app.get("/answers/:id", (req, res) => {
 // get questions
 app.get("/questions/:id", (req, res) => {
   db2.getQuestions(req.params.id, (err, results) => {
+    console.log("INSIDE GET");
     if (err) {
       res.status(500).send(err);
     } else {
@@ -85,6 +86,7 @@ app.post("/postAnswer", (req, res) => {
 // post a new question
 app.post("/postQuestion", (req, res) => {
   db2.newQuestion(req.body, (err, results) => {
+    console.log("INSIDE POST");
     if (err) {
       res.status(500).send(err);
     } else {
