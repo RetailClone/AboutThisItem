@@ -17,7 +17,9 @@ const ShipReturn = ({ shipping, returns }) => {
         })}
         <li>
           See the{" "}
-          <a href="http://localhost:1701/returnPolicy.html">return policy</a>{" "}
+          <a href="http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701/returnPolicy.html">
+            return policy
+          </a>{" "}
           for more information.
         </li>
       </ul>

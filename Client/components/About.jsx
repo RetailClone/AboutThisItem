@@ -11,13 +11,14 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 // sets default baseURL for ALL axios reqs
 axios.defaults.baseURL =
   "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
+// "http://localhost:1701";
 
 class About extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      selectedItem: window.product_idå,
+      selectedItem: window.product_id || 1,
       itemDescription: "",
       itemSpecs: [],
       itemHighlights: [],
@@ -26,26 +27,26 @@ class About extends React.Component {
       questions: [],
     };
 
-    this.selectAnItem = this.selectAnItem.bind(this);
+    // this.selectAnItem = this.selectAnItem.bind(this);
     this.moreOrLess = this.moreOrLess.bind(this);
     this.buttonChange = this.buttonChange.bind(this);
     this.getItemData = this.getItemData.bind(this);
   }
 
   // get a description displaying
-  selectAnItem(e) {
-    this.setState({ selectedItem: e.target.value });
-    this.getItemData(e.target.value);
-  }
+  // selectAnItem(e) {
+  //   this.setState({ selectedItem: e.target.value });
+  //   this.getItemData(e.target.value);
+  // }
 
   componentDidMount() {
-    this.getItemData(1);
-    this.setState({ selectedItem: window.product_id });
+    this.getItemData(window.product_id || 1);
+    this.setState({ selectedItem: window.product_id || 1 });
   }
 
   // get all item data
-  getItemData(id) {
-    axios.get(`./${id}`).then((itemData) =>
+  getItemData() {
+    axios.get(`./${this.state.selectedItem}`).then((itemData) =>
       this.setState({
         itemDescription: itemData.data.desc[0].item_description,
         itemSpecs: itemData.data.specs,
