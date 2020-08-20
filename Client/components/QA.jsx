@@ -23,14 +23,12 @@ const QA = ({ id }) => {
   const handleAnswer = (question_id, screen_name, answer) => {
     axios
       .post("./postAnswer", { question_id, screen_name, answer })
-      .get(`./answers/${question_id}`)
       .catch((err) => console.error(err));
   };
 
   const handleQuestion = (item_id, question) => {
     axios
       .post("./postQuestion", { item_id, question })
-      .get(`./questions/${item_id}`)
       .catch((err) => console.error(err));
   };
 
