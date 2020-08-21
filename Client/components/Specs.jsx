@@ -2,13 +2,12 @@ import React from "react";
 
 const Specs = ({ specs }) => {
   return (
-    <div id="specs">
+    <div>
       <h3 id="detail-headers">Specifications</h3>
       <ul style={{ listStyleType: "none" }}>
         {specs.map((spec, idx) => {
           return (
-            <div key={idx}>
-              <br />
+            <div id="individual-specs" key={idx}>
               <li>
                 <span id="AboldSlice">
                   {spec.specs.slice(0, spec.specs.indexOf(":") + 1)}
@@ -17,13 +16,10 @@ const Specs = ({ specs }) => {
                   {spec.specs.slice(spec.specs.indexOf(":") + 1)}
                 </span>
               </li>
-              <br />
-              <hr />
             </div>
           );
         })}
       </ul>
-      <br></br>
       <p>
         If the item details above aren’t accurate or complete, we want to know
         about it.{" "}
