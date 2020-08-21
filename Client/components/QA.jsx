@@ -66,18 +66,18 @@ const QA = ({ id }) => {
       >
         <label>
           <h2 className="your-question-and-answer-text">Your question</h2>
-          <div id="question-text-fields">
-            <input
-              id="question-field"
-              type="text"
-              name={question}
-              onChange={handleQuestionChange}
-              // onChange={(e) => setQuestion(e.target.value)}
-              value={inputValue}
-              placeholder="question"
-            />
-          </div>
         </label>
+        <div id="question-text-fields">
+          <input
+            id="question-field"
+            type="text"
+            name={question}
+            onChange={handleQuestionChange}
+            // onChange={(e) => setQuestion(e.target.value)}
+            value={inputValue}
+            placeholder="question"
+          />
+        </div>
         <p id="AanswerFormButtonText">
           by submitting I agree to the{" "}
           {

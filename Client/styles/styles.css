@@ -113,6 +113,7 @@ h3#detail-headers {
 
 #AanswerTextFields {
   height: 300px;
+  width: 100%;
   border-bottom: 1px solid #d0d0d0;
   margin: 10px 0;
 }
@@ -127,6 +128,7 @@ h3#detail-headers {
 #AanswerField,
 #question-field {
   height: 130px;
+  width: 100%;
   border: 1px solid #888888;
 }
 
