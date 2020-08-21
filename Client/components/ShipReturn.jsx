@@ -6,14 +6,22 @@ const ShipReturn = ({ shipping, returns }) => {
       <h3 id="detail-headers">Shipping Details</h3>
       <ul style={{ listStyleType: "none" }}>
         {shipping.map((option, idx) => {
-          return <li key={idx}>{option.shipping_details}</li>;
+          return (
+            <li className="about-content-text" key={idx}>
+              {option.shipping_details}
+            </li>
+          );
         })}
       </ul>
       <br />
       <h3 id="detail-headers">Return Details</h3>
       <ul style={{ listStyleType: "none" }}>
         {returns.map((reeturn, idx) => {
-          return <li key={idx}>{reeturn.return_details}</li>;
+          return (
+            <li className="about-content-text" key={idx}>
+              {reeturn.return_details}
+            </li>
+          );
         })}
         <li>
           See the{" "}

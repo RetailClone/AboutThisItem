@@ -8,7 +8,7 @@ const Highlights = ({ highlights }) => {
         {highlights.map((highlight, idx) => {
           return (
             <div id="highlight-container">
-              <li id="Ahighlight" key={idx}>
+              <li className="about-content-text" id="Ahighlight" key={idx}>
                 {highlight.highlights}
               </li>
             </div>

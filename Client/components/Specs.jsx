@@ -8,7 +8,7 @@ const Specs = ({ specs }) => {
         {specs.map((spec, idx) => {
           return (
             <div id="individual-specs" key={idx}>
-              <li>
+              <li className="about-content-text">
                 <span id="AboldSlice">
                   {spec.specs.slice(0, spec.specs.indexOf(":") + 1)}
                 </span>
