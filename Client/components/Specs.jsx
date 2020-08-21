@@ -3,7 +3,7 @@ import React from "react";
 const Specs = ({ specs }) => {
   return (
     <div id="specs">
-      <h3>Specifications</h3>
+      <h3 id="detail-headers">Specifications</h3>
       <ul style={{ listStyleType: "none" }}>
         {specs.map((spec, idx) => {
           return (

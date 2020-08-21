@@ -88,7 +88,7 @@ class About extends React.Component {
 
     return (
       <div id="about-this-item-outer-container">
-        <h2 id="app-header-text">About This Item</h2>
+        <h2 id="about-this-item-header">About This Item</h2>
         <Tabs defaultIndex={0}>
           <TabList>
             <Tab>Details</Tab>

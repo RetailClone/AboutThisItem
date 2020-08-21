@@ -21,9 +21,16 @@
   height: fit-content;
 }
 
-#app-header-text {
+h2#about-this-item-header {
+  font-family: Helvetica, sans-serif !important;
   display: flex;
-  justify-content: center;
+  justify-content: center !important;
+}
+
+h3#detail-headers {
+  font-family: Helvetica, sans-serif !important;
+  display: flex;
+  justify-content: left !important;
 }
 
 #Ahighlight {
@@ -240,6 +247,7 @@
 
 .Aflex-container {
   display: flex;
+  justify-content: left !important;
   background-color: white;
   /* height: 100%; */
 }
