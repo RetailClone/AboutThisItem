@@ -26,7 +26,6 @@ app.get("/answers/:id", (req, res) => {
 // get questions
 app.get("/questions/:id", (req, res) => {
   db2.getQuestions(req.params.id, (err, results) => {
-    console.log("INSIDE GET");
     if (err) {
       res.status(500).send(err);
     } else {

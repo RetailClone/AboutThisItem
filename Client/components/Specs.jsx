@@ -1,7 +1,6 @@
 import React from "react";
 
 const Specs = ({ specs }) => {
-  // console.log(specs);
   return (
     <div id="specs">
       <h3>Specifications</h3>
