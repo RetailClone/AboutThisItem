@@ -8,7 +8,8 @@ const Answers = ({ answers }) => {
         {answers.map((answer) => {
           return (
             <li key={answer.id}>
-              <span id="boldA">A:</span> {answer.answer}
+              <span id="boldA">A:</span>
+              <span className="about-content-text"> {answer.answer}</span>
               <div id="screen-name-text">
                 {answer.screen_name} - {moment().startOf("hour").fromNow()}
               </div>

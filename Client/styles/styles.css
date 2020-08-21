@@ -74,7 +74,7 @@ h3#detail-headers {
   min-height: fit-content;
 }
 
-.question-text {
+#question-text {
   font-weight: bolder;
   margin-bottom: 10px;
 }
