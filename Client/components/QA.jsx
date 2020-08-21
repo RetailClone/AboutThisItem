@@ -3,37 +3,32 @@ import Question from "./Question.jsx";
 import axios from "axios";
 
 const QA = ({ id }) => {
-  const [questions, setQuestions] = useState([]);
-  const [inputValue, setInputValue] = useState("");
-  const [question, setQuestion] = useState("");
-  const [showQuestionForm, setShowQuestionForm] = useState(false);
-  const [showQuestionButton, setShowQuestionButton] = useState(true);
+  let [questions, setQuestions] = useState([]);
+  let [inputValue, setInputValue] = useState("");
+  let [question, setQuestion] = useState("");
+  let [showQuestionForm, setShowQuestionForm] = useState(false);
+  let [showQuestionButton, setShowQuestionButton] = useState(true);
 
-  const getReponse = (id) => {
-    axios
-      .get(`./questions/${id}`)
-      .then((response) => {
-        setQuestions(response.data);
-      })
-      .catch((err) => console.error(err));
-  };
-
-  // useEffect(() => {
-  //   if (!showQuestionForm) {
-  //   }
-  // }, [id, showQuestionForm]);
-
-  const handleAnswer = (question_id, screen_name, answer) => {
-    axios
-      .post("./postAnswer", { question_id, screen_name, answer })
-      .catch((err) => console.error(err));
-  };
+  useEffect(() => {
+    if (!showQuestionForm) {
+      axios
+        .get(`./questions/${id}`)
+        .then((response) => {
+          setQuestions(response.data);
+        })
+        .catch((err) => console.error(err));
+    }
+  }, [id, showQuestionForm]);
 
   const handleQuestion = (item_id, question) => {
-    axios
-      .post("./postQuestion", { item_id, question })
-      .then(() => getReponse(item_id))
-      .catch((err) => console.error(err));
+    axios.post("./postQuestion", { item_id, question }).then(() => {
+      axios
+        .get(`./questions/${item_id}`)
+        .then((response) => {
+          setQuestions(response.data);
+        })
+        .catch((err) => console.error(err));
+    });
   };
 
   const handleQuestionChange = (e) => {
@@ -60,13 +55,7 @@ const QA = ({ id }) => {
       <div id="Aquestions">
         <ul style={{ listStyleType: "none" }}>
           {questions.map((question) => {
-            return (
-              <Question
-                key={question.id}
-                question={question}
-                handleAnswer={handleAnswer}
-              />
-            );
+            return <Question key={question.id} question={question} />;
           })}
         </ul>
       </div>
