@@ -12,7 +12,8 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 // sets default baseURL for ALL axios reqs
 axios.defaults.baseURL =
-  "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
+  // "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
+  "http://localhost:1701/";
 
 class About extends React.Component {
   constructor(props) {
@@ -87,44 +88,42 @@ class About extends React.Component {
 
     return (
       <div id="about-this-item-outer-container">
-        <div id="about-this-item">
-          <h1 id="AappHeader">About This Item</h1>
-          <Tabs defaultIndex={0}>
-            <TabList>
-              <Tab>Details</Tab>
-              <Tab>Shipping & Returns</Tab>
-              <Tab>Q&A ({questions.length})</Tab>
-            </TabList>
-            <TabPanel>
-              <div id="Adetails" className="Aless">
-                <Highlights id="Ahighlights" highlights={itemHighlights} />
-                <div className="Aflex-container">
-                  <div className="Aflex-child specs">
-                    <Specs specs={itemSpecs} />
-                  </div>
-                  <div className="Aflex-child desc">
-                    <Description desc={itemDescription} />
-                  </div>
+        <h2 id="app-header-text">About This Item</h2>
+        <Tabs defaultIndex={0}>
+          <TabList>
+            <Tab>Details</Tab>
+            <Tab>Shipping & Returns</Tab>
+            <Tab>Q&A ({questions.length})</Tab>
+          </TabList>
+          <TabPanel>
+            <div id="Adetails" className="Aless">
+              <Highlights id="Ahighlights" highlights={itemHighlights} />
+              <div className="Aflex-container">
+                <div className="Aflex-child specs">
+                  <Specs specs={itemSpecs} />
+                </div>
+                <div className="Aflex-child desc">
+                  <Description desc={itemDescription} />
                 </div>
               </div>
-              <button
-                id="Ashow"
-                onClick={() => {
-                  this.moreOrLess();
-                  this.buttonChange();
-                }}
-              >
-                Show More
-              </button>
-            </TabPanel>
-            <TabPanel>
-              <ShipReturn shipping={shippingOptions} returns={returnOptions} />
-            </TabPanel>
-            <TabPanel>
-              <QA id={selectedItem} />
-            </TabPanel>
-          </Tabs>
-        </div>
+            </div>
+            <button
+              id="Ashow"
+              onClick={() => {
+                this.moreOrLess();
+                this.buttonChange();
+              }}
+            >
+              Show More
+            </button>
+          </TabPanel>
+          <TabPanel>
+            <ShipReturn shipping={shippingOptions} returns={returnOptions} />
+          </TabPanel>
+          <TabPanel>
+            <QA id={selectedItem} />
+          </TabPanel>
+        </Tabs>
       </div>
     );
   }

@@ -7,9 +7,11 @@ const Highlights = ({ highlights }) => {
       <ul id="Ahighlights">
         {highlights.map((highlight, idx) => {
           return (
-            <li id="Ahighlight" key={idx}>
-              {highlight.highlights}
-            </li>
+            <div id="highlight-container">
+              <li id="Ahighlight" key={idx}>
+                {highlight.highlights}
+              </li>
+            </div>
           );
         })}
       </ul>
