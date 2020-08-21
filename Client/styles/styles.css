@@ -198,8 +198,9 @@ h3#detail-headers {
 
 #AanswerButton,
 #Ashow {
-  width: 90px;
-  height: 30px;
+  width: fit-content;
+  height: fit-content;
+  font-size: 0.7em;
   border-radius: 8%;
   background-color: #ffffff;
   border: 1px solid #888888;
