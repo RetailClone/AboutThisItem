@@ -65,7 +65,7 @@ const QA = ({ id }) => {
         onSubmit={handleQuestionSubmit}
       >
         <label>
-          <h2>Your question</h2>
+          <h2 className="your-question-and-answer-text">Your question</h2>
           <div id="question-text-fields">
             <input
               id="question-field"

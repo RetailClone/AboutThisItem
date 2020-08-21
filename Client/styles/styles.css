@@ -44,6 +44,12 @@ h3#detail-headers {
   font-size: 14px;
 }
 
+.your-question-and-answer-text {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
 #Ahighlight {
   padding: 10px;
 }

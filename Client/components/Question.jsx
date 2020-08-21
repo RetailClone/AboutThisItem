@@ -75,7 +75,7 @@ const Questions = ({ question }) => {
         onSubmit={handleAnswerSubmit}
       >
         <label>
-          <h2>your answer</h2>
+          <h2 className="your-question-and-answer-text">your answer</h2>
           <div id="AanswerTextFields">
             <input
               id="AanswerField"
@@ -95,7 +95,9 @@ const Questions = ({ question }) => {
               // onChange={(e) => setScreen_name(e.target.value)}
               placeholder="screen name"
             />
-            <p>this name will be displayed with your answer</p>
+            <p className="about-content-text">
+              this name will be displayed with your answer
+            </p>
           </div>
         </label>
         <p id="AanswerFormButtonText">
