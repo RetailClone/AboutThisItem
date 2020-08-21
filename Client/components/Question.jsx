@@ -76,30 +76,30 @@ const Questions = ({ question }) => {
       >
         <label>
           <h2 className="your-question-and-answer-text">your answer</h2>
-          <div id="AanswerTextFields">
-            <input
-              id="AanswerField"
-              type="text"
-              name={answer}
-              onChange={handleAnswerChange}
-              value={answerInputValue}
-              // onChange={(e) => setAnswer(e.target.value)}
-              placeholder="answer"
-            />
-            <input
-              id="AscreenNameField"
-              type="text"
-              name={screen_name}
-              onChange={handleScreenNameChange}
-              value={screen_nameInputValue}
-              // onChange={(e) => setScreen_name(e.target.value)}
-              placeholder="screen name"
-            />
-            <p className="about-content-text">
-              this name will be displayed with your answer
-            </p>
-          </div>
         </label>
+        <div id="AanswerTextFields">
+          <input
+            id="AanswerField"
+            type="text"
+            name={answer}
+            onChange={handleAnswerChange}
+            value={answerInputValue}
+            // onChange={(e) => setAnswer(e.target.value)}
+            placeholder="answer"
+          />
+          <input
+            id="AscreenNameField"
+            type="text"
+            name={screen_name}
+            onChange={handleScreenNameChange}
+            value={screen_nameInputValue}
+            // onChange={(e) => setScreen_name(e.target.value)}
+            placeholder="screen name"
+          />
+          <p className="about-content-text">
+            this name will be displayed with your answer
+          </p>
+        </div>
         <p id="AanswerFormButtonText">
           by submitting I agree to the{" "}
           {<a href="http://localhost:1701/qaguidelines.html">q&a guidelines</a>}
