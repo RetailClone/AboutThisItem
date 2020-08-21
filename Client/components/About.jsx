@@ -1,3 +1,4 @@
+//import all necessary items and dependencies
 import React from "react";
 import "../styles/styles.css";
 import "../styles/react-tabs.css";
@@ -8,16 +9,17 @@ import Highlights from "./Highlights.jsx";
 import ShipReturn from "./ShipReturn.jsx";
 import QA from "./QA.jsx";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+
 // sets default baseURL for ALL axios reqs
 axios.defaults.baseURL =
   "http://ec2-18-191-7-97.us-east-2.compute.amazonaws.com:1701";
-// "http://localhost:1701";
 
 class About extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
+      // set state of selected item to grab the product_id from the window or 1, whichever is available
       selectedItem: window.product_id || 1,
       itemDescription: "",
       itemSpecs: [],
@@ -27,17 +29,10 @@ class About extends React.Component {
       questions: [],
     };
 
-    // this.selectAnItem = this.selectAnItem.bind(this);
     this.moreOrLess = this.moreOrLess.bind(this);
     this.buttonChange = this.buttonChange.bind(this);
     this.getItemData = this.getItemData.bind(this);
   }
-
-  // get a description displaying
-  // selectAnItem(e) {
-  //   this.setState({ selectedItem: e.target.value });
-  //   this.getItemData(e.target.value);
-  // }
 
   componentDidMount() {
     this.getItemData(window.product_id || 1);
@@ -58,6 +53,7 @@ class About extends React.Component {
     );
   }
 
+  // changes the display of the show more/show less button
   buttonChange() {
     let buttonText = document.getElementById("Ashow");
     if (buttonText.innerHTML === "Show More") {
@@ -67,6 +63,7 @@ class About extends React.Component {
     }
   }
 
+  // toggles the show more/less on the details page
   moreOrLess() {
     let appClass = document.getElementById("Adetails");
     if (appClass.className === "Aless") {
@@ -77,6 +74,7 @@ class About extends React.Component {
   }
 
   render() {
+    // deconstruct stateful items for clarity
     const {
       selectedItem,
       itemDescription,
