@@ -8,12 +8,16 @@
   font-size: 1.1em;
   justify-content: center;
   border-bottom: 1px solid #aaa;
-  /* margin: 0, 0, 10px, 10px; */
+  margin: 0, 0, 10px, 10px;
   padding-bottom: 0;
 }
 
+ul.react-tabs__tab-list {
+  padding-inline-start: 0px;
+}
+
 .react-tabs__tab {
-  display: flex;
+  display: inline-flex;
   border: 1px solid transparent;
   border-bottom: none;
   bottom: -1px;
