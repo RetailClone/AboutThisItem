@@ -58,7 +58,7 @@ const Questions = ({ question }) => {
 
   return (
     <div id="question-container">
-      <li className="question-text" key={question.id}>
+      <li id="question-text" className="about-content-text" key={question.id}>
         Q: {question.question}
       </li>
       <Answers answers={answers} />
