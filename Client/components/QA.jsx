@@ -21,10 +21,10 @@ const QA = ({ id }) => {
   }, [id, showQuestionForm]);
 
   useEffect(() => {
-    if (!showQuestionForm) {
+    if (!showQuestionButton) {
       document.getElementById("about").scrollIntoView();
     }
-  }, [showQuestionForm]);
+  }, [showQuestionButton]);
 
   const handleQuestion = (item_id, question) => {
     axios.post("./postQuestion", { item_id, question }).then(() => {
