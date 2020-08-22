@@ -9,6 +9,7 @@ const QA = ({ id }) => {
   let [showQuestionForm, setShowQuestionForm] = useState(false);
   let [showQuestionButton, setShowQuestionButton] = useState(true);
 
+  // grabs the list of questions and renders upon loading the page
   useEffect(() => {
     if (!showQuestionForm) {
       axios
@@ -20,12 +21,14 @@ const QA = ({ id }) => {
     }
   }, [id, showQuestionForm]);
 
+  // keeps the top of the div stable when the ask a question button is clicked
   useEffect(() => {
     if (!showQuestionButton) {
       document.getElementById("about").scrollIntoView();
     }
   }, [showQuestionButton]);
 
+  // posts a new question and then immediately turns around and does another get request so the question will display on the page immediately
   const handleQuestion = (item_id, question) => {
     axios.post("./postQuestion", { item_id, question }).then(() => {
       axios
@@ -37,17 +40,20 @@ const QA = ({ id }) => {
     });
   };
 
+  // keeps track of what is typed in the question field in two places, setInputValue is cleared once the form is submitted so whatever is typed in doesn't linger
   const handleQuestionChange = (e) => {
     setQuestion(e.target.value);
     setInputValue(e.target.value);
   };
 
+  // shows and hides the question field altogether. It is invoked both on "Ask a question" and "cancel"
   const toggleQuestionField = (e) => {
     e.preventDefault();
     setShowQuestionForm(!showQuestionForm);
     setShowQuestionButton(!showQuestionButton);
   };
 
+  // toggles the question form and button, sends args to the handleQuestion func, and clears the input value
   const handleQuestionSubmit = (e) => {
     e.preventDefault();
     setShowQuestionForm(false);
