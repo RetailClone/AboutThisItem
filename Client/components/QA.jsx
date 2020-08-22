@@ -20,6 +20,12 @@ const QA = ({ id }) => {
     }
   }, [id, showQuestionForm]);
 
+  useEffect(() => {
+    if (!showQuestionForm) {
+      document.getElementById("about").scrollIntoView();
+    }
+  }, [showQuestionForm]);
+
   const handleQuestion = (item_id, question) => {
     axios.post("./postQuestion", { item_id, question }).then(() => {
       axios
@@ -111,12 +117,7 @@ const QA = ({ id }) => {
             showQuestionButton ? "yes-question-button" : "no-question-button"
           }
           type="submit"
-          onClick={(e) => {
-            toggleQuestionField(e);
-            document
-              .getElementById("question-and-answer-container")
-              .scrollIntoView();
-          }}
+          onClick={toggleQuestionField}
         >
           Ask a question
         </button>
