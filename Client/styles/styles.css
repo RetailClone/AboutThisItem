@@ -126,18 +126,14 @@ h3#detail-headers {
   margin: 10px 0;
 }
 
-#AanswerTextFields input,
-#question-text-fields input {
-  width: 100%;
-  margin: 10px 0;
-  padding: 0px 10px;
-}
-
-#AanswerField,
-#question-field {
+#about input[type="textarea"] {
+  text-align: start;
+  overflow-wrap: break-word;
   height: 130px;
   width: 100%;
   border: 1px solid #888888;
+  padding: 0px 10px;
+  margin-bottom: 10px;
 }
 
 #AscreenNameField {

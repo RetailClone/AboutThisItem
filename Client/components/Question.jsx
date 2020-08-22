@@ -82,7 +82,7 @@ const Question = ({ question, timeStamp }) => {
         <div id="AanswerTextFields">
           <input
             id="AanswerField"
-            type="text"
+            type="textarea"
             name={answer}
             onChange={handleAnswerChange}
             value={answerInputValue}
