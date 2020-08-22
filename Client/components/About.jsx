@@ -112,7 +112,7 @@ class About extends React.Component {
               onClick={() => {
                 this.moreOrLess();
                 this.buttonChange();
-                document.getElementById("Adetails").scrollIntoView(alignToTop);
+                document.getElementById("Adetails").scrollIntoView();
               }}
             >
               Show More
