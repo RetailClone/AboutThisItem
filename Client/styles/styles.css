@@ -14,6 +14,7 @@
 
 .about-this-item-outer-container {
   width: 100%;
+  position: fixed;
   height: fit-content;
   background-color: white;
   font-family: Helvetica, sans-serif;
