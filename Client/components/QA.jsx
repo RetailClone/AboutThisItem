@@ -113,7 +113,7 @@ const QA = ({ id }) => {
           type="submit"
           onClick={(e) => {
             toggleQuestionField(e);
-            document.getElementById("about").scrollIntoView();
+            document.getElementById("about").scrollIntoView(e);
           }}
         >
           Ask a question
