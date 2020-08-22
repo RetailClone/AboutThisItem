@@ -76,7 +76,7 @@ const QA = ({ id }) => {
         <div id="question-text-fields">
           <input
             id="question-field"
-            type="text"
+            type="textarea"
             name={question}
             onChange={handleQuestionChange}
             // onChange={(e) => setQuestion(e.target.value)}
