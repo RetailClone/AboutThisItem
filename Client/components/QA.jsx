@@ -111,7 +111,10 @@ const QA = ({ id }) => {
             showQuestionButton ? "yes-question-button" : "no-question-button"
           }
           type="submit"
-          onClick={toggleQuestionField}
+          onClick={() => {
+            toggleQuestionField;
+            document.getElementById("about").scrollIntoView();
+          }}
         >
           Ask a question
         </button>
