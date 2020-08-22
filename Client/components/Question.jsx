@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Answers from "./Answers.jsx";
 import axios from "axios";
+import moment from "moment";
 
-const Questions = ({ question }) => {
+const Question = ({ question, timeStamp }) => {
   const [answers, setAnswers] = useState([]);
   const [answer, setAnswer] = useState("");
   const [answerInputValue, setAnswerInputValue] = useState("");
@@ -58,8 +59,9 @@ const Questions = ({ question }) => {
 
   return (
     <div id="question-container">
-      <li id="question-text" className="about-content-text" key={question.id}>
-        Q: {question.question}
+      <li className="about-content-text" key={question.id}>
+        <span id="question-text">Q: {question.question}</span>
+        <div className="time-stamp-text">-{moment(timeStamp).fromNow()}</div>
       </li>
       <Answers answers={answers} />
       <button
@@ -115,4 +117,4 @@ const Questions = ({ question }) => {
   );
 };
 
-export default Questions;
+export default Question;
