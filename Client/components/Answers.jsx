@@ -11,7 +11,7 @@ const Answers = ({ answers }) => {
               <span id="boldA">A:</span>
               <span className="about-content-text"> {answer.answer}</span>
               <div id="screen-name-text">
-                {answer.screen_name} - {moment().startOf("hour").fromNow()}
+                {answer.screen_name} - {moment(answer.created_at).fromNow()}
               </div>
             </li>
           );

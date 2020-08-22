@@ -82,7 +82,7 @@ const getReturnOptions = (id, cb) => {
 //get questions
 const getQuestions = (id, cb) => {
   const queryString =
-    "SELECT question, id, item_id FROM questions WHERE item_id = ?";
+    "SELECT question, id, item_id, created_at FROM questions WHERE item_id = ?";
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);
@@ -97,7 +97,7 @@ const getQuestions = (id, cb) => {
 //get the answers
 const getAnswers = (id, cb) => {
   const queryString =
-    "SELECT id, question_id, screen_name, answer FROM answers WHERE question_id = ?";
+    "SELECT id, question_id, screen_name, answer, created_at FROM answers WHERE question_id = ?";
   connection.query(queryString, [id], (err, results) => {
     if (err) {
       cb(err, null);
