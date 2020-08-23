@@ -94,7 +94,7 @@ const QA = ({ id }) => {
             // onChange={(e) => setQuestion(e.target.value)}
             value={inputValue}
             placeholder="question"
-            pattern="[a-zA-Z0-9?!, .]{1,2000}"
+            pattern="[a-zA-Z0-9'?!, .]{1,2000}"
             title="Only alphanumeric and basic punctuation, please. Please use less than 2000 characters."
           />
         </div>

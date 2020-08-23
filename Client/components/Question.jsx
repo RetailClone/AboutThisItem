@@ -82,13 +82,13 @@ const Question = ({ question, timeStamp }) => {
         <div id="AanswerTextFields">
           <input
             id="AanswerField"
-            type="text"
+            type="textarea"
             name={answer}
             onChange={handleAnswerChange}
             value={answerInputValue}
             // onChange={(e) => setAnswer(e.target.value)}
             placeholder="answer"
-            pattern="[a-zA-Z0-9?!, .]{0,1000}"
+            pattern="[a-zA-Z0-9'?!, .]{0,1000}"
             title="Only alphanumeric and basic punctuation, please. Please use less than 1000 characters."
           />
           <input
@@ -99,7 +99,7 @@ const Question = ({ question, timeStamp }) => {
             value={screen_nameInputValue}
             // onChange={(e) => setScreen_name(e.target.value)}
             placeholder="screen name"
-            pattern="[a-zA-Z0-9?!, .]{0,50}"
+            pattern="[a-zA-Z0-9'?!, .]{0,50}"
             title="Only alphanumeric and basic punctuation, please. Please use less than 50 characters."
           />
           <p className="about-content-text">
