@@ -124,6 +124,7 @@ h3#detail-headers {
   width: 100%;
   border-bottom: 1px solid #d0d0d0;
   margin: 10px 0;
+  padding: 0px 10px;
 }
 
 #about input[type="textarea"] {
