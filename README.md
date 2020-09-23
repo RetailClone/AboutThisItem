@@ -2,6 +2,16 @@
 
 This component renders a specific description of the selected item, product specifications of the selected item, highlights of the selected item, shipping and returns information of the selected item, and a questions & answers section where the user can see previously asked question(s), post an answer, and ask their own question about the item.
 
+Here is a list of things that I did with this component:
+* Collaborated with four other software engineers in a remote, Agile environment, making use of a Trello board to track tickets and tasks
+* Implemented React Hooks to separate concerns and improve the architecture of the app
+* Implemented RESTful API routes through a Node.js/Express server to filter product data
+* Used Moment to dynamically display time data on user-submitted questions and answers
+* Prevented XSS attacks in user text inputs
+* Built a mySQL database to store product data for 100 sample products as well as to allow for additions of questions and answers entered by the user about each product
+* Built a proxy server and deployed the full stack app to an AWS EC2 instance
+
+
 # AboutThisItem is a microservice component of:
 
 ## Mock Target
