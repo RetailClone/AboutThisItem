@@ -9,8 +9,8 @@ Mock Target is a web application designed to mimic the functionality and looks o
 
 This Application was built by a team of five Full Stack Software Engineers from the Hack Reactor, Austin 50th Cohort (HRATX50).
 
-## Demo 1
-![Target1](INSERT GIF HERE)
+## Overall Page
+![Target1](https://github.com/RetailClone/AboutThisItem/blob/master/Overall.gif)
 
 ## Demo 2
 ![Target2](INSERT GIF HERE)
