@@ -9,14 +9,23 @@ Mock Target is a web application designed to mimic the functionality and looks o
 
 This Application was built by a team of five Full Stack Software Engineers from the Hack Reactor, Austin 50th Cohort (HRATX50).
 
-## Overall Page
+## Overall Page/Product View Demo
 ![Target1](https://github.com/RetailClone/AboutThisItem/blob/master/Overall.gif)
 
-## Demo 2
-![Target2](INSERT GIF HERE)
+## Searchbar Demo
+![Target2](https://github.com/RetailClone/AboutThisItem/blob/master/searchbar.gif)
 
-## Demo 3
-![Target3](INSERT GIF HERE)
+## About This Item Demo
+![Target3](https://github.com/RetailClone/AboutThisItem/blob/master/AboutThisItem.gif)
+
+## Frequently Bought Together Demo
+![Target4](https://github.com/RetailClone/AboutThisItem/blob/master/FreqBought.gif)
+
+## Recommended Items Demo
+![Target5](https://github.com/RetailClone/AboutThisItem/blob/master/recommended.gif)
+
+## Reviews Demo
+![Target5](https://github.com/RetailClone/AboutThisItem/blob/master/reviews.gif)
 
 ## Dev Team
 
